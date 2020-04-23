@@ -1,0 +1,2521 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<conf name="t7WJ0TG4US" id="t7WJ0TG4US" starttime="2020-03-22 05:59:49" duration="10944.219" endtime="2020-03-22 09:02:46" avstarttime="2020-03-22 06:00:09" storage="28951204" kbps="21.163" novideo="true" videoheight="0" videowidth="0" audiocodec="11" ver="2" annofile="anno.xml" chatfile="chat.xml" hls="hls/record.m3u8" jsanno="anno.js" jschat="chat.js" hlsaudioonly="hls/recordaudioonly.m3u8" continue="false" js="record8.xml.js">
+    <module name="document">
+        <document name="填空+S4.pptx" id="1996293641" type="1" timestamp="0.000">
+            <page id="0" title="1 - 填空巩固（section4填空）" content="1996293641_0.swf" height="405" width="720" starttimestamp="0.000" speedup="false" step="0" stoptimestamp="120.719" hls="hls/1996293641_0.png" />
+            <page id="1" title="2 - 答案前置汇总" content="1996293641_1.swf" height="405" width="720" starttimestamp="120.719" speedup="false" step="0" stoptimestamp="121.797" hls="hls/1996293641_1.png" />
+            <page id="2" title="3 - 12-5-3" content="1996293641_2.swf" height="405" width="720" starttimestamp="121.797" speedup="false" step="0" stoptimestamp="282.594" hls="hls/1996293641_2.png" />
+            <page id="1" title="2 - 答案前置汇总" content="1996293641_1.swf" height="405" width="720" starttimestamp="282.594" speedup="true" step="0" stoptimestamp="286.547" hls="hls/1996293641_1.png" />
+            <page id="2" title="3 - 12-5-3" content="1996293641_2.swf" height="405" width="720" starttimestamp="286.547" speedup="false" step="0" stoptimestamp="297.719" hls="hls/1996293641_2.png" />
+            <page id="1" title="2 - 答案前置汇总" content="1996293641_1.swf" height="405" width="720" starttimestamp="297.719" speedup="true" step="0" stoptimestamp="321.109" hls="hls/1996293641_1.png" />
+            <page id="2" title="3 - 12-5-3" content="1996293641_2.swf" height="405" width="720" starttimestamp="321.109" speedup="false" step="0" stoptimestamp="334.437" hls="hls/1996293641_2.png" />
+            <page id="1" title="2 - 答案前置汇总" content="1996293641_1.swf" height="405" width="720" starttimestamp="334.437" speedup="true" step="0" stoptimestamp="401.391" hls="hls/1996293641_1.png" />
+            <page id="2" title="3 - 12-5-3" content="1996293641_2.swf" height="405" width="720" starttimestamp="401.391" speedup="false" step="0" stoptimestamp="410.156" hls="hls/1996293641_2.png" />
+            <page id="1" title="2 - 答案前置汇总" content="1996293641_1.swf" height="405" width="720" starttimestamp="410.156" speedup="true" step="0" stoptimestamp="460.672" hls="hls/1996293641_1.png" />
+            <page id="2" title="3 - 12-5-3" content="1996293641_2.swf" height="405" width="720" starttimestamp="460.672" speedup="false" step="0" stoptimestamp="671.391" hls="hls/1996293641_2.png" />
+        </document>
+        <document name="白板.ppt" id="1837121082" type="1" timestamp="671.391">
+            <page id="0" title="1" content="1837121082_0.swf" height="405" width="720" starttimestamp="671.391" speedup="false" step="0" stoptimestamp="748.187" hls="hls/1837121082_0.png" />
+        </document>
+        <document name="填空+S4.pptx" id="1996293641" type="1" timestamp="748.187">
+            <page id="2" title="3 - 12-5-3" content="1996293641_2.swf" height="405" width="720" starttimestamp="748.187" speedup="false" step="0" stoptimestamp="764.750" hls="hls/1996293641_2.png" />
+        </document>
+        <document name="白板.ppt" id="1837121082" type="1" timestamp="764.750">
+            <page id="0" title="1" content="1837121082_0.swf" height="405" width="720" starttimestamp="764.750" speedup="false" step="0" stoptimestamp="914.297" hls="hls/1837121082_0.png" />
+        </document>
+        <document name="填空+S4.pptx" id="1996293641" type="1" timestamp="914.297">
+            <page id="2" title="3 - 12-5-3" content="1996293641_2.swf" height="405" width="720" starttimestamp="914.297" speedup="false" step="0" stoptimestamp="1284.969" hls="hls/1996293641_2.png" />
+        </document>
+        <document name="白板.ppt" id="1837121082" type="1" timestamp="1284.969">
+            <page id="0" title="1" content="1837121082_0.swf" height="405" width="720" starttimestamp="1284.969" speedup="false" step="0" stoptimestamp="1286.062" hls="hls/1837121082_0.png" />
+            <page id="1" title="2" content="1837121082_1.swf" height="405" width="720" starttimestamp="1286.062" speedup="false" step="0" stoptimestamp="1315.437" hls="hls/1837121082_1.png" />
+        </document>
+        <document name="填空+S4.pptx" id="1996293641" type="1" timestamp="1315.437">
+            <page id="2" title="3 - 12-5-3" content="1996293641_2.swf" height="405" width="720" starttimestamp="1315.437" speedup="false" step="0" stoptimestamp="1316.281" hls="hls/1996293641_2.png" />
+            <page id="3" title="4" content="1996293641_3.swf" height="405" width="720" starttimestamp="1316.281" speedup="false" step="0" stoptimestamp="1316.641" hls="hls/1996293641_3.png" />
+            <page id="4" title="5 - 话题转换+结构定位 discourse markers" content="1996293641_4.swf" height="405" width="720" starttimestamp="1316.641" speedup="false" step="0" stoptimestamp="1317.250" hls="hls/1996293641_4.png" />
+            <page id="5" title="6" content="1996293641_5.swf" height="405" width="720" starttimestamp="1317.250" speedup="false" step="0" stoptimestamp="1338.844" hls="hls/1996293641_5.png" />
+            <page id="4" title="5 - 话题转换+结构定位 discourse markers" content="1996293641_4.swf" height="405" width="720" starttimestamp="1338.844" speedup="true" step="0" stoptimestamp="1339.203" hls="hls/1996293641_4.png" />
+            <page id="3" title="4" content="1996293641_3.swf" height="405" width="720" starttimestamp="1339.203" speedup="true" step="0" stoptimestamp="1339.797" hls="hls/1996293641_3.png" />
+            <page id="2" title="3 - 12-5-3" content="1996293641_2.swf" height="405" width="720" starttimestamp="1339.797" speedup="true" step="0" stoptimestamp="1340.047" hls="hls/1996293641_2.png" />
+            <page id="1" title="2 - 答案前置汇总" content="1996293641_1.swf" height="405" width="720" starttimestamp="1340.047" speedup="true" step="0" stoptimestamp="1341.719" hls="hls/1996293641_1.png" />
+            <page id="2" title="3 - 12-5-3" content="1996293641_2.swf" height="405" width="720" starttimestamp="1341.719" speedup="false" step="0" stoptimestamp="1342.797" hls="hls/1996293641_2.png" />
+        </document>
+        <document name="白板.ppt" id="1837121082" type="1" timestamp="1342.797">
+            <page id="1" title="2" content="1837121082_1.swf" height="405" width="720" starttimestamp="1342.797" speedup="false" step="0" stoptimestamp="1362.000" hls="hls/1837121082_1.png" />
+            <page id="2" title="3" content="1837121082_2.swf" height="405" width="720" starttimestamp="1362.000" speedup="false" step="0" stoptimestamp="1520.219" hls="hls/1837121082_2.png" />
+        </document>
+        <document name="填空+S4.pptx" id="1996293641" type="1" timestamp="1520.219">
+            <page id="2" title="3 - 12-5-3" content="1996293641_2.swf" height="405" width="720" starttimestamp="1520.219" speedup="false" step="0" stoptimestamp="2391.047" hls="hls/1996293641_2.png" />
+        </document>
+        <document name="白板.ppt" id="1837121082" type="1" timestamp="2391.047">
+            <page id="2" title="3" content="1837121082_2.swf" height="405" width="720" starttimestamp="2391.047" speedup="false" step="0" stoptimestamp="2392.375" hls="hls/1837121082_2.png" />
+            <page id="3" title="4" content="1837121082_3.swf" height="405" width="720" starttimestamp="2392.375" speedup="false" step="0" stoptimestamp="2445.594" hls="hls/1837121082_3.png" />
+        </document>
+        <document name="填空+S4.pptx" id="1996293641" type="1" timestamp="2445.594">
+            <page id="2" title="3 - 12-5-3" content="1996293641_2.swf" height="405" width="720" starttimestamp="2445.594" speedup="false" step="0" stoptimestamp="2452.078" hls="hls/1996293641_2.png" />
+        </document>
+        <document name="白板.ppt" id="1837121082" type="1" timestamp="2452.078">
+            <page id="3" title="4" content="1837121082_3.swf" height="405" width="720" starttimestamp="2452.078" speedup="false" step="0" stoptimestamp="2483.047" hls="hls/1837121082_3.png" />
+        </document>
+        <document name="填空+S4.pptx" id="1996293641" type="1" timestamp="2483.047">
+            <page id="2" title="3 - 12-5-3" content="1996293641_2.swf" height="405" width="720" starttimestamp="2483.047" speedup="false" step="0" stoptimestamp="2495.406" hls="hls/1996293641_2.png" />
+        </document>
+        <document name="白板.ppt" id="1837121082" type="1" timestamp="2495.406">
+            <page id="3" title="4" content="1837121082_3.swf" height="405" width="720" starttimestamp="2495.406" speedup="false" step="0" stoptimestamp="2515.812" hls="hls/1837121082_3.png" />
+        </document>
+        <document name="填空+S4.pptx" id="1996293641" type="1" timestamp="2515.812">
+            <page id="2" title="3 - 12-5-3" content="1996293641_2.swf" height="405" width="720" starttimestamp="2515.812" speedup="false" step="0" stoptimestamp="2520.359" hls="hls/1996293641_2.png" />
+        </document>
+        <document name="白板.ppt" id="1837121082" type="1" timestamp="2520.359">
+            <page id="3" title="4" content="1837121082_3.swf" height="405" width="720" starttimestamp="2520.359" speedup="false" step="0" stoptimestamp="2527.797" hls="hls/1837121082_3.png" />
+        </document>
+        <document name="填空+S4.pptx" id="1996293641" type="1" timestamp="2527.797">
+            <page id="2" title="3 - 12-5-3" content="1996293641_2.swf" height="405" width="720" starttimestamp="2527.797" speedup="false" step="0" stoptimestamp="2531.406" hls="hls/1996293641_2.png" />
+        </document>
+        <document name="白板.ppt" id="1837121082" type="1" timestamp="2531.406">
+            <page id="3" title="4" content="1837121082_3.swf" height="405" width="720" starttimestamp="2531.406" speedup="false" step="0" stoptimestamp="2549.047" hls="hls/1837121082_3.png" />
+        </document>
+        <document name="填空+S4.pptx" id="1996293641" type="1" timestamp="2549.047">
+            <page id="2" title="3 - 12-5-3" content="1996293641_2.swf" height="405" width="720" starttimestamp="2549.047" speedup="false" step="0" stoptimestamp="2550.016" hls="hls/1996293641_2.png" />
+        </document>
+        <document name="白板.ppt" id="1837121082" type="1" timestamp="2550.016">
+            <page id="3" title="4" content="1837121082_3.swf" height="405" width="720" starttimestamp="2550.016" speedup="false" step="0" stoptimestamp="2560.562" hls="hls/1837121082_3.png" />
+        </document>
+        <document name="填空+S4.pptx" id="1996293641" type="1" timestamp="2560.562">
+            <page id="2" title="3 - 12-5-3" content="1996293641_2.swf" height="405" width="720" starttimestamp="2560.562" speedup="false" step="0" stoptimestamp="2689.219" hls="hls/1996293641_2.png" />
+        </document>
+        <document name="白板.ppt" id="1837121082" type="1" timestamp="2689.219">
+            <page id="3" title="4" content="1837121082_3.swf" height="405" width="720" starttimestamp="2689.219" speedup="false" step="0" stoptimestamp="2690.656" hls="hls/1837121082_3.png" />
+            <page id="2" title="3" content="1837121082_2.swf" height="405" width="720" starttimestamp="2690.656" speedup="true" step="0" stoptimestamp="2693.891" hls="hls/1837121082_2.png" />
+            <page id="1" title="2" content="1837121082_1.swf" height="405" width="720" starttimestamp="2693.891" speedup="true" step="0" stoptimestamp="2696.656" hls="hls/1837121082_1.png" />
+            <page id="2" title="3" content="1837121082_2.swf" height="405" width="720" starttimestamp="2696.656" speedup="false" step="0" stoptimestamp="2697.609" hls="hls/1837121082_2.png" />
+            <page id="3" title="4" content="1837121082_3.swf" height="405" width="720" starttimestamp="2697.609" speedup="false" step="0" stoptimestamp="2714.766" hls="hls/1837121082_3.png" />
+        </document>
+        <document name="填空+S4.pptx" id="1996293641" type="1" timestamp="2714.766">
+            <page id="2" title="3 - 12-5-3" content="1996293641_2.swf" height="405" width="720" starttimestamp="2714.766" speedup="false" step="0" stoptimestamp="2715.859" hls="hls/1996293641_2.png" />
+        </document>
+        <document name="2019 大陆考区 7月18.pdf" id="1996293642" type="7" timestamp="2715.859">
+            <page id="0" title="1" content="1996293642_0.swf" height="841" width="595" starttimestamp="2715.859" speedup="false" step="0" stoptimestamp="2717.172" hls="hls/1996293642_0.png" />
+        </document>
+        <document name="白板.ppt" id="1837121082" type="1" timestamp="2717.172">
+            <page id="3" title="4" content="1837121082_3.swf" height="405" width="720" starttimestamp="2717.172" speedup="false" step="0" stoptimestamp="2721.500" hls="hls/1837121082_3.png" />
+        </document>
+        <document name="填空+S4.pptx" id="1996293641" type="1" timestamp="2721.500">
+            <page id="2" title="3 - 12-5-3" content="1996293641_2.swf" height="405" width="720" starttimestamp="2721.500" speedup="false" step="0" stoptimestamp="2768.656" hls="hls/1996293641_2.png" />
+            <page id="3" title="4" content="1996293641_3.swf" height="405" width="720" starttimestamp="2768.656" speedup="false" step="0" stoptimestamp="2783.172" hls="hls/1996293641_3.png" />
+            <page id="4" title="5 - 话题转换+结构定位 discourse markers" content="1996293641_4.swf" height="405" width="720" starttimestamp="2783.172" speedup="false" step="0" stoptimestamp="2783.766" hls="hls/1996293641_4.png" />
+            <page id="5" title="6" content="1996293641_5.swf" height="405" width="720" starttimestamp="2783.766" speedup="false" step="0" stoptimestamp="2784.375" hls="hls/1996293641_5.png" />
+            <page id="6" title="7" content="1996293641_6.swf" height="405" width="720" starttimestamp="2784.375" speedup="false" step="0" stoptimestamp="2784.969" hls="hls/1996293641_6.png" />
+            <page id="7" title="8" content="1996293641_7.swf" height="405" width="720" starttimestamp="2784.969" speedup="false" step="0" stoptimestamp="2790.734" hls="hls/1996293641_7.png" />
+            <page id="8" title="9" content="1996293641_8.swf" height="405" width="720" starttimestamp="2790.734" speedup="false" step="0" stoptimestamp="2791.578" hls="hls/1996293641_8.png" />
+            <page id="9" title="10" content="1996293641_9.swf" height="405" width="720" starttimestamp="2791.578" speedup="false" step="0" stoptimestamp="2808.375" hls="hls/1996293641_9.png" />
+            <page id="10" title="11" content="1996293641_10.swf" height="405" width="720" starttimestamp="2808.375" speedup="false" step="0" stoptimestamp="2808.969" hls="hls/1996293641_10.png" />
+            <page id="11" title="12" content="1996293641_11.swf" height="405" width="720" starttimestamp="2808.969" speedup="false" step="0" stoptimestamp="2815.344" hls="hls/1996293641_11.png" />
+            <page id="10" title="11" content="1996293641_10.swf" height="405" width="720" starttimestamp="2815.344" speedup="true" step="0" stoptimestamp="2816.766" hls="hls/1996293641_10.png" />
+            <page id="9" title="10" content="1996293641_9.swf" height="405" width="720" starttimestamp="2816.766" speedup="true" step="0" stoptimestamp="2820.250" hls="hls/1996293641_9.png" />
+            <page id="10" title="11" content="1996293641_10.swf" height="405" width="720" starttimestamp="2820.250" speedup="false" step="0" stoptimestamp="2822.406" hls="hls/1996293641_10.png" />
+            <page id="11" title="12" content="1996293641_11.swf" height="405" width="720" starttimestamp="2822.406" speedup="false" step="0" stoptimestamp="2825.406" hls="hls/1996293641_11.png" />
+            <page id="12" title="13" content="1996293641_12.swf" height="405" width="720" starttimestamp="2825.406" speedup="false" step="0" stoptimestamp="2833.453" hls="hls/1996293641_12.png" />
+            <page id="13" title="14 - S4 语言特点" content="1996293641_13.swf" height="405" width="720" starttimestamp="2833.453" speedup="false" step="0" stoptimestamp="3307.969" hls="hls/1996293641_13.png" />
+            <page id="14" title="15 - 泛听+精听" content="1996293641_14.swf" height="405" width="720" starttimestamp="3307.969" speedup="false" step="0" stoptimestamp="3504.781" hls="hls/1996293641_14.png" />
+            <page id="15" title="16 - 定位" content="1996293641_15.swf" height="405" width="720" starttimestamp="3504.781" speedup="false" step="0" stoptimestamp="3657.297" hls="hls/1996293641_15.png" />
+            <page id="16" title="17 - S4 高频内容" content="1996293641_16.swf" height="405" width="720" starttimestamp="3657.297" speedup="false" step="0" stoptimestamp="3725.219" hls="hls/1996293641_16.png" />
+            <page id="17" title="18 - 814" content="1996293641_17.swf" height="405" width="720" starttimestamp="3725.219" speedup="false" step="0" stoptimestamp="3725.937" hls="hls/1996293641_17.png" />
+            <page id="18" title="19" content="1996293641_18.swf" height="405" width="720" starttimestamp="3725.937" speedup="false" step="0" stoptimestamp="3726.531" hls="hls/1996293641_18.png" />
+            <page id="19" title="20" content="1996293641_19.swf" height="405" width="720" starttimestamp="3726.531" speedup="false" step="0" stoptimestamp="3727.016" hls="hls/1996293641_19.png" />
+            <page id="20" title="21 - 10-1-4" content="1996293641_20.swf" height="405" width="720" starttimestamp="3727.016" speedup="false" step="0" stoptimestamp="3727.734" hls="hls/1996293641_20.png" />
+            <page id="21" title="22" content="1996293641_21.swf" height="405" width="720" starttimestamp="3727.734" speedup="false" step="0" stoptimestamp="3728.219" hls="hls/1996293641_21.png" />
+            <page id="22" title="23" content="1996293641_22.swf" height="405" width="720" starttimestamp="3728.219" speedup="false" step="0" stoptimestamp="3832.141" hls="hls/1996293641_22.png" />
+            <page id="23" title="24" content="1996293641_23.swf" height="405" width="720" starttimestamp="3832.141" speedup="false" step="0" stoptimestamp="3905.844" hls="hls/1996293641_23.png" />
+            <page id="22" title="23" content="1996293641_22.swf" height="405" width="720" starttimestamp="3905.844" speedup="true" step="0" stoptimestamp="3927.797" hls="hls/1996293641_22.png" />
+            <page id="23" title="24" content="1996293641_23.swf" height="405" width="720" starttimestamp="3927.797" speedup="false" step="0" stoptimestamp="3943.391" hls="hls/1996293641_23.png" />
+            <page id="22" title="23" content="1996293641_22.swf" height="405" width="720" starttimestamp="3943.391" speedup="true" step="0" stoptimestamp="3949.516" hls="hls/1996293641_22.png" />
+            <page id="23" title="24" content="1996293641_23.swf" height="405" width="720" starttimestamp="3949.516" speedup="false" step="0" stoptimestamp="3950.719" hls="hls/1996293641_23.png" />
+            <page id="22" title="23" content="1996293641_22.swf" height="405" width="720" starttimestamp="3950.719" speedup="true" step="0" stoptimestamp="3953.234" hls="hls/1996293641_22.png" />
+            <page id="23" title="24" content="1996293641_23.swf" height="405" width="720" starttimestamp="3953.234" speedup="false" step="0" stoptimestamp="3961.750" hls="hls/1996293641_23.png" />
+            <page id="22" title="23" content="1996293641_22.swf" height="405" width="720" starttimestamp="3961.750" speedup="true" step="0" stoptimestamp="3967.766" hls="hls/1996293641_22.png" />
+            <page id="23" title="24" content="1996293641_23.swf" height="405" width="720" starttimestamp="3967.766" speedup="false" step="0" stoptimestamp="3972.797" hls="hls/1996293641_23.png" />
+            <page id="22" title="23" content="1996293641_22.swf" height="405" width="720" starttimestamp="3972.797" speedup="true" step="0" stoptimestamp="3979.281" hls="hls/1996293641_22.png" />
+            <page id="23" title="24" content="1996293641_23.swf" height="405" width="720" starttimestamp="3979.281" speedup="false" step="0" stoptimestamp="3981.797" hls="hls/1996293641_23.png" />
+            <page id="22" title="23" content="1996293641_22.swf" height="405" width="720" starttimestamp="3981.797" speedup="true" step="0" stoptimestamp="3984.672" hls="hls/1996293641_22.png" />
+            <page id="23" title="24" content="1996293641_23.swf" height="405" width="720" starttimestamp="3984.672" speedup="false" step="0" stoptimestamp="3989.953" hls="hls/1996293641_23.png" />
+            <page id="22" title="23" content="1996293641_22.swf" height="405" width="720" starttimestamp="3989.953" speedup="true" step="0" stoptimestamp="3996.812" hls="hls/1996293641_22.png" />
+        </document>
+        <document name="2019 大陆考区 7月18.pdf" id="1996293642" type="7" timestamp="3996.812">
+            <page id="0" title="1" content="1996293642_0.swf" height="841" width="595" starttimestamp="3996.812" speedup="false" step="0" stoptimestamp="4003.172" hls="hls/1996293642_0.png" />
+        </document>
+        <document name="填空+S4.pptx" id="1996293641" type="1" timestamp="4003.172">
+            <page id="22" title="23" content="1996293641_22.swf" height="405" width="720" starttimestamp="4003.172" speedup="false" step="0" stoptimestamp="4088.484" hls="hls/1996293641_22.png" />
+            <page id="23" title="24" content="1996293641_23.swf" height="405" width="720" starttimestamp="4088.484" speedup="false" step="0" stoptimestamp="4090.891" hls="hls/1996293641_23.png" />
+            <page id="22" title="23" content="1996293641_22.swf" height="405" width="720" starttimestamp="4090.891" speedup="true" step="0" stoptimestamp="4192.531" hls="hls/1996293641_22.png" />
+            <page id="21" title="22" content="1996293641_21.swf" height="405" width="720" starttimestamp="4192.531" speedup="true" step="0" stoptimestamp="4193.000" hls="hls/1996293641_21.png" />
+            <page id="20" title="21 - 10-1-4" content="1996293641_20.swf" height="405" width="720" starttimestamp="4193.000" speedup="true" step="0" stoptimestamp="4210.047" hls="hls/1996293641_20.png" />
+            <page id="19" title="20" content="1996293641_19.swf" height="405" width="720" starttimestamp="4210.047" speedup="true" step="0" stoptimestamp="4211.125" hls="hls/1996293641_19.png" />
+            <page id="18" title="19" content="1996293641_18.swf" height="405" width="720" starttimestamp="4211.125" speedup="true" step="0" stoptimestamp="4211.609" hls="hls/1996293641_18.png" />
+            <page id="17" title="18 - 814" content="1996293641_17.swf" height="405" width="720" starttimestamp="4211.609" speedup="true" step="0" stoptimestamp="4234.047" hls="hls/1996293641_17.png" />
+            <page id="18" title="19" content="1996293641_18.swf" height="405" width="720" starttimestamp="4234.047" speedup="false" step="0" stoptimestamp="4235.125" hls="hls/1996293641_18.png" />
+            <page id="19" title="20" content="1996293641_19.swf" height="405" width="720" starttimestamp="4235.125" speedup="false" step="0" stoptimestamp="4236.094" hls="hls/1996293641_19.png" />
+            <page id="20" title="21 - 10-1-4" content="1996293641_20.swf" height="405" width="720" starttimestamp="4236.094" speedup="false" step="0" stoptimestamp="4237.172" hls="hls/1996293641_20.png" />
+            <page id="21" title="22" content="1996293641_21.swf" height="405" width="720" starttimestamp="4237.172" speedup="false" step="0" stoptimestamp="4238.125" hls="hls/1996293641_21.png" />
+            <page id="22" title="23" content="1996293641_22.swf" height="405" width="720" starttimestamp="4238.125" speedup="false" step="0" stoptimestamp="4425.687" hls="hls/1996293641_22.png" />
+            <page id="23" title="24" content="1996293641_23.swf" height="405" width="720" starttimestamp="4425.687" speedup="false" step="0" stoptimestamp="4432.531" hls="hls/1996293641_23.png" />
+            <page id="22" title="23" content="1996293641_22.swf" height="405" width="720" starttimestamp="4432.531" speedup="true" step="0" stoptimestamp="4434.922" hls="hls/1996293641_22.png" />
+            <page id="23" title="24" content="1996293641_23.swf" height="405" width="720" starttimestamp="4434.922" speedup="false" step="0" stoptimestamp="4581.328" hls="hls/1996293641_23.png" />
+            <page id="22" title="23" content="1996293641_22.swf" height="405" width="720" starttimestamp="4581.328" speedup="true" step="0" stoptimestamp="4585.281" hls="hls/1996293641_22.png" />
+            <page id="23" title="24" content="1996293641_23.swf" height="405" width="720" starttimestamp="4585.281" speedup="false" step="0" stoptimestamp="4588.281" hls="hls/1996293641_23.png" />
+            <page id="22" title="23" content="1996293641_22.swf" height="405" width="720" starttimestamp="4588.281" speedup="true" step="0" stoptimestamp="4592.125" hls="hls/1996293641_22.png" />
+            <page id="23" title="24" content="1996293641_23.swf" height="405" width="720" starttimestamp="4592.125" speedup="false" step="0" stoptimestamp="4598.359" hls="hls/1996293641_23.png" />
+            <page id="22" title="23" content="1996293641_22.swf" height="405" width="720" starttimestamp="4598.359" speedup="true" step="0" stoptimestamp="4832.969" hls="hls/1996293641_22.png" />
+            <page id="23" title="24" content="1996293641_23.swf" height="405" width="720" starttimestamp="4832.969" speedup="false" step="0" stoptimestamp="4917.094" hls="hls/1996293641_23.png" />
+            <page id="22" title="23" content="1996293641_22.swf" height="405" width="720" starttimestamp="4917.094" speedup="true" step="0" stoptimestamp="4926.203" hls="hls/1996293641_22.png" />
+        </document>
+        <document name="白板.ppt" id="1837121082" type="1" timestamp="4926.203">
+            <page id="3" title="4" content="1837121082_3.swf" height="405" width="720" starttimestamp="4926.203" speedup="false" step="0" stoptimestamp="4927.766" hls="hls/1837121082_3.png" />
+            <page id="4" title="5" content="1837121082_4.swf" height="405" width="720" starttimestamp="4927.766" speedup="false" step="0" stoptimestamp="4958.484" hls="hls/1837121082_4.png" />
+        </document>
+        <document name="填空+S4.pptx" id="1996293641" type="1" timestamp="4958.484">
+            <page id="22" title="23" content="1996293641_22.swf" height="405" width="720" starttimestamp="4958.484" speedup="false" step="0" stoptimestamp="4987.297" hls="hls/1996293641_22.png" />
+            <page id="23" title="24" content="1996293641_23.swf" height="405" width="720" starttimestamp="4987.297" speedup="false" step="0" stoptimestamp="4991.125" hls="hls/1996293641_23.png" />
+            <page id="22" title="23" content="1996293641_22.swf" height="405" width="720" starttimestamp="4991.125" speedup="true" step="0" stoptimestamp="5006.609" hls="hls/1996293641_22.png" />
+            <page id="23" title="24" content="1996293641_23.swf" height="405" width="720" starttimestamp="5006.609" speedup="false" step="0" stoptimestamp="5011.891" hls="hls/1996293641_23.png" />
+            <page id="22" title="23" content="1996293641_22.swf" height="405" width="720" starttimestamp="5011.891" speedup="true" step="0" stoptimestamp="5712.016" hls="hls/1996293641_22.png" />
+            <page id="23" title="24" content="1996293641_23.swf" height="405" width="720" starttimestamp="5712.016" speedup="false" step="0" stoptimestamp="5715.609" hls="hls/1996293641_23.png" />
+            <page id="22" title="23" content="1996293641_22.swf" height="405" width="720" starttimestamp="5715.609" speedup="true" step="0" stoptimestamp="5893.453" hls="hls/1996293641_22.png" />
+        </document>
+        <document name="白板.ppt" id="1837121082" type="1" timestamp="5893.453">
+            <page id="4" title="5" content="1837121082_4.swf" height="405" width="720" starttimestamp="5893.453" speedup="false" step="0" stoptimestamp="5925.844" hls="hls/1837121082_4.png" />
+        </document>
+        <document name="填空+S4.pptx" id="1996293641" type="1" timestamp="5925.844">
+            <page id="22" title="23" content="1996293641_22.swf" height="405" width="720" starttimestamp="5925.844" speedup="false" step="0" stoptimestamp="5934.609" hls="hls/1996293641_22.png" />
+        </document>
+        <document name="白板.ppt" id="1837121082" type="1" timestamp="5934.609">
+            <page id="4" title="5" content="1837121082_4.swf" height="405" width="720" starttimestamp="5934.609" speedup="false" step="0" stoptimestamp="5936.281" hls="hls/1837121082_4.png" />
+        </document>
+        <document name="填空+S4.pptx" id="1996293641" type="1" timestamp="5936.281">
+            <page id="22" title="23" content="1996293641_22.swf" height="405" width="720" starttimestamp="5936.281" speedup="false" step="0" stoptimestamp="6767.234" hls="hls/1996293641_22.png" />
+        </document>
+        <document name="白板.ppt" id="1837121082" type="1" timestamp="6767.234">
+            <page id="4" title="5" content="1837121082_4.swf" height="405" width="720" starttimestamp="6767.234" speedup="false" step="0" stoptimestamp="6880.312" hls="hls/1837121082_4.png" />
+        </document>
+        <document name="填空+S4.pptx" id="1996293641" type="1" timestamp="6880.312">
+            <page id="22" title="23" content="1996293641_22.swf" height="405" width="720" starttimestamp="6880.312" speedup="false" step="0" stoptimestamp="6887.031" hls="hls/1996293641_22.png" />
+            <page id="23" title="24" content="1996293641_23.swf" height="405" width="720" starttimestamp="6887.031" speedup="false" step="0" stoptimestamp="6888.969" hls="hls/1996293641_23.png" />
+            <page id="22" title="23" content="1996293641_22.swf" height="405" width="720" starttimestamp="6888.969" speedup="true" step="0" stoptimestamp="6898.203" hls="hls/1996293641_22.png" />
+            <page id="23" title="24" content="1996293641_23.swf" height="405" width="720" starttimestamp="6898.203" speedup="false" step="0" stoptimestamp="6900.719" hls="hls/1996293641_23.png" />
+            <page id="22" title="23" content="1996293641_22.swf" height="405" width="720" starttimestamp="6900.719" speedup="true" step="0" stoptimestamp="6904.203" hls="hls/1996293641_22.png" />
+            <page id="23" title="24" content="1996293641_23.swf" height="405" width="720" starttimestamp="6904.203" speedup="false" step="0" stoptimestamp="6909.969" hls="hls/1996293641_23.png" />
+            <page id="22" title="23" content="1996293641_22.swf" height="405" width="720" starttimestamp="6909.969" speedup="true" step="0" stoptimestamp="6913.312" hls="hls/1996293641_22.png" />
+        </document>
+        <document name="白板.ppt" id="1837121082" type="1" timestamp="6913.312">
+            <page id="4" title="5" content="1837121082_4.swf" height="405" width="720" starttimestamp="6913.312" speedup="false" step="0" stoptimestamp="6966.125" hls="hls/1837121082_4.png" />
+        </document>
+        <document name="填空+S4.pptx" id="1996293641" type="1" timestamp="6966.125">
+            <page id="22" title="23" content="1996293641_22.swf" height="405" width="720" starttimestamp="6966.125" speedup="false" step="0" stoptimestamp="6969.719" hls="hls/1996293641_22.png" />
+            <page id="23" title="24" content="1996293641_23.swf" height="405" width="720" starttimestamp="6969.719" speedup="false" step="0" stoptimestamp="7414.391" hls="hls/1996293641_23.png" />
+            <page id="22" title="23" content="1996293641_22.swf" height="405" width="720" starttimestamp="7414.391" speedup="true" step="0" stoptimestamp="7463.703" hls="hls/1996293641_22.png" />
+            <page id="23" title="24" content="1996293641_23.swf" height="405" width="720" starttimestamp="7463.703" speedup="false" step="0" stoptimestamp="7467.187" hls="hls/1996293641_23.png" />
+            <page id="24" title="25" content="1996293641_24.swf" height="405" width="720" starttimestamp="7467.187" speedup="false" step="0" stoptimestamp="7468.984" hls="hls/1996293641_24.png" />
+            <page id="25" title="26" content="1996293641_25.swf" height="405" width="720" starttimestamp="7468.984" speedup="false" step="0" stoptimestamp="7469.703" hls="hls/1996293641_25.png" />
+            <page id="26" title="27" content="1996293641_26.swf" height="405" width="720" starttimestamp="7469.703" speedup="false" step="0" stoptimestamp="7471.875" hls="hls/1996293641_26.png" />
+            <page id="25" title="26" content="1996293641_25.swf" height="405" width="720" starttimestamp="7471.875" speedup="true" step="0" stoptimestamp="7472.344" hls="hls/1996293641_25.png" />
+            <page id="24" title="25" content="1996293641_24.swf" height="405" width="720" starttimestamp="7472.344" speedup="true" step="0" stoptimestamp="7473.437" hls="hls/1996293641_24.png" />
+        </document>
+        <document name="2019 大陆考区 7月18.pdf" id="1996293642" type="7" timestamp="7473.437">
+            <page id="0" title="1" content="1996293642_0.swf" height="841" width="595" starttimestamp="7473.437" speedup="false" step="0" stoptimestamp="8897.828" hls="hls/1996293642_0.png" />
+        </document>
+        <document name="白板.ppt" id="1837121082" type="1" timestamp="8897.828">
+            <page id="4" title="5" content="1837121082_4.swf" height="405" width="720" starttimestamp="8897.828" speedup="false" step="0" stoptimestamp="8899.391" hls="hls/1837121082_4.png" />
+            <page id="5" title="6" content="1837121082_5.swf" height="405" width="720" starttimestamp="8899.391" speedup="false" step="0" stoptimestamp="8912.844" hls="hls/1837121082_5.png" />
+        </document>
+        <document name="填空+S4.pptx" id="1996293641" type="1" timestamp="8912.844">
+            <page id="24" title="25" content="1996293641_24.swf" height="405" width="720" starttimestamp="8912.844" speedup="false" step="0" stoptimestamp="8914.531" hls="hls/1996293641_24.png" />
+        </document>
+        <document name="2019 大陆考区 7月18.pdf" id="1996293642" type="7" timestamp="8914.531">
+            <page id="0" title="1" content="1996293642_0.swf" height="841" width="595" starttimestamp="8914.531" speedup="false" step="0" stoptimestamp="9329.250" hls="hls/1996293642_0.png" />
+        </document>
+        <document name="白板.ppt" id="1837121082" type="1" timestamp="9329.250">
+            <page id="5" title="6" content="1837121082_5.swf" height="405" width="720" starttimestamp="9329.250" speedup="false" step="0" stoptimestamp="9333.328" hls="hls/1837121082_5.png" />
+        </document>
+        <document name="填空+S4.pptx" id="1996293641" type="1" timestamp="9333.328">
+            <page id="24" title="25" content="1996293641_24.swf" height="405" width="720" starttimestamp="9333.328" speedup="false" step="0" stoptimestamp="9339.562" hls="hls/1996293641_24.png" />
+        </document>
+        <document name="2019 大陆考区 7月18.pdf" id="1996293642" type="7" timestamp="9339.562">
+            <page id="0" title="1" content="1996293642_0.swf" height="841" width="595" starttimestamp="9339.562" speedup="false" step="0" stoptimestamp="9461.234" hls="hls/1996293642_0.png" />
+        </document>
+        <document name="填空+S4.pptx" id="1996293641" type="1" timestamp="9461.234">
+            <page id="24" title="25" content="1996293641_24.swf" height="405" width="720" starttimestamp="9461.234" speedup="false" step="0" stoptimestamp="9462.687" hls="hls/1996293641_24.png" />
+        </document>
+        <document name="白板.ppt" id="1837121082" type="1" timestamp="9462.687">
+            <page id="5" title="6" content="1837121082_5.swf" height="405" width="720" starttimestamp="9462.687" speedup="false" step="0" stoptimestamp="9468.094" hls="hls/1837121082_5.png" />
+            <page id="4" title="5" content="1837121082_4.swf" height="405" width="720" starttimestamp="9468.094" speedup="true" step="0" stoptimestamp="9472.047" hls="hls/1837121082_4.png" />
+            <page id="3" title="4" content="1837121082_3.swf" height="405" width="720" starttimestamp="9472.047" speedup="true" step="0" stoptimestamp="9473.719" hls="hls/1837121082_3.png" />
+            <page id="4" title="5" content="1837121082_4.swf" height="405" width="720" starttimestamp="9473.719" speedup="false" step="0" stoptimestamp="9474.687" hls="hls/1837121082_4.png" />
+        </document>
+        <document name="填空+S4.pptx" id="1996293641" type="1" timestamp="9474.687">
+            <page id="24" title="25" content="1996293641_24.swf" height="405" width="720" starttimestamp="9474.687" speedup="false" step="0" stoptimestamp="9476.734" hls="hls/1996293641_24.png" />
+        </document>
+        <document name="白板.ppt" id="1837121082" type="1" timestamp="9476.734">
+            <page id="4" title="5" content="1837121082_4.swf" height="405" width="720" starttimestamp="9476.734" speedup="false" step="0" stoptimestamp="9581.609" hls="hls/1837121082_4.png" />
+        </document>
+        <document name="填空+S4.pptx" id="1996293641" type="1" timestamp="9581.609">
+            <page id="24" title="25" content="1996293641_24.swf" height="405" width="720" starttimestamp="9581.609" speedup="false" step="0" stoptimestamp="9586.641" hls="hls/1996293641_24.png" />
+        </document>
+        <document name="白板.ppt" id="1837121082" type="1" timestamp="9586.641">
+            <page id="4" title="5" content="1837121082_4.swf" height="405" width="720" starttimestamp="9586.641" speedup="false" step="0" stoptimestamp="9612.922" hls="hls/1837121082_4.png" />
+        </document>
+        <document name="填空+S4.pptx" id="1996293641" type="1" timestamp="9612.922">
+            <page id="24" title="25" content="1996293641_24.swf" height="405" width="720" starttimestamp="9612.922" speedup="false" step="0" stoptimestamp="9619.875" hls="hls/1996293641_24.png" />
+        </document>
+        <document name="白板.ppt" id="1837121082" type="1" timestamp="9619.875">
+            <page id="4" title="5" content="1837121082_4.swf" height="405" width="720" starttimestamp="9619.875" speedup="false" step="0" stoptimestamp="9647.609" hls="hls/1837121082_4.png" />
+        </document>
+        <document name="填空+S4.pptx" id="1996293641" type="1" timestamp="9647.609">
+            <page id="24" title="25" content="1996293641_24.swf" height="405" width="720" starttimestamp="9647.609" speedup="false" step="0" stoptimestamp="9649.531" hls="hls/1996293641_24.png" />
+        </document>
+        <document name="2019 大陆考区 7月18.pdf" id="1996293642" type="7" timestamp="9649.531">
+            <page id="0" title="1" content="1996293642_0.swf" height="841" width="595" starttimestamp="9649.531" speedup="false" step="0" stoptimestamp="9664.047" hls="hls/1996293642_0.png" />
+        </document>
+        <document name="填空+S4.pptx" id="1996293641" type="1" timestamp="9664.047">
+            <page id="24" title="25" content="1996293641_24.swf" height="405" width="720" starttimestamp="9664.047" speedup="false" step="0" stoptimestamp="9673.047" hls="hls/1996293641_24.png" />
+        </document>
+        <document name="白板.ppt" id="1837121082" type="1" timestamp="9673.047">
+            <page id="4" title="5" content="1837121082_4.swf" height="405" width="720" starttimestamp="9673.047" speedup="false" step="0" stoptimestamp="9710.000" hls="hls/1837121082_4.png" />
+        </document>
+        <document name="剑桥题目做题清单.pdf" id="1996293643" type="7" timestamp="9710.000">
+            <page id="0" title="1" content="1996293643_0.swf" height="841" width="595" starttimestamp="9710.000" speedup="false" step="0" stoptimestamp="10144.750" hls="hls/1996293643_0.png" />
+        </document>
+        <document name="填空+S4.pptx" id="1996293641" type="1" timestamp="10144.750">
+            <page id="24" title="25" content="1996293641_24.swf" height="405" width="720" starttimestamp="10144.750" speedup="false" step="0" stoptimestamp="10146.547" hls="hls/1996293641_24.png" />
+            <page id="25" title="26" content="1996293641_25.swf" height="405" width="720" starttimestamp="10146.547" speedup="false" step="0" stoptimestamp="10147.156" hls="hls/1996293641_25.png" />
+            <page id="26" title="27" content="1996293641_26.swf" height="405" width="720" starttimestamp="10147.156" speedup="false" step="0" stoptimestamp="10491.344" hls="hls/1996293641_26.png" />
+        </document>
+        <document name="白板.ppt" id="1837121082" type="1" timestamp="10491.344">
+            <page id="4" title="5" content="1837121082_4.swf" height="405" width="720" starttimestamp="10491.344" speedup="false" step="0" stoptimestamp="10580.625" hls="hls/1837121082_4.png" />
+        </document>
+        <document name="填空+S4.pptx" id="1996293641" type="1" timestamp="10580.625">
+            <page id="26" title="27" content="1996293641_26.swf" height="405" width="720" starttimestamp="10580.625" speedup="false" step="0" stoptimestamp="10581.578" hls="hls/1996293641_26.png" />
+            <page id="27" title="28 - 12-5-4" content="1996293641_27.swf" height="405" width="720" starttimestamp="10581.578" speedup="false" step="0" stoptimestamp="10582.172" hls="hls/1996293641_27.png" />
+            <page id="28" title="29" content="1996293641_28.swf" height="405" width="720" starttimestamp="10582.172" speedup="false" step="0" stoptimestamp="10583.016" hls="hls/1996293641_28.png" />
+            <page id="29" title="30" content="1996293641_29.swf" height="405" width="720" starttimestamp="10583.016" speedup="false" step="0" stoptimestamp="10675.297" hls="hls/1996293641_29.png" />
+        </document>
+        <document name="白板.ppt" id="1837121082" type="1" timestamp="10675.297">
+            <page id="4" title="5" content="1837121082_4.swf" height="405" width="720" starttimestamp="10675.297" speedup="false" step="0" stoptimestamp="10827.937" hls="hls/1837121082_4.png" />
+        </document>
+        <document name="填空+S4.pptx" id="1996293641" type="1" timestamp="10827.937">
+            <page id="29" title="30" content="1996293641_29.swf" height="405" width="720" starttimestamp="10827.937" speedup="false" step="0" stoptimestamp="10944.219" hls="hls/1996293641_29.png" />
+        </document>
+    </module>
+    <module name="multirecord">
+        <multirecord starttimestamp="0.000" stoptimestamp="120.109" duration="120.109" multimedia="pgloinpkk.grf" filesize="325564" havevideo="false" chat="chat1.xml" anno="anno1.xml" jsanno="anno1.js" jschat="chat1.js">
+            <events>
+                <event type="dump" timestamp="0.000" totaltimestamp="0.000">
+                    <content document="1996293641" page="0" speedup="false" step="0" />
+                </event>
+            </events>
+            <audioindexs>
+                <audioindex timestamp="10.078" filepos="27539" />
+                <audioindex timestamp="20.156" filepos="54839" />
+                <audioindex timestamp="30.234" filepos="82139" />
+                <audioindex timestamp="40.312" filepos="109439" />
+                <audioindex timestamp="50.391" filepos="136739" />
+                <audioindex timestamp="60.469" filepos="164039" />
+                <audioindex timestamp="70.562" filepos="191339" />
+                <audioindex timestamp="80.625" filepos="218639" />
+                <audioindex timestamp="90.719" filepos="245939" />
+                <audioindex timestamp="100.797" filepos="273239" />
+                <audioindex timestamp="110.875" filepos="300539" />
+            </audioindexs>
+        </multirecord>
+        <multirecord starttimestamp="120.109" stoptimestamp="240.109" duration="120.000" multimedia="jnnkhomgk.grf" filesize="270964" havevideo="false" chat="chat1.xml" anno="anno1.xml">
+            <events>
+                <event type="dump" timestamp="0.000" totaltimestamp="120.109">
+                    <content document="1996293641" page="0" speedup="false" step="0" />
+                </event>
+                <event type="dump" timestamp="0.610" totaltimestamp="120.719">
+                    <content document="1996293641" page="1" speedup="false" step="0" />
+                </event>
+                <event type="dump" timestamp="1.688" totaltimestamp="121.797">
+                    <content document="1996293641" page="2" speedup="false" step="0" />
+                </event>
+            </events>
+            <audioindexs>
+                <audioindex timestamp="10.078" filepos="27539" />
+                <audioindex timestamp="20.172" filepos="54839" />
+                <audioindex timestamp="30.250" filepos="82139" />
+                <audioindex timestamp="40.328" filepos="109439" />
+                <audioindex timestamp="50.407" filepos="136739" />
+                <audioindex timestamp="60.485" filepos="164039" />
+                <audioindex timestamp="89.875" filepos="189389" />
+                <audioindex timestamp="99.969" filepos="216689" />
+                <audioindex timestamp="110.047" filepos="243989" />
+            </audioindexs>
+        </multirecord>
+        <multirecord starttimestamp="240.109" stoptimestamp="360.109" duration="120.000" multimedia="iignoojmnj.grf" filesize="325239" havevideo="false" chat="chat1.xml" anno="anno1.xml">
+            <events>
+                <event type="dump" timestamp="0.000" totaltimestamp="240.109">
+                    <content document="1996293641" page="2" speedup="false" step="0" />
+                </event>
+                <event type="dump" timestamp="42.485" totaltimestamp="282.594">
+                    <content document="1996293641" page="1" speedup="false" step="0" />
+                </event>
+                <event type="dump" timestamp="46.438" totaltimestamp="286.547">
+                    <content document="1996293641" page="2" speedup="false" step="0" />
+                </event>
+                <event type="dump" timestamp="57.610" totaltimestamp="297.719">
+                    <content document="1996293641" page="1" speedup="false" step="0" />
+                </event>
+                <event type="dump" timestamp="81.000" totaltimestamp="321.109">
+                    <content document="1996293641" page="2" speedup="false" step="0" />
+                </event>
+                <event type="dump" timestamp="94.328" totaltimestamp="334.437">
+                    <content document="1996293641" page="1" speedup="false" step="0" />
+                </event>
+            </events>
+            <audioindexs>
+                <audioindex timestamp="10.094" filepos="27539" />
+                <audioindex timestamp="20.157" filepos="54839" />
+                <audioindex timestamp="30.250" filepos="82139" />
+                <audioindex timestamp="40.328" filepos="109439" />
+                <audioindex timestamp="50.407" filepos="136739" />
+                <audioindex timestamp="60.485" filepos="164039" />
+                <audioindex timestamp="70.563" filepos="191339" />
+                <audioindex timestamp="80.641" filepos="218639" />
+                <audioindex timestamp="90.735" filepos="245939" />
+                <audioindex timestamp="100.797" filepos="273239" />
+                <audioindex timestamp="110.891" filepos="300539" />
+            </audioindexs>
+        </multirecord>
+        <multirecord starttimestamp="360.109" stoptimestamp="480.109" duration="120.000" multimedia="jpilojoili.grf" filesize="325239" havevideo="false" chat="chat1.xml" anno="anno1.xml">
+            <events>
+                <event type="dump" timestamp="0.000" totaltimestamp="360.109">
+                    <content document="1996293641" page="1" speedup="false" step="0" />
+                </event>
+                <event type="dump" timestamp="41.282" totaltimestamp="401.391">
+                    <content document="1996293641" page="2" speedup="false" step="0" />
+                </event>
+                <event type="dump" timestamp="50.047" totaltimestamp="410.156">
+                    <content document="1996293641" page="1" speedup="false" step="0" />
+                </event>
+                <event type="dump" timestamp="100.563" totaltimestamp="460.672">
+                    <content document="1996293641" page="2" speedup="false" step="0" />
+                </event>
+            </events>
+            <audioindexs>
+                <audioindex timestamp="10.094" filepos="27539" />
+                <audioindex timestamp="20.157" filepos="54839" />
+                <audioindex timestamp="30.250" filepos="82139" />
+                <audioindex timestamp="40.328" filepos="109439" />
+                <audioindex timestamp="50.407" filepos="136739" />
+                <audioindex timestamp="60.485" filepos="164039" />
+                <audioindex timestamp="70.563" filepos="191339" />
+                <audioindex timestamp="80.641" filepos="218639" />
+                <audioindex timestamp="90.735" filepos="245939" />
+                <audioindex timestamp="100.797" filepos="273239" />
+                <audioindex timestamp="110.891" filepos="300539" />
+            </audioindexs>
+        </multirecord>
+        <multirecord starttimestamp="480.109" stoptimestamp="600.109" duration="120.000" multimedia="jkgpkijhk.grf" filesize="325239" havevideo="false" chat="chat1.xml" anno="anno1.xml">
+            <events>
+                <event type="dump" timestamp="0.000" totaltimestamp="480.109">
+                    <content document="1996293641" page="2" speedup="false" step="0" />
+                </event>
+            </events>
+            <audioindexs>
+                <audioindex timestamp="10.094" filepos="27539" />
+                <audioindex timestamp="20.172" filepos="54839" />
+                <audioindex timestamp="30.250" filepos="82139" />
+                <audioindex timestamp="40.328" filepos="109439" />
+                <audioindex timestamp="50.407" filepos="136739" />
+                <audioindex timestamp="60.485" filepos="164039" />
+                <audioindex timestamp="70.563" filepos="191339" />
+                <audioindex timestamp="80.641" filepos="218639" />
+                <audioindex timestamp="90.719" filepos="245939" />
+                <audioindex timestamp="100.797" filepos="273239" />
+                <audioindex timestamp="110.891" filepos="300539" />
+            </audioindexs>
+        </multirecord>
+        <multirecord starttimestamp="600.109" stoptimestamp="720.219" duration="120.110" multimedia="jmihhgpkhk.grf" filesize="322639" havevideo="false" chat="chat1.xml" anno="anno1.xml">
+            <events>
+                <event type="dump" timestamp="0.000" totaltimestamp="600.109">
+                    <content document="1996293641" page="2" speedup="false" step="0" />
+                </event>
+                <event type="dump" timestamp="71.282" totaltimestamp="671.391">
+                    <content document="1837121082" page="0" speedup="false" step="0" />
+                </event>
+            </events>
+            <audioindexs>
+                <audioindex timestamp="10.078" filepos="27539" />
+                <audioindex timestamp="20.157" filepos="54839" />
+                <audioindex timestamp="30.250" filepos="82139" />
+                <audioindex timestamp="40.328" filepos="109439" />
+                <audioindex timestamp="50.407" filepos="136739" />
+                <audioindex timestamp="60.485" filepos="164039" />
+                <audioindex timestamp="70.563" filepos="191339" />
+                <audioindex timestamp="80.610" filepos="216689" />
+                <audioindex timestamp="90.688" filepos="243989" />
+                <audioindex timestamp="100.813" filepos="271289" />
+                <audioindex timestamp="110.891" filepos="298589" />
+            </audioindexs>
+        </multirecord>
+        <multirecord starttimestamp="720.219" stoptimestamp="840.219" duration="120.000" multimedia="hmhnjiminp.grf" filesize="325239" havevideo="false" chat="chat1.xml" anno="anno1.xml">
+            <events>
+                <event type="dump" timestamp="0.000" totaltimestamp="720.219">
+                    <content document="1837121082" page="0" speedup="false" step="0" />
+                </event>
+                <event type="dump" timestamp="27.968" totaltimestamp="748.187">
+                    <content document="1996293641" page="2" speedup="false" step="0" />
+                </event>
+                <event type="dump" timestamp="44.531" totaltimestamp="764.750">
+                    <content document="1837121082" page="0" speedup="false" step="0" />
+                </event>
+            </events>
+            <audioindexs>
+                <audioindex timestamp="10.078" filepos="27539" />
+                <audioindex timestamp="20.156" filepos="54839" />
+                <audioindex timestamp="30.250" filepos="82139" />
+                <audioindex timestamp="40.328" filepos="109439" />
+                <audioindex timestamp="50.406" filepos="136739" />
+                <audioindex timestamp="60.484" filepos="164039" />
+                <audioindex timestamp="70.562" filepos="191339" />
+                <audioindex timestamp="80.640" filepos="218639" />
+                <audioindex timestamp="90.734" filepos="245939" />
+                <audioindex timestamp="100.797" filepos="273239" />
+                <audioindex timestamp="110.890" filepos="300539" />
+            </audioindexs>
+        </multirecord>
+        <multirecord starttimestamp="840.219" stoptimestamp="960.266" duration="120.047" multimedia="hlkkhhjnpi.grf" filesize="321989" havevideo="false" chat="chat1.xml" anno="anno1.xml">
+            <events>
+                <event type="dump" timestamp="0.000" totaltimestamp="840.219">
+                    <content document="1837121082" page="0" speedup="false" step="0" />
+                </event>
+                <event type="dump" timestamp="74.078" totaltimestamp="914.297">
+                    <content document="1996293641" page="2" speedup="false" step="0" />
+                </event>
+            </events>
+            <audioindexs>
+                <audioindex timestamp="10.047" filepos="26889" />
+                <audioindex timestamp="20.125" filepos="54189" />
+                <audioindex timestamp="30.156" filepos="78564" />
+                <audioindex timestamp="40.234" filepos="105864" />
+                <audioindex timestamp="50.312" filepos="133164" />
+                <audioindex timestamp="60.390" filepos="160464" />
+                <audioindex timestamp="70.468" filepos="187764" />
+                <audioindex timestamp="80.547" filepos="215064" />
+                <audioindex timestamp="90.640" filepos="242364" />
+                <audioindex timestamp="100.718" filepos="269664" />
+                <audioindex timestamp="110.797" filepos="296964" />
+            </audioindexs>
+        </multirecord>
+        <multirecord starttimestamp="960.266" stoptimestamp="1080.266" duration="120.000" multimedia="hpjhpnljpk.grf" filesize="325239" havevideo="false" chat="chat1.xml" anno="anno1.xml">
+            <events>
+                <event type="dump" timestamp="0.000" totaltimestamp="960.266">
+                    <content document="1996293641" page="2" speedup="false" step="0" />
+                </event>
+            </events>
+            <audioindexs>
+                <audioindex timestamp="10.062" filepos="27539" />
+                <audioindex timestamp="20.156" filepos="54839" />
+                <audioindex timestamp="30.234" filepos="82139" />
+                <audioindex timestamp="40.312" filepos="109439" />
+                <audioindex timestamp="50.390" filepos="136739" />
+                <audioindex timestamp="60.468" filepos="164039" />
+                <audioindex timestamp="70.546" filepos="191339" />
+                <audioindex timestamp="80.625" filepos="218639" />
+                <audioindex timestamp="90.703" filepos="245939" />
+                <audioindex timestamp="100.796" filepos="273239" />
+                <audioindex timestamp="110.875" filepos="300539" />
+            </audioindexs>
+        </multirecord>
+        <multirecord starttimestamp="1080.266" stoptimestamp="1200.375" duration="120.109" multimedia="jooglmjokg.grf" filesize="325564" havevideo="false" chat="chat1.xml" anno="anno1.xml">
+            <events>
+                <event type="dump" timestamp="0.000" totaltimestamp="1080.266">
+                    <content document="1996293641" page="2" speedup="false" step="0" />
+                </event>
+            </events>
+            <audioindexs>
+                <audioindex timestamp="10.062" filepos="27539" />
+                <audioindex timestamp="20.156" filepos="54839" />
+                <audioindex timestamp="30.234" filepos="82139" />
+                <audioindex timestamp="40.312" filepos="109439" />
+                <audioindex timestamp="50.390" filepos="136739" />
+                <audioindex timestamp="60.468" filepos="164039" />
+                <audioindex timestamp="70.546" filepos="191339" />
+                <audioindex timestamp="80.640" filepos="218639" />
+                <audioindex timestamp="90.703" filepos="245939" />
+                <audioindex timestamp="100.796" filepos="273239" />
+                <audioindex timestamp="110.875" filepos="300539" />
+            </audioindexs>
+        </multirecord>
+        <multirecord starttimestamp="1200.375" stoptimestamp="1320.484" duration="120.109" multimedia="pgkgjnogg.grf" filesize="325239" havevideo="false" chat="chat1.xml" anno="anno1.xml">
+            <events>
+                <event type="dump" timestamp="0.000" totaltimestamp="1200.375">
+                    <content document="1996293641" page="2" speedup="false" step="0" />
+                </event>
+                <event type="dump" timestamp="84.594" totaltimestamp="1284.969">
+                    <content document="1837121082" page="0" speedup="false" step="0" />
+                </event>
+                <event type="dump" timestamp="85.687" totaltimestamp="1286.062">
+                    <content document="1837121082" page="1" speedup="false" step="0" />
+                </event>
+                <event type="dump" timestamp="115.062" totaltimestamp="1315.437">
+                    <content document="1996293641" page="2" speedup="false" step="0" />
+                </event>
+                <event type="dump" timestamp="115.906" totaltimestamp="1316.281">
+                    <content document="1996293641" page="3" speedup="false" step="0" />
+                </event>
+                <event type="dump" timestamp="116.266" totaltimestamp="1316.641">
+                    <content document="1996293641" page="4" speedup="false" step="0" />
+                </event>
+                <event type="dump" timestamp="116.875" totaltimestamp="1317.250">
+                    <content document="1996293641" page="5" speedup="false" step="0" />
+                </event>
+            </events>
+            <audioindexs>
+                <audioindex timestamp="10.078" filepos="27539" />
+                <audioindex timestamp="20.156" filepos="54839" />
+                <audioindex timestamp="30.234" filepos="82139" />
+                <audioindex timestamp="40.312" filepos="109439" />
+                <audioindex timestamp="50.406" filepos="136739" />
+                <audioindex timestamp="60.484" filepos="164039" />
+                <audioindex timestamp="70.562" filepos="191339" />
+                <audioindex timestamp="80.641" filepos="218639" />
+                <audioindex timestamp="90.719" filepos="245939" />
+                <audioindex timestamp="100.797" filepos="273239" />
+                <audioindex timestamp="110.875" filepos="300214" />
+            </audioindexs>
+        </multirecord>
+        <multirecord starttimestamp="1320.484" stoptimestamp="1440.500" duration="120.016" multimedia="kppjkhghm.grf" filesize="324264" havevideo="false" chat="chat1.xml" anno="anno1.xml">
+            <events>
+                <event type="dump" timestamp="0.000" totaltimestamp="1320.484">
+                    <content document="1996293641" page="5" speedup="false" step="0" />
+                </event>
+                <event type="dump" timestamp="18.360" totaltimestamp="1338.844">
+                    <content document="1996293641" page="4" speedup="false" step="0" />
+                </event>
+                <event type="dump" timestamp="18.719" totaltimestamp="1339.203">
+                    <content document="1996293641" page="3" speedup="false" step="0" />
+                </event>
+                <event type="dump" timestamp="19.313" totaltimestamp="1339.797">
+                    <content document="1996293641" page="2" speedup="false" step="0" />
+                </event>
+                <event type="dump" timestamp="19.563" totaltimestamp="1340.047">
+                    <content document="1996293641" page="1" speedup="false" step="0" />
+                </event>
+                <event type="dump" timestamp="21.235" totaltimestamp="1341.719">
+                    <content document="1996293641" page="2" speedup="false" step="0" />
+                </event>
+                <event type="dump" timestamp="22.313" totaltimestamp="1342.797">
+                    <content document="1837121082" page="1" speedup="false" step="0" />
+                </event>
+                <event type="dump" timestamp="41.516" totaltimestamp="1362.000">
+                    <content document="1837121082" page="2" speedup="false" step="0" />
+                </event>
+            </events>
+            <audioindexs>
+                <audioindex timestamp="10.078" filepos="27539" />
+                <audioindex timestamp="20.157" filepos="54839" />
+                <audioindex timestamp="30.235" filepos="82139" />
+                <audioindex timestamp="40.328" filepos="109439" />
+                <audioindex timestamp="50.438" filepos="136414" />
+                <audioindex timestamp="60.516" filepos="163714" />
+                <audioindex timestamp="70.594" filepos="191014" />
+                <audioindex timestamp="80.672" filepos="218314" />
+                <audioindex timestamp="90.750" filepos="245614" />
+                <audioindex timestamp="100.813" filepos="272264" />
+                <audioindex timestamp="110.891" filepos="299564" />
+            </audioindexs>
+        </multirecord>
+        <multirecord starttimestamp="1440.500" stoptimestamp="1560.516" duration="120.016" multimedia="iljkmjhphp.grf" filesize="315164" havevideo="false" chat="chat1.xml" anno="anno1.xml">
+            <events>
+                <event type="dump" timestamp="0.000" totaltimestamp="1440.500">
+                    <content document="1837121082" page="2" speedup="false" step="0" />
+                </event>
+                <event type="dump" timestamp="79.719" totaltimestamp="1520.219">
+                    <content document="1996293641" page="2" speedup="false" step="0" />
+                </event>
+            </events>
+            <audioindexs>
+                <audioindex timestamp="10.016" filepos="26564" />
+                <audioindex timestamp="20.109" filepos="53864" />
+                <audioindex timestamp="30.187" filepos="81164" />
+                <audioindex timestamp="40.234" filepos="107814" />
+                <audioindex timestamp="50.312" filepos="135114" />
+                <audioindex timestamp="60.391" filepos="162414" />
+                <audioindex timestamp="70.469" filepos="189714" />
+                <audioindex timestamp="80.547" filepos="217014" />
+                <audioindex timestamp="90.641" filepos="244314" />
+                <audioindex timestamp="102.984" filepos="269014" />
+                <audioindex timestamp="113.062" filepos="296314" />
+            </audioindexs>
+        </multirecord>
+        <multirecord starttimestamp="1560.516" stoptimestamp="1680.516" duration="120.000" multimedia="hjhmhgkmlk.grf" filesize="325239" havevideo="false" chat="chat1.xml" anno="anno1.xml">
+            <events>
+                <event type="dump" timestamp="0.000" totaltimestamp="1560.516">
+                    <content document="1996293641" page="2" speedup="false" step="0" />
+                </event>
+            </events>
+            <audioindexs>
+                <audioindex timestamp="10.078" filepos="27539" />
+                <audioindex timestamp="20.171" filepos="54839" />
+                <audioindex timestamp="30.250" filepos="82139" />
+                <audioindex timestamp="40.328" filepos="109439" />
+                <audioindex timestamp="50.406" filepos="136739" />
+                <audioindex timestamp="60.484" filepos="164039" />
+                <audioindex timestamp="70.562" filepos="191339" />
+                <audioindex timestamp="80.640" filepos="218639" />
+                <audioindex timestamp="90.718" filepos="245939" />
+                <audioindex timestamp="100.812" filepos="273239" />
+                <audioindex timestamp="110.890" filepos="300539" />
+            </audioindexs>
+        </multirecord>
+        <multirecord starttimestamp="1680.516" stoptimestamp="1800.547" duration="120.031" multimedia="jjjkiijknl.grf" filesize="325239" havevideo="false" chat="chat1.xml" anno="anno1.xml">
+            <events>
+                <event type="dump" timestamp="0.000" totaltimestamp="1680.516">
+                    <content document="1996293641" page="2" speedup="false" step="0" />
+                </event>
+            </events>
+            <audioindexs>
+                <audioindex timestamp="10.093" filepos="27539" />
+                <audioindex timestamp="20.171" filepos="54839" />
+                <audioindex timestamp="30.250" filepos="82139" />
+                <audioindex timestamp="40.328" filepos="109439" />
+                <audioindex timestamp="50.406" filepos="136739" />
+                <audioindex timestamp="60.484" filepos="164039" />
+                <audioindex timestamp="70.562" filepos="191339" />
+                <audioindex timestamp="80.640" filepos="218639" />
+                <audioindex timestamp="90.734" filepos="245939" />
+                <audioindex timestamp="100.812" filepos="273239" />
+                <audioindex timestamp="110.890" filepos="300539" />
+            </audioindexs>
+        </multirecord>
+        <multirecord starttimestamp="1800.547" stoptimestamp="1920.547" duration="120.000" multimedia="ihnnmkjmji.grf" filesize="325239" havevideo="false" chat="chat1.xml" anno="anno1.xml">
+            <events>
+                <event type="dump" timestamp="0.000" totaltimestamp="1800.547">
+                    <content document="1996293641" page="2" speedup="false" step="0" />
+                </event>
+            </events>
+            <audioindexs>
+                <audioindex timestamp="10.078" filepos="27539" />
+                <audioindex timestamp="20.156" filepos="54839" />
+                <audioindex timestamp="30.234" filepos="82139" />
+                <audioindex timestamp="40.312" filepos="109439" />
+                <audioindex timestamp="50.390" filepos="136739" />
+                <audioindex timestamp="60.469" filepos="164039" />
+                <audioindex timestamp="70.562" filepos="191339" />
+                <audioindex timestamp="80.640" filepos="218639" />
+                <audioindex timestamp="90.719" filepos="245939" />
+                <audioindex timestamp="100.797" filepos="273239" />
+                <audioindex timestamp="110.875" filepos="300539" />
+            </audioindexs>
+        </multirecord>
+        <multirecord starttimestamp="1920.547" stoptimestamp="2040.547" duration="120.000" multimedia="nlkgilpjo.grf" filesize="325239" havevideo="false" chat="chat1.xml" anno="anno1.xml">
+            <events>
+                <event type="dump" timestamp="0.000" totaltimestamp="1920.547">
+                    <content document="1996293641" page="2" speedup="false" step="0" />
+                </event>
+            </events>
+            <audioindexs>
+                <audioindex timestamp="10.078" filepos="27539" />
+                <audioindex timestamp="20.156" filepos="54839" />
+                <audioindex timestamp="30.234" filepos="82139" />
+                <audioindex timestamp="40.312" filepos="109439" />
+                <audioindex timestamp="50.390" filepos="136739" />
+                <audioindex timestamp="60.469" filepos="164039" />
+                <audioindex timestamp="70.562" filepos="191339" />
+                <audioindex timestamp="80.640" filepos="218639" />
+                <audioindex timestamp="90.719" filepos="245939" />
+                <audioindex timestamp="100.797" filepos="273239" />
+                <audioindex timestamp="110.875" filepos="300539" />
+            </audioindexs>
+        </multirecord>
+        <multirecord starttimestamp="2040.547" stoptimestamp="2160.547" duration="120.000" multimedia="ikhngomnho.grf" filesize="325239" havevideo="false" chat="chat1.xml" anno="anno1.xml">
+            <events>
+                <event type="dump" timestamp="0.000" totaltimestamp="2040.547">
+                    <content document="1996293641" page="2" speedup="false" step="0" />
+                </event>
+            </events>
+            <audioindexs>
+                <audioindex timestamp="10.078" filepos="27539" />
+                <audioindex timestamp="20.156" filepos="54839" />
+                <audioindex timestamp="30.234" filepos="82139" />
+                <audioindex timestamp="40.312" filepos="109439" />
+                <audioindex timestamp="50.390" filepos="136739" />
+                <audioindex timestamp="60.469" filepos="164039" />
+                <audioindex timestamp="70.562" filepos="191339" />
+                <audioindex timestamp="80.640" filepos="218639" />
+                <audioindex timestamp="90.719" filepos="245939" />
+                <audioindex timestamp="100.797" filepos="273239" />
+                <audioindex timestamp="110.875" filepos="300539" />
+            </audioindexs>
+        </multirecord>
+        <multirecord starttimestamp="2160.547" stoptimestamp="2280.547" duration="120.000" multimedia="jijplloigk.grf" filesize="325239" havevideo="false" chat="chat1.xml" anno="anno1.xml">
+            <events>
+                <event type="dump" timestamp="0.000" totaltimestamp="2160.547">
+                    <content document="1996293641" page="2" speedup="false" step="0" />
+                </event>
+            </events>
+            <audioindexs>
+                <audioindex timestamp="10.078" filepos="27539" />
+                <audioindex timestamp="20.156" filepos="54839" />
+                <audioindex timestamp="30.234" filepos="82139" />
+                <audioindex timestamp="40.312" filepos="109439" />
+                <audioindex timestamp="50.406" filepos="136739" />
+                <audioindex timestamp="60.469" filepos="164039" />
+                <audioindex timestamp="70.562" filepos="191339" />
+                <audioindex timestamp="80.640" filepos="218639" />
+                <audioindex timestamp="90.719" filepos="245939" />
+                <audioindex timestamp="100.797" filepos="273239" />
+                <audioindex timestamp="110.875" filepos="300539" />
+            </audioindexs>
+        </multirecord>
+        <multirecord starttimestamp="2280.547" stoptimestamp="2400.625" duration="120.078" multimedia="hjkmjgoggg.grf" filesize="324914" havevideo="false" chat="chat1.xml" anno="anno1.xml">
+            <events>
+                <event type="dump" timestamp="0.000" totaltimestamp="2280.547">
+                    <content document="1996293641" page="2" speedup="false" step="0" />
+                </event>
+                <event type="dump" timestamp="110.500" totaltimestamp="2391.047">
+                    <content document="1837121082" page="2" speedup="false" step="0" />
+                </event>
+                <event type="dump" timestamp="111.828" totaltimestamp="2392.375">
+                    <content document="1837121082" page="3" speedup="false" step="0" />
+                </event>
+            </events>
+            <audioindexs>
+                <audioindex timestamp="10.078" filepos="27539" />
+                <audioindex timestamp="20.156" filepos="54839" />
+                <audioindex timestamp="30.234" filepos="82139" />
+                <audioindex timestamp="40.312" filepos="109439" />
+                <audioindex timestamp="50.390" filepos="136739" />
+                <audioindex timestamp="60.469" filepos="164039" />
+                <audioindex timestamp="70.547" filepos="191339" />
+                <audioindex timestamp="80.625" filepos="218639" />
+                <audioindex timestamp="90.703" filepos="245939" />
+                <audioindex timestamp="100.781" filepos="273239" />
+                <audioindex timestamp="110.859" filepos="300539" />
+            </audioindexs>
+        </multirecord>
+        <multirecord starttimestamp="2400.625" stoptimestamp="2520.719" duration="120.094" multimedia="opmmnnimp.grf" filesize="324914" havevideo="false" chat="chat1.xml" anno="anno1.xml">
+            <events>
+                <event type="dump" timestamp="0.000" totaltimestamp="2400.625">
+                    <content document="1837121082" page="3" speedup="false" step="0" />
+                </event>
+                <event type="dump" timestamp="44.969" totaltimestamp="2445.594">
+                    <content document="1996293641" page="2" speedup="false" step="0" />
+                </event>
+                <event type="dump" timestamp="51.453" totaltimestamp="2452.078">
+                    <content document="1837121082" page="3" speedup="false" step="0" />
+                </event>
+                <event type="dump" timestamp="82.422" totaltimestamp="2483.047">
+                    <content document="1996293641" page="2" speedup="false" step="0" />
+                </event>
+                <event type="dump" timestamp="94.781" totaltimestamp="2495.406">
+                    <content document="1837121082" page="3" speedup="false" step="0" />
+                </event>
+                <event type="dump" timestamp="115.187" totaltimestamp="2515.812">
+                    <content document="1996293641" page="2" speedup="false" step="0" />
+                </event>
+                <event type="dump" timestamp="119.734" totaltimestamp="2520.359">
+                    <content document="1837121082" page="3" speedup="false" step="0" />
+                </event>
+            </events>
+            <audioindexs>
+                <audioindex timestamp="10.078" filepos="27539" />
+                <audioindex timestamp="20.156" filepos="54839" />
+                <audioindex timestamp="30.234" filepos="82139" />
+                <audioindex timestamp="40.297" filepos="108789" />
+                <audioindex timestamp="50.375" filepos="136089" />
+                <audioindex timestamp="60.453" filepos="163389" />
+                <audioindex timestamp="70.531" filepos="190689" />
+                <audioindex timestamp="80.609" filepos="217989" />
+                <audioindex timestamp="90.703" filepos="245289" />
+                <audioindex timestamp="100.781" filepos="272589" />
+                <audioindex timestamp="110.859" filepos="299889" />
+            </audioindexs>
+        </multirecord>
+        <multirecord starttimestamp="2520.719" stoptimestamp="2640.734" duration="120.015" multimedia="ilmgmnoihm.grf" filesize="325239" havevideo="false" chat="chat1.xml" anno="anno1.xml">
+            <events>
+                <event type="dump" timestamp="0.000" totaltimestamp="2520.719">
+                    <content document="1837121082" page="3" speedup="false" step="0" />
+                </event>
+                <event type="dump" timestamp="7.078" totaltimestamp="2527.797">
+                    <content document="1996293641" page="2" speedup="false" step="0" />
+                </event>
+                <event type="dump" timestamp="10.687" totaltimestamp="2531.406">
+                    <content document="1837121082" page="3" speedup="false" step="0" />
+                </event>
+                <event type="dump" timestamp="28.328" totaltimestamp="2549.047">
+                    <content document="1996293641" page="2" speedup="false" step="0" />
+                </event>
+                <event type="dump" timestamp="29.297" totaltimestamp="2550.016">
+                    <content document="1837121082" page="3" speedup="false" step="0" />
+                </event>
+                <event type="dump" timestamp="39.843" totaltimestamp="2560.562">
+                    <content document="1996293641" page="2" speedup="false" step="0" />
+                </event>
+            </events>
+            <audioindexs>
+                <audioindex timestamp="10.078" filepos="27539" />
+                <audioindex timestamp="20.172" filepos="54839" />
+                <audioindex timestamp="30.250" filepos="82139" />
+                <audioindex timestamp="40.328" filepos="109439" />
+                <audioindex timestamp="50.406" filepos="136739" />
+                <audioindex timestamp="60.484" filepos="164039" />
+                <audioindex timestamp="70.562" filepos="191339" />
+                <audioindex timestamp="80.656" filepos="218639" />
+                <audioindex timestamp="90.734" filepos="245939" />
+                <audioindex timestamp="100.812" filepos="273239" />
+                <audioindex timestamp="110.890" filepos="300539" />
+            </audioindexs>
+        </multirecord>
+        <multirecord starttimestamp="2640.734" stoptimestamp="2760.734" duration="120.000" multimedia="jigphgngli.grf" filesize="325239" havevideo="false" chat="chat1.xml" anno="anno1.xml">
+            <events>
+                <event type="dump" timestamp="0.000" totaltimestamp="2640.734">
+                    <content document="1996293641" page="2" speedup="false" step="0" />
+                </event>
+                <event type="dump" timestamp="48.485" totaltimestamp="2689.219">
+                    <content document="1837121082" page="3" speedup="false" step="0" />
+                </event>
+                <event type="dump" timestamp="49.922" totaltimestamp="2690.656">
+                    <content document="1837121082" page="2" speedup="false" step="0" />
+                </event>
+                <event type="dump" timestamp="53.157" totaltimestamp="2693.891">
+                    <content document="1837121082" page="1" speedup="false" step="0" />
+                </event>
+                <event type="dump" timestamp="55.922" totaltimestamp="2696.656">
+                    <content document="1837121082" page="2" speedup="false" step="0" />
+                </event>
+                <event type="dump" timestamp="56.875" totaltimestamp="2697.609">
+                    <content document="1837121082" page="3" speedup="false" step="0" />
+                </event>
+                <event type="dump" timestamp="74.032" totaltimestamp="2714.766">
+                    <content document="1996293641" page="2" speedup="false" step="0" />
+                </event>
+                <event type="dump" timestamp="75.125" totaltimestamp="2715.859">
+                    <content document="1996293642" page="0" speedup="false" step="0" />
+                </event>
+                <event type="dump" timestamp="76.438" totaltimestamp="2717.172">
+                    <content document="1837121082" page="3" speedup="false" step="0" />
+                </event>
+                <event type="dump" timestamp="80.766" totaltimestamp="2721.500">
+                    <content document="1996293641" page="2" speedup="false" step="0" />
+                </event>
+            </events>
+            <audioindexs>
+                <audioindex timestamp="10.078" filepos="27539" />
+                <audioindex timestamp="20.157" filepos="54839" />
+                <audioindex timestamp="30.235" filepos="82139" />
+                <audioindex timestamp="40.313" filepos="109439" />
+                <audioindex timestamp="50.407" filepos="136739" />
+                <audioindex timestamp="60.469" filepos="164039" />
+                <audioindex timestamp="70.563" filepos="191339" />
+                <audioindex timestamp="80.641" filepos="218639" />
+                <audioindex timestamp="90.719" filepos="245939" />
+                <audioindex timestamp="100.797" filepos="273239" />
+                <audioindex timestamp="110.891" filepos="300539" />
+            </audioindexs>
+        </multirecord>
+        <multirecord starttimestamp="2760.734" stoptimestamp="2880.734" duration="120.000" multimedia="mnmlllooo.grf" filesize="325239" havevideo="false" chat="chat1.xml" anno="anno1.xml">
+            <events>
+                <event type="dump" timestamp="0.000" totaltimestamp="2760.734">
+                    <content document="1996293641" page="2" speedup="false" step="0" />
+                </event>
+                <event type="dump" timestamp="7.922" totaltimestamp="2768.656">
+                    <content document="1996293641" page="3" speedup="false" step="0" />
+                </event>
+                <event type="dump" timestamp="22.438" totaltimestamp="2783.172">
+                    <content document="1996293641" page="4" speedup="false" step="0" />
+                </event>
+                <event type="dump" timestamp="23.032" totaltimestamp="2783.766">
+                    <content document="1996293641" page="5" speedup="false" step="0" />
+                </event>
+                <event type="dump" timestamp="23.641" totaltimestamp="2784.375">
+                    <content document="1996293641" page="6" speedup="false" step="0" />
+                </event>
+                <event type="dump" timestamp="24.235" totaltimestamp="2784.969">
+                    <content document="1996293641" page="7" speedup="false" step="0" />
+                </event>
+                <event type="dump" timestamp="30.000" totaltimestamp="2790.734">
+                    <content document="1996293641" page="8" speedup="false" step="0" />
+                </event>
+                <event type="dump" timestamp="30.844" totaltimestamp="2791.578">
+                    <content document="1996293641" page="9" speedup="false" step="0" />
+                </event>
+                <event type="dump" timestamp="47.641" totaltimestamp="2808.375">
+                    <content document="1996293641" page="10" speedup="false" step="0" />
+                </event>
+                <event type="dump" timestamp="48.235" totaltimestamp="2808.969">
+                    <content document="1996293641" page="11" speedup="false" step="0" />
+                </event>
+                <event type="dump" timestamp="54.610" totaltimestamp="2815.344">
+                    <content document="1996293641" page="10" speedup="false" step="0" />
+                </event>
+                <event type="dump" timestamp="56.032" totaltimestamp="2816.766">
+                    <content document="1996293641" page="9" speedup="false" step="0" />
+                </event>
+                <event type="dump" timestamp="59.516" totaltimestamp="2820.250">
+                    <content document="1996293641" page="10" speedup="false" step="0" />
+                </event>
+                <event type="dump" timestamp="61.672" totaltimestamp="2822.406">
+                    <content document="1996293641" page="11" speedup="false" step="0" />
+                </event>
+                <event type="dump" timestamp="64.672" totaltimestamp="2825.406">
+                    <content document="1996293641" page="12" speedup="false" step="0" />
+                </event>
+                <event type="dump" timestamp="72.719" totaltimestamp="2833.453">
+                    <content document="1996293641" page="13" speedup="false" step="0" />
+                </event>
+            </events>
+            <audioindexs>
+                <audioindex timestamp="10.078" filepos="27539" />
+                <audioindex timestamp="20.157" filepos="54839" />
+                <audioindex timestamp="30.235" filepos="82139" />
+                <audioindex timestamp="40.313" filepos="109439" />
+                <audioindex timestamp="50.391" filepos="136739" />
+                <audioindex timestamp="60.469" filepos="164039" />
+                <audioindex timestamp="70.563" filepos="191339" />
+                <audioindex timestamp="80.641" filepos="218639" />
+                <audioindex timestamp="90.719" filepos="245939" />
+                <audioindex timestamp="100.797" filepos="273239" />
+                <audioindex timestamp="110.875" filepos="300539" />
+            </audioindexs>
+        </multirecord>
+        <multirecord starttimestamp="2880.734" stoptimestamp="3000.734" duration="120.000" multimedia="ipnjlgjilk.grf" filesize="325239" havevideo="false" chat="chat1.xml" anno="anno1.xml">
+            <events>
+                <event type="dump" timestamp="0.000" totaltimestamp="2880.734">
+                    <content document="1996293641" page="13" speedup="false" step="0" />
+                </event>
+            </events>
+            <audioindexs>
+                <audioindex timestamp="10.078" filepos="27539" />
+                <audioindex timestamp="20.157" filepos="54839" />
+                <audioindex timestamp="30.235" filepos="82139" />
+                <audioindex timestamp="40.313" filepos="109439" />
+                <audioindex timestamp="50.407" filepos="136739" />
+                <audioindex timestamp="60.485" filepos="164039" />
+                <audioindex timestamp="70.563" filepos="191339" />
+                <audioindex timestamp="80.641" filepos="218639" />
+                <audioindex timestamp="90.719" filepos="245939" />
+                <audioindex timestamp="100.797" filepos="273239" />
+                <audioindex timestamp="110.875" filepos="300539" />
+            </audioindexs>
+        </multirecord>
+        <multirecord starttimestamp="3000.734" stoptimestamp="3120.781" duration="120.047" multimedia="hglnlpgnlo.grf" filesize="318739" havevideo="false" chat="chat1.xml" anno="anno1.xml">
+            <events>
+                <event type="dump" timestamp="0.000" totaltimestamp="3000.734">
+                    <content document="1996293641" page="13" speedup="false" step="0" />
+                </event>
+            </events>
+            <audioindexs>
+                <audioindex timestamp="10.078" filepos="27539" />
+                <audioindex timestamp="20.157" filepos="54839" />
+                <audioindex timestamp="30.235" filepos="82139" />
+                <audioindex timestamp="40.313" filepos="109439" />
+                <audioindex timestamp="50.391" filepos="136739" />
+                <audioindex timestamp="60.485" filepos="164039" />
+                <audioindex timestamp="70.563" filepos="191339" />
+                <audioindex timestamp="80.641" filepos="218639" />
+                <audioindex timestamp="90.875" filepos="239764" />
+                <audioindex timestamp="100.969" filepos="267064" />
+                <audioindex timestamp="111.047" filepos="294364" />
+            </audioindexs>
+        </multirecord>
+        <multirecord starttimestamp="3120.781" stoptimestamp="3240.781" duration="120.000" multimedia="hopikgmimg.grf" filesize="325239" havevideo="false" chat="chat1.xml" anno="anno1.xml">
+            <events>
+                <event type="dump" timestamp="0.000" totaltimestamp="3120.781">
+                    <content document="1996293641" page="13" speedup="false" step="0" />
+                </event>
+            </events>
+            <audioindexs>
+                <audioindex timestamp="10.078" filepos="27539" />
+                <audioindex timestamp="20.156" filepos="54839" />
+                <audioindex timestamp="30.235" filepos="82139" />
+                <audioindex timestamp="40.313" filepos="109439" />
+                <audioindex timestamp="50.406" filepos="136739" />
+                <audioindex timestamp="60.469" filepos="164039" />
+                <audioindex timestamp="70.563" filepos="191339" />
+                <audioindex timestamp="80.641" filepos="218639" />
+                <audioindex timestamp="90.719" filepos="245939" />
+                <audioindex timestamp="100.797" filepos="273239" />
+                <audioindex timestamp="110.875" filepos="300539" />
+            </audioindexs>
+        </multirecord>
+        <multirecord starttimestamp="3240.781" stoptimestamp="3360.781" duration="120.000" multimedia="mghnhkgjm.grf" filesize="325239" havevideo="false" chat="chat1.xml" anno="anno1.xml">
+            <events>
+                <event type="dump" timestamp="0.000" totaltimestamp="3240.781">
+                    <content document="1996293641" page="13" speedup="false" step="0" />
+                </event>
+                <event type="dump" timestamp="67.188" totaltimestamp="3307.969">
+                    <content document="1996293641" page="14" speedup="false" step="0" />
+                </event>
+            </events>
+            <audioindexs>
+                <audioindex timestamp="10.078" filepos="27539" />
+                <audioindex timestamp="20.156" filepos="54839" />
+                <audioindex timestamp="30.250" filepos="82139" />
+                <audioindex timestamp="40.313" filepos="109439" />
+                <audioindex timestamp="50.391" filepos="136739" />
+                <audioindex timestamp="60.469" filepos="164039" />
+                <audioindex timestamp="70.563" filepos="191339" />
+                <audioindex timestamp="80.641" filepos="218639" />
+                <audioindex timestamp="90.719" filepos="245939" />
+                <audioindex timestamp="100.797" filepos="273239" />
+                <audioindex timestamp="110.875" filepos="300539" />
+            </audioindexs>
+        </multirecord>
+        <multirecord starttimestamp="3360.781" stoptimestamp="3480.781" duration="120.000" multimedia="jklljmhghi.grf" filesize="325239" havevideo="false" chat="chat1.xml" anno="anno1.xml">
+            <events>
+                <event type="dump" timestamp="0.000" totaltimestamp="3360.781">
+                    <content document="1996293641" page="14" speedup="false" step="0" />
+                </event>
+            </events>
+            <audioindexs>
+                <audioindex timestamp="10.078" filepos="27539" />
+                <audioindex timestamp="20.156" filepos="54839" />
+                <audioindex timestamp="30.235" filepos="82139" />
+                <audioindex timestamp="40.313" filepos="109439" />
+                <audioindex timestamp="50.391" filepos="136739" />
+                <audioindex timestamp="60.469" filepos="164039" />
+                <audioindex timestamp="70.563" filepos="191339" />
+                <audioindex timestamp="80.641" filepos="218639" />
+                <audioindex timestamp="90.719" filepos="245939" />
+                <audioindex timestamp="100.797" filepos="273239" />
+                <audioindex timestamp="110.875" filepos="300539" />
+            </audioindexs>
+        </multirecord>
+        <multirecord starttimestamp="3480.781" stoptimestamp="3600.781" duration="120.000" multimedia="klnmpjlhi.grf" filesize="325239" havevideo="false" chat="chat1.xml" anno="anno1.xml">
+            <events>
+                <event type="dump" timestamp="0.000" totaltimestamp="3480.781">
+                    <content document="1996293641" page="14" speedup="false" step="0" />
+                </event>
+                <event type="dump" timestamp="24.000" totaltimestamp="3504.781">
+                    <content document="1996293641" page="15" speedup="false" step="0" />
+                </event>
+            </events>
+            <audioindexs>
+                <audioindex timestamp="10.078" filepos="27539" />
+                <audioindex timestamp="20.156" filepos="54839" />
+                <audioindex timestamp="30.235" filepos="82139" />
+                <audioindex timestamp="40.313" filepos="109439" />
+                <audioindex timestamp="50.391" filepos="136739" />
+                <audioindex timestamp="60.469" filepos="164039" />
+                <audioindex timestamp="70.563" filepos="191339" />
+                <audioindex timestamp="80.641" filepos="218639" />
+                <audioindex timestamp="90.719" filepos="245939" />
+                <audioindex timestamp="100.797" filepos="273239" />
+                <audioindex timestamp="110.875" filepos="300539" />
+            </audioindexs>
+        </multirecord>
+        <multirecord starttimestamp="3600.781" stoptimestamp="3720.781" duration="120.000" multimedia="jkhljiklij.grf" filesize="325239" havevideo="false" chat="chat1.xml" anno="anno1.xml">
+            <events>
+                <event type="dump" timestamp="0.000" totaltimestamp="3600.781">
+                    <content document="1996293641" page="15" speedup="false" step="0" />
+                </event>
+                <event type="dump" timestamp="56.516" totaltimestamp="3657.297">
+                    <content document="1996293641" page="16" speedup="false" step="0" />
+                </event>
+            </events>
+            <audioindexs>
+                <audioindex timestamp="10.078" filepos="27539" />
+                <audioindex timestamp="20.156" filepos="54839" />
+                <audioindex timestamp="30.235" filepos="82139" />
+                <audioindex timestamp="40.313" filepos="109439" />
+                <audioindex timestamp="50.391" filepos="136739" />
+                <audioindex timestamp="60.469" filepos="164039" />
+                <audioindex timestamp="70.547" filepos="191339" />
+                <audioindex timestamp="80.641" filepos="218639" />
+                <audioindex timestamp="90.719" filepos="245939" />
+                <audioindex timestamp="100.797" filepos="273239" />
+                <audioindex timestamp="110.875" filepos="300539" />
+            </audioindexs>
+        </multirecord>
+        <multirecord starttimestamp="3720.781" stoptimestamp="3896.484" duration="175.703" multimedia="jmlpgkoiik.grf" filesize="302164" havevideo="false" chat="chat1.xml" anno="anno1.xml">
+            <events>
+                <event type="dump" timestamp="0.000" totaltimestamp="3720.781">
+                    <content document="1996293641" page="16" speedup="false" step="0" />
+                </event>
+                <event type="dump" timestamp="4.438" totaltimestamp="3725.219">
+                    <content document="1996293641" page="17" speedup="false" step="0" />
+                </event>
+                <event type="dump" timestamp="5.156" totaltimestamp="3725.937">
+                    <content document="1996293641" page="18" speedup="false" step="0" />
+                </event>
+                <event type="dump" timestamp="5.750" totaltimestamp="3726.531">
+                    <content document="1996293641" page="19" speedup="false" step="0" />
+                </event>
+                <event type="dump" timestamp="6.235" totaltimestamp="3727.016">
+                    <content document="1996293641" page="20" speedup="false" step="0" />
+                </event>
+                <event type="dump" timestamp="6.953" totaltimestamp="3727.734">
+                    <content document="1996293641" page="21" speedup="false" step="0" />
+                </event>
+                <event type="dump" timestamp="7.438" totaltimestamp="3728.219">
+                    <content document="1996293641" page="22" speedup="false" step="0" />
+                </event>
+                <event type="dump" timestamp="111.360" totaltimestamp="3832.141">
+                    <content document="1996293641" page="23" speedup="false" step="0" />
+                </event>
+            </events>
+            <audioindexs>
+                <audioindex timestamp="10.078" filepos="27539" />
+                <audioindex timestamp="20.156" filepos="54839" />
+                <audioindex timestamp="30.235" filepos="82139" />
+                <audioindex timestamp="40.313" filepos="109439" />
+                <audioindex timestamp="50.391" filepos="136739" />
+                <audioindex timestamp="60.469" filepos="164039" />
+                <audioindex timestamp="70.563" filepos="191339" />
+                <audioindex timestamp="80.641" filepos="218639" />
+                <audioindex timestamp="90.719" filepos="245939" />
+                <audioindex timestamp="100.797" filepos="273239" />
+                <audioindex timestamp="110.875" filepos="300539" />
+            </audioindexs>
+        </multirecord>
+        <multirecord starttimestamp="3896.484" stoptimestamp="4016.500" duration="120.016" multimedia="jphpnlohhl.grf" filesize="325239" havevideo="false" chat="chat1.xml" anno="anno1.xml">
+            <events>
+                <event type="dump" timestamp="0.000" totaltimestamp="3896.484">
+                    <content document="1996293641" page="23" speedup="false" step="0" />
+                </event>
+                <event type="dump" timestamp="9.360" totaltimestamp="3905.844">
+                    <content document="1996293641" page="22" speedup="false" step="0" />
+                </event>
+                <event type="dump" timestamp="31.313" totaltimestamp="3927.797">
+                    <content document="1996293641" page="23" speedup="false" step="0" />
+                </event>
+                <event type="dump" timestamp="46.907" totaltimestamp="3943.391">
+                    <content document="1996293641" page="22" speedup="false" step="0" />
+                </event>
+                <event type="dump" timestamp="53.032" totaltimestamp="3949.516">
+                    <content document="1996293641" page="23" speedup="false" step="0" />
+                </event>
+                <event type="dump" timestamp="54.235" totaltimestamp="3950.719">
+                    <content document="1996293641" page="22" speedup="false" step="0" />
+                </event>
+                <event type="dump" timestamp="56.750" totaltimestamp="3953.234">
+                    <content document="1996293641" page="23" speedup="false" step="0" />
+                </event>
+                <event type="dump" timestamp="65.266" totaltimestamp="3961.750">
+                    <content document="1996293641" page="22" speedup="false" step="0" />
+                </event>
+                <event type="dump" timestamp="71.282" totaltimestamp="3967.766">
+                    <content document="1996293641" page="23" speedup="false" step="0" />
+                </event>
+                <event type="dump" timestamp="76.313" totaltimestamp="3972.797">
+                    <content document="1996293641" page="22" speedup="false" step="0" />
+                </event>
+                <event type="dump" timestamp="82.797" totaltimestamp="3979.281">
+                    <content document="1996293641" page="23" speedup="false" step="0" />
+                </event>
+                <event type="dump" timestamp="85.313" totaltimestamp="3981.797">
+                    <content document="1996293641" page="22" speedup="false" step="0" />
+                </event>
+                <event type="dump" timestamp="88.188" totaltimestamp="3984.672">
+                    <content document="1996293641" page="23" speedup="false" step="0" />
+                </event>
+                <event type="dump" timestamp="93.469" totaltimestamp="3989.953">
+                    <content document="1996293641" page="22" speedup="false" step="0" />
+                </event>
+                <event type="dump" timestamp="100.328" totaltimestamp="3996.812">
+                    <content document="1996293642" page="0" speedup="false" step="0" />
+                </event>
+                <event type="dump" timestamp="106.688" totaltimestamp="4003.172">
+                    <content document="1996293641" page="22" speedup="false" step="0" />
+                </event>
+            </events>
+            <audioindexs>
+                <audioindex timestamp="10.078" filepos="27539" />
+                <audioindex timestamp="20.157" filepos="54839" />
+                <audioindex timestamp="30.235" filepos="82139" />
+                <audioindex timestamp="40.313" filepos="109439" />
+                <audioindex timestamp="50.391" filepos="136739" />
+                <audioindex timestamp="60.469" filepos="164039" />
+                <audioindex timestamp="70.547" filepos="191339" />
+                <audioindex timestamp="80.641" filepos="218639" />
+                <audioindex timestamp="90.719" filepos="245939" />
+                <audioindex timestamp="100.797" filepos="273239" />
+                <audioindex timestamp="110.891" filepos="300539" />
+            </audioindexs>
+        </multirecord>
+        <multirecord starttimestamp="4016.500" stoptimestamp="4136.609" duration="120.109" multimedia="jjjnjoojkg.grf" filesize="325564" havevideo="false" chat="chat1.xml" anno="anno1.xml">
+            <events>
+                <event type="dump" timestamp="0.000" totaltimestamp="4016.500">
+                    <content document="1996293641" page="22" speedup="false" step="0" />
+                </event>
+                <event type="dump" timestamp="71.984" totaltimestamp="4088.484">
+                    <content document="1996293641" page="23" speedup="false" step="0" />
+                </event>
+                <event type="dump" timestamp="74.391" totaltimestamp="4090.891">
+                    <content document="1996293641" page="22" speedup="false" step="0" />
+                </event>
+            </events>
+            <audioindexs>
+                <audioindex timestamp="10.062" filepos="27539" />
+                <audioindex timestamp="20.156" filepos="54839" />
+                <audioindex timestamp="30.234" filepos="82139" />
+                <audioindex timestamp="40.312" filepos="109439" />
+                <audioindex timestamp="50.391" filepos="136739" />
+                <audioindex timestamp="60.469" filepos="164039" />
+                <audioindex timestamp="70.547" filepos="191339" />
+                <audioindex timestamp="80.625" filepos="218639" />
+                <audioindex timestamp="90.703" filepos="245939" />
+                <audioindex timestamp="100.797" filepos="273239" />
+                <audioindex timestamp="110.859" filepos="300539" />
+            </audioindexs>
+        </multirecord>
+        <multirecord starttimestamp="4136.609" stoptimestamp="4256.609" duration="120.000" multimedia="iknklhimgm.grf" filesize="325239" havevideo="false" chat="chat1.xml" anno="anno1.xml">
+            <events>
+                <event type="dump" timestamp="0.000" totaltimestamp="4136.609">
+                    <content document="1996293641" page="22" speedup="false" step="0" />
+                </event>
+                <event type="dump" timestamp="55.922" totaltimestamp="4192.531">
+                    <content document="1996293641" page="21" speedup="false" step="0" />
+                </event>
+                <event type="dump" timestamp="56.391" totaltimestamp="4193.000">
+                    <content document="1996293641" page="20" speedup="false" step="0" />
+                </event>
+                <event type="dump" timestamp="73.438" totaltimestamp="4210.047">
+                    <content document="1996293641" page="19" speedup="false" step="0" />
+                </event>
+                <event type="dump" timestamp="74.516" totaltimestamp="4211.125">
+                    <content document="1996293641" page="18" speedup="false" step="0" />
+                </event>
+                <event type="dump" timestamp="75.000" totaltimestamp="4211.609">
+                    <content document="1996293641" page="17" speedup="false" step="0" />
+                </event>
+                <event type="dump" timestamp="97.438" totaltimestamp="4234.047">
+                    <content document="1996293641" page="18" speedup="false" step="0" />
+                </event>
+                <event type="dump" timestamp="98.516" totaltimestamp="4235.125">
+                    <content document="1996293641" page="19" speedup="false" step="0" />
+                </event>
+                <event type="dump" timestamp="99.485" totaltimestamp="4236.094">
+                    <content document="1996293641" page="20" speedup="false" step="0" />
+                </event>
+                <event type="dump" timestamp="100.563" totaltimestamp="4237.172">
+                    <content document="1996293641" page="21" speedup="false" step="0" />
+                </event>
+                <event type="dump" timestamp="101.516" totaltimestamp="4238.125">
+                    <content document="1996293641" page="22" speedup="false" step="0" />
+                </event>
+            </events>
+            <audioindexs>
+                <audioindex timestamp="10.078" filepos="27539" />
+                <audioindex timestamp="20.157" filepos="54839" />
+                <audioindex timestamp="30.235" filepos="82139" />
+                <audioindex timestamp="40.313" filepos="109439" />
+                <audioindex timestamp="50.407" filepos="136739" />
+                <audioindex timestamp="60.485" filepos="164039" />
+                <audioindex timestamp="70.563" filepos="191339" />
+                <audioindex timestamp="80.641" filepos="218639" />
+                <audioindex timestamp="90.719" filepos="245939" />
+                <audioindex timestamp="100.797" filepos="273239" />
+                <audioindex timestamp="110.891" filepos="300539" />
+            </audioindexs>
+        </multirecord>
+        <multirecord starttimestamp="4256.609" stoptimestamp="4376.609" duration="120.000" multimedia="hgpkpknlik.grf" filesize="325239" havevideo="false" chat="chat1.xml" anno="anno1.xml">
+            <events>
+                <event type="dump" timestamp="0.000" totaltimestamp="4256.609">
+                    <content document="1996293641" page="22" speedup="false" step="0" />
+                </event>
+            </events>
+            <audioindexs>
+                <audioindex timestamp="10.078" filepos="27539" />
+                <audioindex timestamp="20.157" filepos="54839" />
+                <audioindex timestamp="30.235" filepos="82139" />
+                <audioindex timestamp="40.313" filepos="109439" />
+                <audioindex timestamp="50.407" filepos="136739" />
+                <audioindex timestamp="60.485" filepos="164039" />
+                <audioindex timestamp="70.563" filepos="191339" />
+                <audioindex timestamp="80.641" filepos="218639" />
+                <audioindex timestamp="90.719" filepos="245939" />
+                <audioindex timestamp="100.797" filepos="273239" />
+                <audioindex timestamp="110.875" filepos="300539" />
+            </audioindexs>
+        </multirecord>
+        <multirecord starttimestamp="4376.609" stoptimestamp="4496.609" duration="120.000" multimedia="jogojokjpk.grf" filesize="325239" havevideo="false" chat="chat1.xml" anno="anno2.xml" jsanno="anno2.js">
+            <events>
+                <event type="dump" timestamp="0.000" totaltimestamp="4376.609">
+                    <content document="1996293641" page="22" speedup="false" step="0" />
+                </event>
+                <event type="dump" timestamp="49.078" totaltimestamp="4425.687">
+                    <content document="1996293641" page="23" speedup="false" step="0" />
+                </event>
+                <event type="dump" timestamp="55.922" totaltimestamp="4432.531">
+                    <content document="1996293641" page="22" speedup="false" step="0" />
+                </event>
+                <event type="dump" timestamp="58.313" totaltimestamp="4434.922">
+                    <content document="1996293641" page="23" speedup="false" step="0" />
+                </event>
+            </events>
+            <audioindexs>
+                <audioindex timestamp="10.078" filepos="27539" />
+                <audioindex timestamp="20.157" filepos="54839" />
+                <audioindex timestamp="30.235" filepos="82139" />
+                <audioindex timestamp="40.313" filepos="109439" />
+                <audioindex timestamp="50.407" filepos="136739" />
+                <audioindex timestamp="60.485" filepos="164039" />
+                <audioindex timestamp="70.563" filepos="191339" />
+                <audioindex timestamp="80.641" filepos="218639" />
+                <audioindex timestamp="90.719" filepos="245939" />
+                <audioindex timestamp="100.797" filepos="273239" />
+                <audioindex timestamp="110.875" filepos="300539" />
+            </audioindexs>
+        </multirecord>
+        <multirecord starttimestamp="4496.609" stoptimestamp="4616.609" duration="120.000" multimedia="olgojponk.grf" filesize="325239" havevideo="false" chat="chat1.xml" anno="anno2.xml">
+            <events>
+                <event type="dump" timestamp="0.000" totaltimestamp="4496.609">
+                    <content document="1996293641" page="23" speedup="false" step="0" />
+                </event>
+                <event type="dump" timestamp="84.719" totaltimestamp="4581.328">
+                    <content document="1996293641" page="22" speedup="false" step="0" />
+                </event>
+                <event type="dump" timestamp="88.672" totaltimestamp="4585.281">
+                    <content document="1996293641" page="23" speedup="false" step="0" />
+                </event>
+                <event type="dump" timestamp="91.672" totaltimestamp="4588.281">
+                    <content document="1996293641" page="22" speedup="false" step="0" />
+                </event>
+                <event type="dump" timestamp="95.516" totaltimestamp="4592.125">
+                    <content document="1996293641" page="23" speedup="false" step="0" />
+                </event>
+                <event type="dump" timestamp="101.750" totaltimestamp="4598.359">
+                    <content document="1996293641" page="22" speedup="false" step="0" />
+                </event>
+            </events>
+            <audioindexs>
+                <audioindex timestamp="10.078" filepos="27539" />
+                <audioindex timestamp="20.157" filepos="54839" />
+                <audioindex timestamp="30.235" filepos="82139" />
+                <audioindex timestamp="40.313" filepos="109439" />
+                <audioindex timestamp="50.407" filepos="136739" />
+                <audioindex timestamp="60.485" filepos="164039" />
+                <audioindex timestamp="70.563" filepos="191339" />
+                <audioindex timestamp="80.641" filepos="218639" />
+                <audioindex timestamp="90.719" filepos="245939" />
+                <audioindex timestamp="100.797" filepos="273239" />
+                <audioindex timestamp="110.875" filepos="300539" />
+            </audioindexs>
+        </multirecord>
+        <multirecord starttimestamp="4616.609" stoptimestamp="4736.609" duration="120.000" multimedia="jihpghiplh.grf" filesize="325239" havevideo="false" chat="chat1.xml" anno="anno2.xml">
+            <events>
+                <event type="dump" timestamp="0.000" totaltimestamp="4616.609">
+                    <content document="1996293641" page="22" speedup="false" step="0" />
+                </event>
+            </events>
+            <audioindexs>
+                <audioindex timestamp="10.078" filepos="27539" />
+                <audioindex timestamp="20.157" filepos="54839" />
+                <audioindex timestamp="30.235" filepos="82139" />
+                <audioindex timestamp="40.313" filepos="109439" />
+                <audioindex timestamp="50.407" filepos="136739" />
+                <audioindex timestamp="60.485" filepos="164039" />
+                <audioindex timestamp="70.563" filepos="191339" />
+                <audioindex timestamp="80.641" filepos="218639" />
+                <audioindex timestamp="90.719" filepos="245939" />
+                <audioindex timestamp="100.797" filepos="273239" />
+                <audioindex timestamp="110.875" filepos="300539" />
+            </audioindexs>
+        </multirecord>
+        <multirecord starttimestamp="4736.609" stoptimestamp="4856.609" duration="120.000" multimedia="ogllphgk.grf" filesize="325239" havevideo="false" chat="chat1.xml" anno="anno2.xml">
+            <events>
+                <event type="dump" timestamp="0.000" totaltimestamp="4736.609">
+                    <content document="1996293641" page="22" speedup="false" step="0" />
+                </event>
+                <event type="dump" timestamp="96.360" totaltimestamp="4832.969">
+                    <content document="1996293641" page="23" speedup="false" step="0" />
+                </event>
+            </events>
+            <audioindexs>
+                <audioindex timestamp="10.078" filepos="27539" />
+                <audioindex timestamp="20.157" filepos="54839" />
+                <audioindex timestamp="30.235" filepos="82139" />
+                <audioindex timestamp="40.328" filepos="109439" />
+                <audioindex timestamp="50.407" filepos="136739" />
+                <audioindex timestamp="60.485" filepos="164039" />
+                <audioindex timestamp="70.563" filepos="191339" />
+                <audioindex timestamp="80.641" filepos="218639" />
+                <audioindex timestamp="90.719" filepos="245939" />
+                <audioindex timestamp="100.797" filepos="273239" />
+                <audioindex timestamp="110.891" filepos="300539" />
+            </audioindexs>
+        </multirecord>
+        <multirecord starttimestamp="4856.609" stoptimestamp="4976.609" duration="120.000" multimedia="ilninmpkom.grf" filesize="325239" havevideo="false" chat="chat1.xml" anno="anno2.xml">
+            <events>
+                <event type="dump" timestamp="0.000" totaltimestamp="4856.609">
+                    <content document="1996293641" page="23" speedup="false" step="0" />
+                </event>
+                <event type="dump" timestamp="60.485" totaltimestamp="4917.094">
+                    <content document="1996293641" page="22" speedup="false" step="0" />
+                </event>
+                <event type="dump" timestamp="69.594" totaltimestamp="4926.203">
+                    <content document="1837121082" page="3" speedup="false" step="0" />
+                </event>
+                <event type="dump" timestamp="71.157" totaltimestamp="4927.766">
+                    <content document="1837121082" page="4" speedup="false" step="0" />
+                </event>
+                <event type="dump" timestamp="101.875" totaltimestamp="4958.484">
+                    <content document="1996293641" page="22" speedup="false" step="0" />
+                </event>
+            </events>
+            <audioindexs>
+                <audioindex timestamp="10.078" filepos="27539" />
+                <audioindex timestamp="20.157" filepos="54839" />
+                <audioindex timestamp="30.250" filepos="82139" />
+                <audioindex timestamp="40.313" filepos="109439" />
+                <audioindex timestamp="50.407" filepos="136739" />
+                <audioindex timestamp="60.485" filepos="164039" />
+                <audioindex timestamp="70.563" filepos="191339" />
+                <audioindex timestamp="80.641" filepos="218639" />
+                <audioindex timestamp="90.719" filepos="245939" />
+                <audioindex timestamp="100.797" filepos="273239" />
+                <audioindex timestamp="110.875" filepos="300539" />
+            </audioindexs>
+        </multirecord>
+        <multirecord starttimestamp="4976.609" stoptimestamp="5696.047" duration="719.438" multimedia="imiomlkjg.grf" filesize="191664" havevideo="false" chat="chat1.xml" anno="anno2.xml">
+            <events>
+                <event type="dump" timestamp="0.000" totaltimestamp="4976.609">
+                    <content document="1996293641" page="22" speedup="false" step="0" />
+                </event>
+                <event type="dump" timestamp="10.688" totaltimestamp="4987.297">
+                    <content document="1996293641" page="23" speedup="false" step="0" />
+                </event>
+                <event type="dump" timestamp="14.516" totaltimestamp="4991.125">
+                    <content document="1996293641" page="22" speedup="false" step="0" />
+                </event>
+                <event type="dump" timestamp="30.000" totaltimestamp="5006.609">
+                    <content document="1996293641" page="23" speedup="false" step="0" />
+                </event>
+                <event type="dump" timestamp="35.282" totaltimestamp="5011.891">
+                    <content document="1996293641" page="22" speedup="false" step="0" />
+                </event>
+            </events>
+            <audioindexs>
+                <audioindex timestamp="10.078" filepos="27539" />
+                <audioindex timestamp="20.157" filepos="54839" />
+                <audioindex timestamp="30.235" filepos="82139" />
+                <audioindex timestamp="40.313" filepos="109439" />
+                <audioindex timestamp="50.391" filepos="136739" />
+                <audioindex timestamp="60.485" filepos="164039" />
+                <audioindex timestamp="70.563" filepos="191339" />
+            </audioindexs>
+        </multirecord>
+        <multirecord starttimestamp="5696.047" stoptimestamp="5816.047" duration="120.000" multimedia="ihlhngnkhj.grf" filesize="325239" havevideo="false" chat="chat1.xml" anno="anno2.xml">
+            <events>
+                <event type="dump" timestamp="0.000" totaltimestamp="5696.047">
+                    <content document="1996293641" page="22" speedup="false" step="0" />
+                </event>
+                <event type="dump" timestamp="15.969" totaltimestamp="5712.016">
+                    <content document="1996293641" page="23" speedup="false" step="0" />
+                </event>
+                <event type="dump" timestamp="19.562" totaltimestamp="5715.609">
+                    <content document="1996293641" page="22" speedup="false" step="0" />
+                </event>
+            </events>
+            <audioindexs>
+                <audioindex timestamp="10.078" filepos="27539" />
+                <audioindex timestamp="20.172" filepos="54839" />
+                <audioindex timestamp="30.234" filepos="82139" />
+                <audioindex timestamp="40.328" filepos="109439" />
+                <audioindex timestamp="50.406" filepos="136739" />
+                <audioindex timestamp="60.484" filepos="164039" />
+                <audioindex timestamp="70.562" filepos="191339" />
+                <audioindex timestamp="80.656" filepos="218639" />
+                <audioindex timestamp="90.719" filepos="245939" />
+                <audioindex timestamp="100.797" filepos="273239" />
+                <audioindex timestamp="110.875" filepos="300539" />
+            </audioindexs>
+        </multirecord>
+        <multirecord starttimestamp="5816.047" stoptimestamp="5936.047" duration="120.000" multimedia="hnnhkhopgo.grf" filesize="325239" havevideo="false" chat="chat1.xml" anno="anno2.xml">
+            <events>
+                <event type="dump" timestamp="0.000" totaltimestamp="5816.047">
+                    <content document="1996293641" page="22" speedup="false" step="0" />
+                </event>
+                <event type="dump" timestamp="77.406" totaltimestamp="5893.453">
+                    <content document="1837121082" page="4" speedup="false" step="0" />
+                </event>
+                <event type="dump" timestamp="109.797" totaltimestamp="5925.844">
+                    <content document="1996293641" page="22" speedup="false" step="0" />
+                </event>
+                <event type="dump" timestamp="118.562" totaltimestamp="5934.609">
+                    <content document="1837121082" page="4" speedup="false" step="0" />
+                </event>
+            </events>
+            <audioindexs>
+                <audioindex timestamp="10.078" filepos="27539" />
+                <audioindex timestamp="20.172" filepos="54839" />
+                <audioindex timestamp="30.234" filepos="82139" />
+                <audioindex timestamp="40.328" filepos="109439" />
+                <audioindex timestamp="50.406" filepos="136739" />
+                <audioindex timestamp="60.484" filepos="164039" />
+                <audioindex timestamp="70.562" filepos="191339" />
+                <audioindex timestamp="80.640" filepos="218639" />
+                <audioindex timestamp="90.719" filepos="245939" />
+                <audioindex timestamp="100.812" filepos="273239" />
+                <audioindex timestamp="110.875" filepos="300539" />
+            </audioindexs>
+        </multirecord>
+        <multirecord starttimestamp="5936.047" stoptimestamp="6056.047" duration="120.000" multimedia="hkkplloohl.grf" filesize="325239" havevideo="false" chat="chat1.xml" anno="anno2.xml">
+            <events>
+                <event type="dump" timestamp="0.000" totaltimestamp="5936.047">
+                    <content document="1837121082" page="4" speedup="false" step="0" />
+                </event>
+                <event type="dump" timestamp="0.234" totaltimestamp="5936.281">
+                    <content document="1996293641" page="22" speedup="false" step="0" />
+                </event>
+            </events>
+            <audioindexs>
+                <audioindex timestamp="10.078" filepos="27539" />
+                <audioindex timestamp="20.172" filepos="54839" />
+                <audioindex timestamp="30.234" filepos="82139" />
+                <audioindex timestamp="40.328" filepos="109439" />
+                <audioindex timestamp="50.406" filepos="136739" />
+                <audioindex timestamp="60.484" filepos="164039" />
+                <audioindex timestamp="70.562" filepos="191339" />
+                <audioindex timestamp="80.640" filepos="218639" />
+                <audioindex timestamp="90.719" filepos="245939" />
+                <audioindex timestamp="100.797" filepos="273239" />
+                <audioindex timestamp="110.875" filepos="300539" />
+            </audioindexs>
+        </multirecord>
+        <multirecord starttimestamp="6056.047" stoptimestamp="6176.047" duration="120.000" multimedia="okinlmjpk.grf" filesize="325239" havevideo="false" chat="chat1.xml" anno="anno2.xml">
+            <events>
+                <event type="dump" timestamp="0.000" totaltimestamp="6056.047">
+                    <content document="1996293641" page="22" speedup="false" step="0" />
+                </event>
+            </events>
+            <audioindexs>
+                <audioindex timestamp="10.078" filepos="27539" />
+                <audioindex timestamp="20.156" filepos="54839" />
+                <audioindex timestamp="30.234" filepos="82139" />
+                <audioindex timestamp="40.328" filepos="109439" />
+                <audioindex timestamp="50.406" filepos="136739" />
+                <audioindex timestamp="60.484" filepos="164039" />
+                <audioindex timestamp="70.562" filepos="191339" />
+                <audioindex timestamp="80.640" filepos="218639" />
+                <audioindex timestamp="90.719" filepos="245939" />
+                <audioindex timestamp="100.812" filepos="273239" />
+                <audioindex timestamp="110.875" filepos="300539" />
+            </audioindexs>
+        </multirecord>
+        <multirecord starttimestamp="6176.047" stoptimestamp="6296.047" duration="120.000" multimedia="ihjholhkgp.grf" filesize="325239" havevideo="false" chat="chat1.xml" anno="anno2.xml">
+            <events>
+                <event type="dump" timestamp="0.000" totaltimestamp="6176.047">
+                    <content document="1996293641" page="22" speedup="false" step="0" />
+                </event>
+            </events>
+            <audioindexs>
+                <audioindex timestamp="10.078" filepos="27539" />
+                <audioindex timestamp="20.172" filepos="54839" />
+                <audioindex timestamp="30.250" filepos="82139" />
+                <audioindex timestamp="40.328" filepos="109439" />
+                <audioindex timestamp="50.406" filepos="136739" />
+                <audioindex timestamp="60.484" filepos="164039" />
+                <audioindex timestamp="70.562" filepos="191339" />
+                <audioindex timestamp="80.640" filepos="218639" />
+                <audioindex timestamp="90.719" filepos="245939" />
+                <audioindex timestamp="100.812" filepos="273239" />
+                <audioindex timestamp="110.890" filepos="300539" />
+            </audioindexs>
+        </multirecord>
+        <multirecord starttimestamp="6296.047" stoptimestamp="6416.047" duration="120.000" multimedia="kgnngnjhmg.grf" filesize="325239" havevideo="false" chat="chat1.xml" anno="anno2.xml">
+            <events>
+                <event type="dump" timestamp="0.000" totaltimestamp="6296.047">
+                    <content document="1996293641" page="22" speedup="false" step="0" />
+                </event>
+            </events>
+            <audioindexs>
+                <audioindex timestamp="10.078" filepos="27539" />
+                <audioindex timestamp="20.156" filepos="54839" />
+                <audioindex timestamp="30.250" filepos="82139" />
+                <audioindex timestamp="40.328" filepos="109439" />
+                <audioindex timestamp="50.406" filepos="136739" />
+                <audioindex timestamp="60.484" filepos="164039" />
+                <audioindex timestamp="70.562" filepos="191339" />
+                <audioindex timestamp="80.640" filepos="218639" />
+                <audioindex timestamp="90.719" filepos="245939" />
+                <audioindex timestamp="100.812" filepos="273239" />
+                <audioindex timestamp="110.875" filepos="300539" />
+            </audioindexs>
+        </multirecord>
+        <multirecord starttimestamp="6416.047" stoptimestamp="6536.047" duration="120.000" multimedia="impkikmlon.grf" filesize="325239" havevideo="false" chat="chat1.xml" anno="anno2.xml">
+            <events>
+                <event type="dump" timestamp="0.000" totaltimestamp="6416.047">
+                    <content document="1996293641" page="22" speedup="false" step="0" />
+                </event>
+            </events>
+            <audioindexs>
+                <audioindex timestamp="10.078" filepos="27539" />
+                <audioindex timestamp="20.172" filepos="54839" />
+                <audioindex timestamp="30.234" filepos="82139" />
+                <audioindex timestamp="40.328" filepos="109439" />
+                <audioindex timestamp="50.406" filepos="136739" />
+                <audioindex timestamp="60.484" filepos="164039" />
+                <audioindex timestamp="70.562" filepos="191339" />
+                <audioindex timestamp="80.640" filepos="218639" />
+                <audioindex timestamp="90.719" filepos="245939" />
+                <audioindex timestamp="100.797" filepos="273239" />
+                <audioindex timestamp="110.890" filepos="300539" />
+            </audioindexs>
+        </multirecord>
+        <multirecord starttimestamp="6536.047" stoptimestamp="6656.047" duration="120.000" multimedia="khppkimpji.grf" filesize="325239" havevideo="false" chat="chat1.xml" anno="anno2.xml">
+            <events>
+                <event type="dump" timestamp="0.000" totaltimestamp="6536.047">
+                    <content document="1996293641" page="22" speedup="false" step="0" />
+                </event>
+            </events>
+            <audioindexs>
+                <audioindex timestamp="10.078" filepos="27539" />
+                <audioindex timestamp="20.156" filepos="54839" />
+                <audioindex timestamp="30.250" filepos="82139" />
+                <audioindex timestamp="40.328" filepos="109439" />
+                <audioindex timestamp="50.406" filepos="136739" />
+                <audioindex timestamp="60.484" filepos="164039" />
+                <audioindex timestamp="70.562" filepos="191339" />
+                <audioindex timestamp="80.640" filepos="218639" />
+                <audioindex timestamp="90.719" filepos="245939" />
+                <audioindex timestamp="100.812" filepos="273239" />
+                <audioindex timestamp="110.875" filepos="300539" />
+            </audioindexs>
+        </multirecord>
+        <multirecord starttimestamp="6656.047" stoptimestamp="6776.125" duration="120.078" multimedia="kgjnljnpoj.grf" filesize="325239" havevideo="false" chat="chat1.xml" anno="anno2.xml">
+            <events>
+                <event type="dump" timestamp="0.000" totaltimestamp="6656.047">
+                    <content document="1996293641" page="22" speedup="false" step="0" />
+                </event>
+                <event type="dump" timestamp="111.187" totaltimestamp="6767.234">
+                    <content document="1837121082" page="4" speedup="false" step="0" />
+                </event>
+            </events>
+            <audioindexs>
+                <audioindex timestamp="10.078" filepos="27539" />
+                <audioindex timestamp="20.172" filepos="54839" />
+                <audioindex timestamp="30.234" filepos="82139" />
+                <audioindex timestamp="40.328" filepos="109439" />
+                <audioindex timestamp="50.437" filepos="136739" />
+                <audioindex timestamp="60.547" filepos="164039" />
+                <audioindex timestamp="70.640" filepos="191339" />
+                <audioindex timestamp="80.719" filepos="218639" />
+                <audioindex timestamp="90.797" filepos="245939" />
+                <audioindex timestamp="100.875" filepos="273239" />
+                <audioindex timestamp="110.953" filepos="300539" />
+            </audioindexs>
+        </multirecord>
+        <multirecord starttimestamp="6776.125" stoptimestamp="6896.156" duration="120.031" multimedia="mghijkjkk.grf" filesize="323939" havevideo="false" chat="chat1.xml" anno="anno2.xml">
+            <events>
+                <event type="dump" timestamp="0.000" totaltimestamp="6776.125">
+                    <content document="1837121082" page="4" speedup="false" step="0" />
+                </event>
+                <event type="dump" timestamp="104.187" totaltimestamp="6880.312">
+                    <content document="1996293641" page="22" speedup="false" step="0" />
+                </event>
+                <event type="dump" timestamp="110.906" totaltimestamp="6887.031">
+                    <content document="1996293641" page="23" speedup="false" step="0" />
+                </event>
+                <event type="dump" timestamp="112.844" totaltimestamp="6888.969">
+                    <content document="1996293641" page="22" speedup="false" step="0" />
+                </event>
+            </events>
+            <audioindexs>
+                <audioindex timestamp="10.078" filepos="27539" />
+                <audioindex timestamp="20.156" filepos="54839" />
+                <audioindex timestamp="30.234" filepos="82139" />
+                <audioindex timestamp="40.312" filepos="109439" />
+                <audioindex timestamp="50.328" filepos="135114" />
+                <audioindex timestamp="60.391" filepos="162414" />
+                <audioindex timestamp="70.469" filepos="189714" />
+                <audioindex timestamp="80.547" filepos="217014" />
+                <audioindex timestamp="90.641" filepos="244314" />
+                <audioindex timestamp="100.719" filepos="271614" />
+                <audioindex timestamp="110.797" filepos="298914" />
+            </audioindexs>
+        </multirecord>
+        <multirecord starttimestamp="6896.156" stoptimestamp="7016.172" duration="120.016" multimedia="iliggjmjnn.grf" filesize="325239" havevideo="false" chat="chat1.xml" anno="anno2.xml">
+            <events>
+                <event type="dump" timestamp="0.000" totaltimestamp="6896.156">
+                    <content document="1996293641" page="22" speedup="false" step="0" />
+                </event>
+                <event type="dump" timestamp="2.047" totaltimestamp="6898.203">
+                    <content document="1996293641" page="23" speedup="false" step="0" />
+                </event>
+                <event type="dump" timestamp="4.563" totaltimestamp="6900.719">
+                    <content document="1996293641" page="22" speedup="false" step="0" />
+                </event>
+                <event type="dump" timestamp="8.047" totaltimestamp="6904.203">
+                    <content document="1996293641" page="23" speedup="false" step="0" />
+                </event>
+                <event type="dump" timestamp="13.813" totaltimestamp="6909.969">
+                    <content document="1996293641" page="22" speedup="false" step="0" />
+                </event>
+                <event type="dump" timestamp="17.156" totaltimestamp="6913.312">
+                    <content document="1837121082" page="4" speedup="false" step="0" />
+                </event>
+                <event type="dump" timestamp="69.969" totaltimestamp="6966.125">
+                    <content document="1996293641" page="22" speedup="false" step="0" />
+                </event>
+                <event type="dump" timestamp="73.563" totaltimestamp="6969.719">
+                    <content document="1996293641" page="23" speedup="false" step="0" />
+                </event>
+            </events>
+            <audioindexs>
+                <audioindex timestamp="10.078" filepos="27539" />
+                <audioindex timestamp="20.172" filepos="54839" />
+                <audioindex timestamp="30.250" filepos="82139" />
+                <audioindex timestamp="40.328" filepos="109439" />
+                <audioindex timestamp="50.406" filepos="136739" />
+                <audioindex timestamp="60.485" filepos="164039" />
+                <audioindex timestamp="70.563" filepos="191339" />
+                <audioindex timestamp="80.641" filepos="218639" />
+                <audioindex timestamp="90.719" filepos="245939" />
+                <audioindex timestamp="100.813" filepos="273239" />
+                <audioindex timestamp="110.891" filepos="300539" />
+            </audioindexs>
+        </multirecord>
+        <multirecord starttimestamp="7016.172" stoptimestamp="7136.219" duration="120.047" multimedia="iipihmmkg.grf" filesize="325239" havevideo="false" chat="chat1.xml" anno="anno2.xml">
+            <events>
+                <event type="dump" timestamp="0.000" totaltimestamp="7016.172">
+                    <content document="1996293641" page="23" speedup="false" step="0" />
+                </event>
+            </events>
+            <audioindexs>
+                <audioindex timestamp="10.062" filepos="27539" />
+                <audioindex timestamp="20.094" filepos="54514" />
+                <audioindex timestamp="30.172" filepos="81814" />
+                <audioindex timestamp="40.250" filepos="109114" />
+                <audioindex timestamp="50.328" filepos="136414" />
+                <audioindex timestamp="60.406" filepos="163714" />
+                <audioindex timestamp="70.484" filepos="191014" />
+                <audioindex timestamp="80.578" filepos="218314" />
+                <audioindex timestamp="90.656" filepos="245614" />
+                <audioindex timestamp="100.734" filepos="272914" />
+                <audioindex timestamp="110.812" filepos="300214" />
+            </audioindexs>
+        </multirecord>
+        <multirecord starttimestamp="7136.219" stoptimestamp="7256.234" duration="120.015" multimedia="kkojolkng.grf" filesize="325239" havevideo="false" chat="chat1.xml" anno="anno2.xml">
+            <events>
+                <event type="dump" timestamp="0.000" totaltimestamp="7136.219">
+                    <content document="1996293641" page="23" speedup="false" step="0" />
+                </event>
+            </events>
+            <audioindexs>
+                <audioindex timestamp="10.093" filepos="27539" />
+                <audioindex timestamp="20.172" filepos="54839" />
+                <audioindex timestamp="30.250" filepos="82139" />
+                <audioindex timestamp="40.343" filepos="109439" />
+                <audioindex timestamp="50.406" filepos="136739" />
+                <audioindex timestamp="60.500" filepos="164039" />
+                <audioindex timestamp="70.578" filepos="191339" />
+                <audioindex timestamp="80.656" filepos="218639" />
+                <audioindex timestamp="90.734" filepos="245939" />
+                <audioindex timestamp="100.812" filepos="273239" />
+                <audioindex timestamp="110.890" filepos="300539" />
+            </audioindexs>
+        </multirecord>
+        <multirecord starttimestamp="7256.234" stoptimestamp="7376.234" duration="120.000" multimedia="ipjkgiokpm.grf" filesize="325239" havevideo="false" chat="chat1.xml" anno="anno2.xml">
+            <events>
+                <event type="dump" timestamp="0.000" totaltimestamp="7256.234">
+                    <content document="1996293641" page="23" speedup="false" step="0" />
+                </event>
+            </events>
+            <audioindexs>
+                <audioindex timestamp="10.078" filepos="27539" />
+                <audioindex timestamp="20.157" filepos="54839" />
+                <audioindex timestamp="30.235" filepos="82139" />
+                <audioindex timestamp="40.313" filepos="109439" />
+                <audioindex timestamp="50.391" filepos="136739" />
+                <audioindex timestamp="60.485" filepos="164039" />
+                <audioindex timestamp="70.547" filepos="191339" />
+                <audioindex timestamp="80.641" filepos="218639" />
+                <audioindex timestamp="90.719" filepos="245939" />
+                <audioindex timestamp="100.797" filepos="273239" />
+                <audioindex timestamp="110.875" filepos="300539" />
+            </audioindexs>
+        </multirecord>
+        <multirecord starttimestamp="7376.234" stoptimestamp="7496.234" duration="120.000" multimedia="igjiplnhpo.grf" filesize="325239" havevideo="false" chat="chat1.xml" anno="anno2.xml">
+            <events>
+                <event type="dump" timestamp="0.000" totaltimestamp="7376.234">
+                    <content document="1996293641" page="23" speedup="false" step="0" />
+                </event>
+                <event type="dump" timestamp="38.157" totaltimestamp="7414.391">
+                    <content document="1996293641" page="22" speedup="false" step="0" />
+                </event>
+                <event type="dump" timestamp="87.469" totaltimestamp="7463.703">
+                    <content document="1996293641" page="23" speedup="false" step="0" />
+                </event>
+                <event type="dump" timestamp="90.953" totaltimestamp="7467.187">
+                    <content document="1996293641" page="24" speedup="false" step="0" />
+                </event>
+                <event type="dump" timestamp="92.750" totaltimestamp="7468.984">
+                    <content document="1996293641" page="25" speedup="false" step="0" />
+                </event>
+                <event type="dump" timestamp="93.469" totaltimestamp="7469.703">
+                    <content document="1996293641" page="26" speedup="false" step="0" />
+                </event>
+                <event type="dump" timestamp="95.641" totaltimestamp="7471.875">
+                    <content document="1996293641" page="25" speedup="false" step="0" />
+                </event>
+                <event type="dump" timestamp="96.110" totaltimestamp="7472.344">
+                    <content document="1996293641" page="24" speedup="false" step="0" />
+                </event>
+                <event type="dump" timestamp="97.203" totaltimestamp="7473.437">
+                    <content document="1996293642" page="0" speedup="false" step="0" />
+                </event>
+            </events>
+            <audioindexs>
+                <audioindex timestamp="10.078" filepos="27539" />
+                <audioindex timestamp="20.157" filepos="54839" />
+                <audioindex timestamp="30.235" filepos="82139" />
+                <audioindex timestamp="40.313" filepos="109439" />
+                <audioindex timestamp="50.391" filepos="136739" />
+                <audioindex timestamp="60.485" filepos="164039" />
+                <audioindex timestamp="70.563" filepos="191339" />
+                <audioindex timestamp="80.641" filepos="218639" />
+                <audioindex timestamp="90.719" filepos="245939" />
+                <audioindex timestamp="100.797" filepos="273239" />
+                <audioindex timestamp="110.875" filepos="300539" />
+            </audioindexs>
+        </multirecord>
+        <multirecord starttimestamp="7496.234" stoptimestamp="7616.234" duration="120.000" multimedia="iikknmgmhk.grf" filesize="325239" havevideo="false" chat="chat1.xml" anno="anno2.xml">
+            <events>
+                <event type="dump" timestamp="0.000" totaltimestamp="7496.234">
+                    <content document="1996293642" page="0" speedup="false" step="0" />
+                </event>
+            </events>
+            <audioindexs>
+                <audioindex timestamp="10.078" filepos="27539" />
+                <audioindex timestamp="20.157" filepos="54839" />
+                <audioindex timestamp="30.235" filepos="82139" />
+                <audioindex timestamp="40.328" filepos="109439" />
+                <audioindex timestamp="50.391" filepos="136739" />
+                <audioindex timestamp="60.469" filepos="164039" />
+                <audioindex timestamp="70.547" filepos="191339" />
+                <audioindex timestamp="80.641" filepos="218639" />
+                <audioindex timestamp="90.719" filepos="245939" />
+                <audioindex timestamp="100.797" filepos="273239" />
+                <audioindex timestamp="110.875" filepos="300539" />
+            </audioindexs>
+        </multirecord>
+        <multirecord starttimestamp="7616.234" stoptimestamp="7736.234" duration="120.000" multimedia="ikknglglgh.grf" filesize="325239" havevideo="false" chat="chat1.xml" anno="anno2.xml">
+            <events>
+                <event type="dump" timestamp="0.000" totaltimestamp="7616.234">
+                    <content document="1996293642" page="0" speedup="false" step="0" />
+                </event>
+            </events>
+            <audioindexs>
+                <audioindex timestamp="10.078" filepos="27539" />
+                <audioindex timestamp="20.157" filepos="54839" />
+                <audioindex timestamp="30.235" filepos="82139" />
+                <audioindex timestamp="40.313" filepos="109439" />
+                <audioindex timestamp="50.391" filepos="136739" />
+                <audioindex timestamp="60.485" filepos="164039" />
+                <audioindex timestamp="70.563" filepos="191339" />
+                <audioindex timestamp="80.641" filepos="218639" />
+                <audioindex timestamp="90.719" filepos="245939" />
+                <audioindex timestamp="100.797" filepos="273239" />
+                <audioindex timestamp="110.875" filepos="300539" />
+            </audioindexs>
+        </multirecord>
+        <multirecord starttimestamp="7736.234" stoptimestamp="7856.344" duration="120.110" multimedia="klnpghokk.grf" filesize="325564" havevideo="false" chat="chat1.xml" anno="anno2.xml">
+            <events>
+                <event type="dump" timestamp="0.000" totaltimestamp="7736.234">
+                    <content document="1996293642" page="0" speedup="false" step="0" />
+                </event>
+            </events>
+            <audioindexs>
+                <audioindex timestamp="10.078" filepos="27539" />
+                <audioindex timestamp="20.157" filepos="54839" />
+                <audioindex timestamp="30.235" filepos="82139" />
+                <audioindex timestamp="40.313" filepos="109439" />
+                <audioindex timestamp="50.391" filepos="136739" />
+                <audioindex timestamp="60.485" filepos="164039" />
+                <audioindex timestamp="70.563" filepos="191339" />
+                <audioindex timestamp="80.625" filepos="218639" />
+                <audioindex timestamp="90.703" filepos="245939" />
+                <audioindex timestamp="100.782" filepos="273239" />
+                <audioindex timestamp="110.860" filepos="300539" />
+            </audioindexs>
+        </multirecord>
+        <multirecord starttimestamp="7856.344" stoptimestamp="7976.344" duration="120.000" multimedia="opjkipkjl.grf" filesize="325239" havevideo="false" chat="chat1.xml" anno="anno2.xml">
+            <events>
+                <event type="dump" timestamp="0.000" totaltimestamp="7856.344">
+                    <content document="1996293642" page="0" speedup="false" step="0" />
+                </event>
+            </events>
+            <audioindexs>
+                <audioindex timestamp="10.078" filepos="27539" />
+                <audioindex timestamp="20.156" filepos="54839" />
+                <audioindex timestamp="30.234" filepos="82139" />
+                <audioindex timestamp="40.312" filepos="109439" />
+                <audioindex timestamp="50.390" filepos="136739" />
+                <audioindex timestamp="60.468" filepos="164039" />
+                <audioindex timestamp="70.562" filepos="191339" />
+                <audioindex timestamp="80.640" filepos="218639" />
+                <audioindex timestamp="90.718" filepos="245939" />
+                <audioindex timestamp="100.797" filepos="273239" />
+                <audioindex timestamp="110.875" filepos="300539" />
+            </audioindexs>
+        </multirecord>
+        <multirecord starttimestamp="7976.344" stoptimestamp="8096.344" duration="120.000" multimedia="hmokomigni.grf" filesize="325239" havevideo="false" chat="chat1.xml" anno="anno2.xml">
+            <events>
+                <event type="dump" timestamp="0.000" totaltimestamp="7976.344">
+                    <content document="1996293642" page="0" speedup="false" step="0" />
+                </event>
+            </events>
+            <audioindexs>
+                <audioindex timestamp="10.078" filepos="27539" />
+                <audioindex timestamp="20.156" filepos="54839" />
+                <audioindex timestamp="30.234" filepos="82139" />
+                <audioindex timestamp="40.312" filepos="109439" />
+                <audioindex timestamp="50.406" filepos="136739" />
+                <audioindex timestamp="60.468" filepos="164039" />
+                <audioindex timestamp="70.562" filepos="191339" />
+                <audioindex timestamp="80.640" filepos="218639" />
+                <audioindex timestamp="90.718" filepos="245939" />
+                <audioindex timestamp="100.797" filepos="273239" />
+                <audioindex timestamp="110.890" filepos="300539" />
+            </audioindexs>
+        </multirecord>
+        <multirecord starttimestamp="8096.344" stoptimestamp="8216.344" duration="120.000" multimedia="hnmlilhpjo.grf" filesize="325239" havevideo="false" chat="chat1.xml" anno="anno2.xml">
+            <events>
+                <event type="dump" timestamp="0.000" totaltimestamp="8096.344">
+                    <content document="1996293642" page="0" speedup="false" step="0" />
+                </event>
+            </events>
+            <audioindexs>
+                <audioindex timestamp="10.078" filepos="27539" />
+                <audioindex timestamp="20.156" filepos="54839" />
+                <audioindex timestamp="30.234" filepos="82139" />
+                <audioindex timestamp="40.312" filepos="109439" />
+                <audioindex timestamp="50.406" filepos="136739" />
+                <audioindex timestamp="60.468" filepos="164039" />
+                <audioindex timestamp="70.562" filepos="191339" />
+                <audioindex timestamp="80.640" filepos="218639" />
+                <audioindex timestamp="90.734" filepos="245939" />
+                <audioindex timestamp="100.797" filepos="273239" />
+                <audioindex timestamp="110.875" filepos="300539" />
+            </audioindexs>
+        </multirecord>
+        <multirecord starttimestamp="8216.344" stoptimestamp="8336.344" duration="120.000" multimedia="hlmpglgpmg.grf" filesize="325239" havevideo="false" chat="chat1.xml" anno="anno2.xml">
+            <events>
+                <event type="dump" timestamp="0.000" totaltimestamp="8216.344">
+                    <content document="1996293642" page="0" speedup="false" step="0" />
+                </event>
+            </events>
+            <audioindexs>
+                <audioindex timestamp="10.078" filepos="27539" />
+                <audioindex timestamp="20.156" filepos="54839" />
+                <audioindex timestamp="30.234" filepos="82139" />
+                <audioindex timestamp="40.312" filepos="109439" />
+                <audioindex timestamp="50.406" filepos="136739" />
+                <audioindex timestamp="60.468" filepos="164039" />
+                <audioindex timestamp="70.562" filepos="191339" />
+                <audioindex timestamp="80.640" filepos="218639" />
+                <audioindex timestamp="90.718" filepos="245939" />
+                <audioindex timestamp="100.797" filepos="273239" />
+                <audioindex timestamp="110.875" filepos="300539" />
+            </audioindexs>
+        </multirecord>
+        <multirecord starttimestamp="8336.344" stoptimestamp="8456.344" duration="120.000" multimedia="iplhhkghkg.grf" filesize="325239" havevideo="false" chat="chat1.xml" anno="anno2.xml">
+            <events>
+                <event type="dump" timestamp="0.000" totaltimestamp="8336.344">
+                    <content document="1996293642" page="0" speedup="false" step="0" />
+                </event>
+            </events>
+            <audioindexs>
+                <audioindex timestamp="10.078" filepos="27539" />
+                <audioindex timestamp="20.156" filepos="54839" />
+                <audioindex timestamp="30.234" filepos="82139" />
+                <audioindex timestamp="40.312" filepos="109439" />
+                <audioindex timestamp="50.390" filepos="136739" />
+                <audioindex timestamp="60.468" filepos="164039" />
+                <audioindex timestamp="70.562" filepos="191339" />
+                <audioindex timestamp="80.640" filepos="218639" />
+                <audioindex timestamp="90.718" filepos="245939" />
+                <audioindex timestamp="100.797" filepos="273239" />
+                <audioindex timestamp="110.875" filepos="300539" />
+            </audioindexs>
+        </multirecord>
+        <multirecord starttimestamp="8456.344" stoptimestamp="8576.344" duration="120.000" multimedia="jmoikihnmm.grf" filesize="325239" havevideo="false" chat="chat1.xml" anno="anno2.xml">
+            <events>
+                <event type="dump" timestamp="0.000" totaltimestamp="8456.344">
+                    <content document="1996293642" page="0" speedup="false" step="0" />
+                </event>
+            </events>
+            <audioindexs>
+                <audioindex timestamp="10.078" filepos="27539" />
+                <audioindex timestamp="20.156" filepos="54839" />
+                <audioindex timestamp="30.250" filepos="82139" />
+                <audioindex timestamp="40.312" filepos="109439" />
+                <audioindex timestamp="50.406" filepos="136739" />
+                <audioindex timestamp="60.484" filepos="164039" />
+                <audioindex timestamp="70.562" filepos="191339" />
+                <audioindex timestamp="80.640" filepos="218639" />
+                <audioindex timestamp="90.718" filepos="245939" />
+                <audioindex timestamp="100.797" filepos="273239" />
+                <audioindex timestamp="110.890" filepos="300539" />
+            </audioindexs>
+        </multirecord>
+        <multirecord starttimestamp="8576.344" stoptimestamp="8696.344" duration="120.000" multimedia="hiokpkpnji.grf" filesize="325239" havevideo="false" chat="chat1.xml" anno="anno2.xml">
+            <events>
+                <event type="dump" timestamp="0.000" totaltimestamp="8576.344">
+                    <content document="1996293642" page="0" speedup="false" step="0" />
+                </event>
+            </events>
+            <audioindexs>
+                <audioindex timestamp="10.078" filepos="27539" />
+                <audioindex timestamp="20.156" filepos="54839" />
+                <audioindex timestamp="30.234" filepos="82139" />
+                <audioindex timestamp="40.312" filepos="109439" />
+                <audioindex timestamp="50.406" filepos="136739" />
+                <audioindex timestamp="60.484" filepos="164039" />
+                <audioindex timestamp="70.562" filepos="191339" />
+                <audioindex timestamp="80.640" filepos="218639" />
+                <audioindex timestamp="90.718" filepos="245939" />
+                <audioindex timestamp="100.797" filepos="273239" />
+                <audioindex timestamp="110.875" filepos="300539" />
+            </audioindexs>
+        </multirecord>
+        <multirecord starttimestamp="8696.344" stoptimestamp="8816.344" duration="120.000" multimedia="oggpiolkg.grf" filesize="325239" havevideo="false" chat="chat1.xml" anno="anno2.xml">
+            <events>
+                <event type="dump" timestamp="0.000" totaltimestamp="8696.344">
+                    <content document="1996293642" page="0" speedup="false" step="0" />
+                </event>
+            </events>
+            <audioindexs>
+                <audioindex timestamp="10.078" filepos="27539" />
+                <audioindex timestamp="20.156" filepos="54839" />
+                <audioindex timestamp="30.234" filepos="82139" />
+                <audioindex timestamp="40.312" filepos="109439" />
+                <audioindex timestamp="50.406" filepos="136739" />
+                <audioindex timestamp="60.468" filepos="164039" />
+                <audioindex timestamp="70.562" filepos="191339" />
+                <audioindex timestamp="80.640" filepos="218639" />
+                <audioindex timestamp="90.718" filepos="245939" />
+                <audioindex timestamp="100.797" filepos="273239" />
+                <audioindex timestamp="110.875" filepos="300539" />
+            </audioindexs>
+        </multirecord>
+        <multirecord starttimestamp="8816.344" stoptimestamp="8936.359" duration="120.015" multimedia="hpkiplooom.grf" filesize="324914" havevideo="false" chat="chat1.xml" anno="anno2.xml">
+            <events>
+                <event type="dump" timestamp="0.000" totaltimestamp="8816.344">
+                    <content document="1996293642" page="0" speedup="false" step="0" />
+                </event>
+                <event type="dump" timestamp="81.484" totaltimestamp="8897.828">
+                    <content document="1837121082" page="4" speedup="false" step="0" />
+                </event>
+                <event type="dump" timestamp="83.047" totaltimestamp="8899.391">
+                    <content document="1837121082" page="5" speedup="false" step="0" />
+                </event>
+                <event type="dump" timestamp="96.500" totaltimestamp="8912.844">
+                    <content document="1996293641" page="24" speedup="false" step="0" />
+                </event>
+                <event type="dump" timestamp="98.187" totaltimestamp="8914.531">
+                    <content document="1996293642" page="0" speedup="false" step="0" />
+                </event>
+            </events>
+            <audioindexs>
+                <audioindex timestamp="10.078" filepos="27539" />
+                <audioindex timestamp="20.156" filepos="54839" />
+                <audioindex timestamp="30.234" filepos="82139" />
+                <audioindex timestamp="40.312" filepos="109439" />
+                <audioindex timestamp="50.406" filepos="136739" />
+                <audioindex timestamp="60.468" filepos="164039" />
+                <audioindex timestamp="70.562" filepos="191339" />
+                <audioindex timestamp="80.640" filepos="218639" />
+                <audioindex timestamp="90.750" filepos="245614" />
+                <audioindex timestamp="100.812" filepos="272914" />
+                <audioindex timestamp="110.890" filepos="300214" />
+            </audioindexs>
+        </multirecord>
+        <multirecord starttimestamp="8936.359" stoptimestamp="9056.359" duration="120.000" multimedia="kjogjiom.grf" filesize="325239" havevideo="false" chat="chat1.xml" anno="anno2.xml">
+            <events>
+                <event type="dump" timestamp="0.000" totaltimestamp="8936.359">
+                    <content document="1996293642" page="0" speedup="false" step="0" />
+                </event>
+            </events>
+            <audioindexs>
+                <audioindex timestamp="10.094" filepos="27539" />
+                <audioindex timestamp="20.157" filepos="54839" />
+                <audioindex timestamp="30.250" filepos="82139" />
+                <audioindex timestamp="40.328" filepos="109439" />
+                <audioindex timestamp="50.407" filepos="136739" />
+                <audioindex timestamp="60.485" filepos="164039" />
+                <audioindex timestamp="70.563" filepos="191339" />
+                <audioindex timestamp="80.641" filepos="218639" />
+                <audioindex timestamp="90.719" filepos="245939" />
+                <audioindex timestamp="100.797" filepos="273239" />
+                <audioindex timestamp="110.875" filepos="300539" />
+            </audioindexs>
+        </multirecord>
+        <multirecord starttimestamp="9056.359" stoptimestamp="9176.359" duration="120.000" multimedia="iijkoppoom.grf" filesize="325239" havevideo="false" chat="chat1.xml" anno="anno2.xml">
+            <events>
+                <event type="dump" timestamp="0.000" totaltimestamp="9056.359">
+                    <content document="1996293642" page="0" speedup="false" step="0" />
+                </event>
+            </events>
+            <audioindexs>
+                <audioindex timestamp="10.094" filepos="27539" />
+                <audioindex timestamp="20.157" filepos="54839" />
+                <audioindex timestamp="30.250" filepos="82139" />
+                <audioindex timestamp="40.328" filepos="109439" />
+                <audioindex timestamp="50.407" filepos="136739" />
+                <audioindex timestamp="60.485" filepos="164039" />
+                <audioindex timestamp="70.563" filepos="191339" />
+                <audioindex timestamp="80.641" filepos="218639" />
+                <audioindex timestamp="90.735" filepos="245939" />
+                <audioindex timestamp="100.797" filepos="273239" />
+                <audioindex timestamp="110.891" filepos="300539" />
+            </audioindexs>
+        </multirecord>
+        <multirecord starttimestamp="9176.359" stoptimestamp="9296.359" duration="120.000" multimedia="kplnkgopm.grf" filesize="325239" havevideo="false" chat="chat1.xml" anno="anno2.xml">
+            <events>
+                <event type="dump" timestamp="0.000" totaltimestamp="9176.359">
+                    <content document="1996293642" page="0" speedup="false" step="0" />
+                </event>
+            </events>
+            <audioindexs>
+                <audioindex timestamp="10.078" filepos="27539" />
+                <audioindex timestamp="20.157" filepos="54839" />
+                <audioindex timestamp="30.250" filepos="82139" />
+                <audioindex timestamp="40.328" filepos="109439" />
+                <audioindex timestamp="50.407" filepos="136739" />
+                <audioindex timestamp="60.485" filepos="164039" />
+                <audioindex timestamp="70.563" filepos="191339" />
+                <audioindex timestamp="80.641" filepos="218639" />
+                <audioindex timestamp="90.735" filepos="245939" />
+                <audioindex timestamp="100.797" filepos="273239" />
+                <audioindex timestamp="110.891" filepos="300539" />
+            </audioindexs>
+        </multirecord>
+        <multirecord starttimestamp="9296.359" stoptimestamp="9416.359" duration="120.000" multimedia="jhlmpjklnm.grf" filesize="325239" havevideo="false" chat="chat1.xml" anno="anno2.xml">
+            <events>
+                <event type="dump" timestamp="0.000" totaltimestamp="9296.359">
+                    <content document="1996293642" page="0" speedup="false" step="0" />
+                </event>
+                <event type="dump" timestamp="32.891" totaltimestamp="9329.250">
+                    <content document="1837121082" page="5" speedup="false" step="0" />
+                </event>
+                <event type="dump" timestamp="36.969" totaltimestamp="9333.328">
+                    <content document="1996293641" page="24" speedup="false" step="0" />
+                </event>
+                <event type="dump" timestamp="43.203" totaltimestamp="9339.562">
+                    <content document="1996293642" page="0" speedup="false" step="0" />
+                </event>
+            </events>
+            <audioindexs>
+                <audioindex timestamp="10.094" filepos="27539" />
+                <audioindex timestamp="20.157" filepos="54839" />
+                <audioindex timestamp="30.250" filepos="82139" />
+                <audioindex timestamp="40.328" filepos="109439" />
+                <audioindex timestamp="50.407" filepos="136739" />
+                <audioindex timestamp="60.485" filepos="164039" />
+                <audioindex timestamp="70.563" filepos="191339" />
+                <audioindex timestamp="80.641" filepos="218639" />
+                <audioindex timestamp="90.719" filepos="245939" />
+                <audioindex timestamp="100.797" filepos="273239" />
+                <audioindex timestamp="110.891" filepos="300539" />
+            </audioindexs>
+        </multirecord>
+        <multirecord starttimestamp="9416.359" stoptimestamp="9536.359" duration="120.000" multimedia="hljknmgnio.grf" filesize="325239" havevideo="false" chat="chat1.xml" anno="anno2.xml">
+            <events>
+                <event type="dump" timestamp="0.000" totaltimestamp="9416.359">
+                    <content document="1996293642" page="0" speedup="false" step="0" />
+                </event>
+                <event type="dump" timestamp="44.875" totaltimestamp="9461.234">
+                    <content document="1996293641" page="24" speedup="false" step="0" />
+                </event>
+                <event type="dump" timestamp="46.328" totaltimestamp="9462.687">
+                    <content document="1837121082" page="5" speedup="false" step="0" />
+                </event>
+                <event type="dump" timestamp="51.735" totaltimestamp="9468.094">
+                    <content document="1837121082" page="4" speedup="false" step="0" />
+                </event>
+                <event type="dump" timestamp="55.688" totaltimestamp="9472.047">
+                    <content document="1837121082" page="3" speedup="false" step="0" />
+                </event>
+                <event type="dump" timestamp="57.360" totaltimestamp="9473.719">
+                    <content document="1837121082" page="4" speedup="false" step="0" />
+                </event>
+                <event type="dump" timestamp="58.328" totaltimestamp="9474.687">
+                    <content document="1996293641" page="24" speedup="false" step="0" />
+                </event>
+                <event type="dump" timestamp="60.375" totaltimestamp="9476.734">
+                    <content document="1837121082" page="4" speedup="false" step="0" />
+                </event>
+            </events>
+            <audioindexs>
+                <audioindex timestamp="10.078" filepos="27539" />
+                <audioindex timestamp="20.157" filepos="54839" />
+                <audioindex timestamp="30.250" filepos="82139" />
+                <audioindex timestamp="40.328" filepos="109439" />
+                <audioindex timestamp="50.407" filepos="136739" />
+                <audioindex timestamp="60.485" filepos="164039" />
+                <audioindex timestamp="70.563" filepos="191339" />
+                <audioindex timestamp="80.641" filepos="218639" />
+                <audioindex timestamp="90.735" filepos="245939" />
+                <audioindex timestamp="100.797" filepos="273239" />
+                <audioindex timestamp="110.891" filepos="300539" />
+            </audioindexs>
+        </multirecord>
+        <multirecord starttimestamp="9536.359" stoptimestamp="9656.359" duration="120.000" multimedia="iponhkghph.grf" filesize="325239" havevideo="false" chat="chat1.xml" anno="anno3.xml" jsanno="anno3.js">
+            <events>
+                <event type="dump" timestamp="0.000" totaltimestamp="9536.359">
+                    <content document="1837121082" page="4" speedup="false" step="0" />
+                </event>
+                <event type="dump" timestamp="45.250" totaltimestamp="9581.609">
+                    <content document="1996293641" page="24" speedup="false" step="0" />
+                </event>
+                <event type="dump" timestamp="50.282" totaltimestamp="9586.641">
+                    <content document="1837121082" page="4" speedup="false" step="0" />
+                </event>
+                <event type="dump" timestamp="76.563" totaltimestamp="9612.922">
+                    <content document="1996293641" page="24" speedup="false" step="0" />
+                </event>
+                <event type="dump" timestamp="83.516" totaltimestamp="9619.875">
+                    <content document="1837121082" page="4" speedup="false" step="0" />
+                </event>
+                <event type="dump" timestamp="111.250" totaltimestamp="9647.609">
+                    <content document="1996293641" page="24" speedup="false" step="0" />
+                </event>
+                <event type="dump" timestamp="113.172" totaltimestamp="9649.531">
+                    <content document="1996293642" page="0" speedup="false" step="0" />
+                </event>
+            </events>
+            <audioindexs>
+                <audioindex timestamp="10.078" filepos="27539" />
+                <audioindex timestamp="20.157" filepos="54839" />
+                <audioindex timestamp="30.250" filepos="82139" />
+                <audioindex timestamp="40.328" filepos="109439" />
+                <audioindex timestamp="50.407" filepos="136739" />
+                <audioindex timestamp="60.485" filepos="164039" />
+                <audioindex timestamp="70.563" filepos="191339" />
+                <audioindex timestamp="80.641" filepos="218639" />
+                <audioindex timestamp="90.735" filepos="245939" />
+                <audioindex timestamp="100.797" filepos="273239" />
+                <audioindex timestamp="110.891" filepos="300539" />
+            </audioindexs>
+        </multirecord>
+        <multirecord starttimestamp="9656.359" stoptimestamp="9958.437" duration="302.078" multimedia="hlmhghjiok.grf" filesize="145839" havevideo="false" chat="chat1.xml" anno="anno3.xml">
+            <events>
+                <event type="dump" timestamp="0.000" totaltimestamp="9656.359">
+                    <content document="1996293642" page="0" speedup="false" step="0" />
+                </event>
+                <event type="dump" timestamp="7.688" totaltimestamp="9664.047">
+                    <content document="1996293641" page="24" speedup="false" step="0" />
+                </event>
+                <event type="dump" timestamp="16.688" totaltimestamp="9673.047">
+                    <content document="1837121082" page="4" speedup="false" step="0" />
+                </event>
+                <event type="dump" timestamp="53.641" totaltimestamp="9710.000">
+                    <content document="1996293643" page="0" speedup="false" step="0" />
+                </event>
+            </events>
+            <audioindexs>
+                <audioindex timestamp="10.078" filepos="27539" />
+                <audioindex timestamp="20.157" filepos="54839" />
+                <audioindex timestamp="30.250" filepos="82139" />
+                <audioindex timestamp="40.328" filepos="109439" />
+                <audioindex timestamp="50.407" filepos="136739" />
+            </audioindexs>
+        </multirecord>
+        <multirecord starttimestamp="9958.437" stoptimestamp="10078.500" duration="120.063" multimedia="ijgoghgmig.grf" filesize="323939" havevideo="false" chat="chat1.xml" anno="anno3.xml">
+            <events>
+                <event type="dump" timestamp="0.000" totaltimestamp="9958.437">
+                    <content document="1996293643" page="0" speedup="false" step="0" />
+                </event>
+            </events>
+            <audioindexs>
+                <audioindex timestamp="10.094" filepos="27539" />
+                <audioindex timestamp="20.172" filepos="54839" />
+                <audioindex timestamp="30.250" filepos="82139" />
+                <audioindex timestamp="40.329" filepos="109439" />
+                <audioindex timestamp="50.407" filepos="136739" />
+                <audioindex timestamp="60.485" filepos="164039" />
+                <audioindex timestamp="70.500" filepos="189714" />
+                <audioindex timestamp="80.594" filepos="217014" />
+                <audioindex timestamp="90.672" filepos="244314" />
+                <audioindex timestamp="100.750" filepos="271614" />
+                <audioindex timestamp="110.844" filepos="298914" />
+            </audioindexs>
+        </multirecord>
+        <multirecord starttimestamp="10078.500" stoptimestamp="10198.500" duration="120.000" multimedia="jngpkggijg.grf" filesize="325239" havevideo="false" chat="chat1.xml" anno="anno3.xml">
+            <events>
+                <event type="dump" timestamp="0.000" totaltimestamp="10078.500">
+                    <content document="1996293643" page="0" speedup="false" step="0" />
+                </event>
+                <event type="dump" timestamp="66.250" totaltimestamp="10144.750">
+                    <content document="1996293641" page="24" speedup="false" step="0" />
+                </event>
+                <event type="dump" timestamp="68.047" totaltimestamp="10146.547">
+                    <content document="1996293641" page="25" speedup="false" step="0" />
+                </event>
+                <event type="dump" timestamp="68.656" totaltimestamp="10147.156">
+                    <content document="1996293641" page="26" speedup="false" step="0" />
+                </event>
+            </events>
+            <audioindexs>
+                <audioindex timestamp="10.094" filepos="27539" />
+                <audioindex timestamp="20.172" filepos="54839" />
+                <audioindex timestamp="30.250" filepos="82139" />
+                <audioindex timestamp="40.328" filepos="109439" />
+                <audioindex timestamp="50.406" filepos="136739" />
+                <audioindex timestamp="60.484" filepos="164039" />
+                <audioindex timestamp="70.562" filepos="191339" />
+                <audioindex timestamp="80.641" filepos="218639" />
+                <audioindex timestamp="90.734" filepos="245939" />
+                <audioindex timestamp="100.812" filepos="273239" />
+                <audioindex timestamp="110.891" filepos="300539" />
+            </audioindexs>
+        </multirecord>
+        <multirecord starttimestamp="10198.500" stoptimestamp="10318.516" duration="120.016" multimedia="hiiimmginh.grf" filesize="325239" havevideo="false" chat="chat1.xml" anno="anno3.xml">
+            <events>
+                <event type="dump" timestamp="0.000" totaltimestamp="10198.500">
+                    <content document="1996293641" page="26" speedup="false" step="0" />
+                </event>
+            </events>
+            <audioindexs>
+                <audioindex timestamp="10.094" filepos="27539" />
+                <audioindex timestamp="20.172" filepos="54839" />
+                <audioindex timestamp="30.250" filepos="82139" />
+                <audioindex timestamp="40.328" filepos="109439" />
+                <audioindex timestamp="50.406" filepos="136739" />
+                <audioindex timestamp="60.484" filepos="164039" />
+                <audioindex timestamp="70.562" filepos="191339" />
+                <audioindex timestamp="80.641" filepos="218639" />
+                <audioindex timestamp="90.734" filepos="245939" />
+                <audioindex timestamp="100.812" filepos="273239" />
+                <audioindex timestamp="110.891" filepos="300539" />
+            </audioindexs>
+        </multirecord>
+        <multirecord starttimestamp="10318.516" stoptimestamp="10438.531" duration="120.015" multimedia="iiokmmloko.grf" filesize="318414" havevideo="false" chat="chat1.xml" anno="anno3.xml">
+            <events>
+                <event type="dump" timestamp="0.000" totaltimestamp="10318.516">
+                    <content document="1996293641" page="26" speedup="false" step="0" />
+                </event>
+            </events>
+            <audioindexs>
+                <audioindex timestamp="10.109" filepos="20714" />
+                <audioindex timestamp="20.187" filepos="48014" />
+                <audioindex timestamp="30.265" filepos="75314" />
+                <audioindex timestamp="40.343" filepos="102614" />
+                <audioindex timestamp="50.421" filepos="129914" />
+                <audioindex timestamp="60.500" filepos="157214" />
+                <audioindex timestamp="70.578" filepos="184514" />
+                <audioindex timestamp="80.656" filepos="211814" />
+                <audioindex timestamp="90.734" filepos="239114" />
+                <audioindex timestamp="100.828" filepos="266414" />
+                <audioindex timestamp="110.906" filepos="293714" />
+            </audioindexs>
+        </multirecord>
+        <multirecord starttimestamp="10438.531" stoptimestamp="10558.547" duration="120.016" multimedia="jkpkhgjiml.grf" filesize="325239" havevideo="false" chat="chat1.xml" anno="anno3.xml">
+            <events>
+                <event type="dump" timestamp="0.000" totaltimestamp="10438.531">
+                    <content document="1996293641" page="26" speedup="false" step="0" />
+                </event>
+                <event type="dump" timestamp="52.813" totaltimestamp="10491.344">
+                    <content document="1837121082" page="4" speedup="false" step="0" />
+                </event>
+            </events>
+            <audioindexs>
+                <audioindex timestamp="10.094" filepos="27539" />
+                <audioindex timestamp="20.172" filepos="54839" />
+                <audioindex timestamp="30.250" filepos="82139" />
+                <audioindex timestamp="40.328" filepos="109439" />
+                <audioindex timestamp="50.406" filepos="136739" />
+                <audioindex timestamp="60.485" filepos="164039" />
+                <audioindex timestamp="70.563" filepos="191339" />
+                <audioindex timestamp="80.641" filepos="218639" />
+                <audioindex timestamp="90.719" filepos="245939" />
+                <audioindex timestamp="100.813" filepos="273239" />
+                <audioindex timestamp="110.891" filepos="300539" />
+            </audioindexs>
+        </multirecord>
+        <multirecord starttimestamp="10558.547" stoptimestamp="10678.547" duration="120.000" multimedia="iiphpijlhm.grf" filesize="325239" havevideo="false" chat="chat1.xml" anno="anno3.xml">
+            <events>
+                <event type="dump" timestamp="0.000" totaltimestamp="10558.547">
+                    <content document="1837121082" page="4" speedup="false" step="0" />
+                </event>
+                <event type="dump" timestamp="22.078" totaltimestamp="10580.625">
+                    <content document="1996293641" page="26" speedup="false" step="0" />
+                </event>
+                <event type="dump" timestamp="23.031" totaltimestamp="10581.578">
+                    <content document="1996293641" page="27" speedup="false" step="0" />
+                </event>
+                <event type="dump" timestamp="23.625" totaltimestamp="10582.172">
+                    <content document="1996293641" page="28" speedup="false" step="0" />
+                </event>
+                <event type="dump" timestamp="24.469" totaltimestamp="10583.016">
+                    <content document="1996293641" page="29" speedup="false" step="0" />
+                </event>
+                <event type="dump" timestamp="116.750" totaltimestamp="10675.297">
+                    <content document="1837121082" page="4" speedup="false" step="0" />
+                </event>
+            </events>
+            <audioindexs>
+                <audioindex timestamp="10.078" filepos="27539" />
+                <audioindex timestamp="20.156" filepos="54839" />
+                <audioindex timestamp="30.234" filepos="82139" />
+                <audioindex timestamp="40.312" filepos="109439" />
+                <audioindex timestamp="50.390" filepos="136739" />
+                <audioindex timestamp="60.469" filepos="164039" />
+                <audioindex timestamp="70.547" filepos="191339" />
+                <audioindex timestamp="80.625" filepos="218639" />
+                <audioindex timestamp="90.703" filepos="245939" />
+                <audioindex timestamp="100.797" filepos="273239" />
+                <audioindex timestamp="110.875" filepos="300539" />
+            </audioindexs>
+        </multirecord>
+        <multirecord starttimestamp="10678.547" stoptimestamp="10798.547" duration="120.000" multimedia="hoinjmpmmn.grf" filesize="325239" havevideo="false" chat="chat1.xml" anno="anno3.xml">
+            <events>
+                <event type="dump" timestamp="0.000" totaltimestamp="10678.547">
+                    <content document="1837121082" page="4" speedup="false" step="0" />
+                </event>
+            </events>
+            <audioindexs>
+                <audioindex timestamp="10.078" filepos="27539" />
+                <audioindex timestamp="20.156" filepos="54839" />
+                <audioindex timestamp="30.234" filepos="82139" />
+                <audioindex timestamp="40.312" filepos="109439" />
+                <audioindex timestamp="50.390" filepos="136739" />
+                <audioindex timestamp="60.469" filepos="164039" />
+                <audioindex timestamp="70.562" filepos="191339" />
+                <audioindex timestamp="80.640" filepos="218639" />
+                <audioindex timestamp="90.703" filepos="245939" />
+                <audioindex timestamp="100.797" filepos="273239" />
+                <audioindex timestamp="110.875" filepos="300539" />
+            </audioindexs>
+        </multirecord>
+        <multirecord starttimestamp="10798.547" stoptimestamp="10918.547" duration="120.000" multimedia="hnmpmhoomk.grf" filesize="325239" havevideo="false" chat="chat1.xml" anno="anno3.xml">
+            <events>
+                <event type="dump" timestamp="0.000" totaltimestamp="10798.547">
+                    <content document="1837121082" page="4" speedup="false" step="0" />
+                </event>
+                <event type="dump" timestamp="29.390" totaltimestamp="10827.937">
+                    <content document="1996293641" page="29" speedup="false" step="0" />
+                </event>
+            </events>
+            <audioindexs>
+                <audioindex timestamp="10.078" filepos="27539" />
+                <audioindex timestamp="20.156" filepos="54839" />
+                <audioindex timestamp="30.234" filepos="82139" />
+                <audioindex timestamp="40.312" filepos="109439" />
+                <audioindex timestamp="50.390" filepos="136739" />
+                <audioindex timestamp="60.469" filepos="164039" />
+                <audioindex timestamp="70.547" filepos="191339" />
+                <audioindex timestamp="80.640" filepos="218639" />
+                <audioindex timestamp="90.719" filepos="245939" />
+                <audioindex timestamp="100.797" filepos="273239" />
+                <audioindex timestamp="110.875" filepos="300539" />
+            </audioindexs>
+        </multirecord>
+        <multirecord starttimestamp="10918.547" stoptimestamp="10944.219" duration="25.672" multimedia="kmhhklpoo.grf" filesize="70114" havevideo="false" chat="chat1.xml" anno="anno3.xml">
+            <events>
+                <event type="dump" timestamp="0.000" totaltimestamp="10918.547">
+                    <content document="1996293641" page="29" speedup="false" step="0" />
+                </event>
+            </events>
+            <audioindexs>
+                <audioindex timestamp="10.078" filepos="27539" />
+                <audioindex timestamp="20.156" filepos="54839" />
+            </audioindexs>
+        </multirecord>
+    </module>
+</conf>
