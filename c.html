@@ -6,8 +6,8 @@
 <meta name="renderer" content="webkit">
 <title>点播demo</title>
 <link href="css/vod.css" rel="stylesheet" type="text/css">
-<link rel="stylesheet" href="https://static.zinoui.com/1.5/themes/silver/zino.core.css">
-<link rel="stylesheet" href="https://static.zinoui.com/1.5/themes/silver/zino.canvas.css">
+<link rel="stylesheet" href="css/zino.core.css">
+<link rel="stylesheet" href="css/zino.canvas.css">
 
 </head>
 <body>
@@ -107,7 +107,7 @@
 <script type="text/javascript" src="js/jquery-ui-1.10.3.custom.min.js"></script>
 <script type="text/javascript" src="js/utils.js"></script>
         
-<script src="https://static.zinoui.com/1.5/compiled/zino.canvas.min.js"></script>
+<script src="js/zino.canvas.min.js"></script>
 
 <script type="text/javascript">
 var chat_list;
@@ -119,8 +119,6 @@ var chatjs = 'https://alicache.gensee.com/gsgetrecord/record47.gensee.net/gsreco
 var pagejs = 'https://alicache.gensee.com/gsgetrecord/record47.gensee.net/gsrecord/16042/sbr/2020_03_07/t7WJ0TG4US_1583542786/record125.xml.js';
 
 function init(){
-    
-
     $.getJSON(chatjs,function(data,status){
         chat_list = data.module.chat;
     });
@@ -149,7 +147,7 @@ $(document).ready(function(){
     $("#course").change(function(){
         dir = $(this).val();
         chatjs = dir+'/chat.js';
-        pagejs = dir+'/'+$(this).attr("name");
+        pagejs = dir+'/'+$(this).find('option:selected').attr("name");
         init();
         video.src = dir+'/record.mp4';
         console.log("[change]"+dir);
