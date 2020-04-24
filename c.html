@@ -17,31 +17,31 @@
 <div class="title_area">
 课程和倍速
 <select id = "course">
-<option value="w1/0307/1">语法0307</option>
-<option value="w1/0307/2">阅读0307</option>
-<option value="w1/0308/1">口语0308</option>
-<option value="w1/0308/2">写作0308</option>
-<option value="w2/0314/1">口语0314</option>
-<option value="w2/0314/2">听力0314</option>
-<option value="w2/0315/1">词汇0315</option>
-<option value="w2/0315/2">写作0315</option>
-<option value="w3/0321/1">口语0321</option>
-<option value="w3/0321/2">阅读0321</option>
-<option value="w3/0322/1">语法0322</option> 
-<option value="w3/0322/2">听力0322</option>
-<option value="w4/0328/1">写作0328</option>
-<option value="w4/0328/2">老师请假0328</option>
-<option value="w4/0329/1">词汇0329</option>
-<option value="w4/0329/2">听力0329</option>
-<option value="w4/0404/2">口语 补0404</option>
-<option value="w5/0411/1">语法0411</option>
-<option value="w5/0411/2">口语0411</option>
-<option value="w5/0412/1">阅读0412</option>
-<option value="w5/0412/2">听力0412</option>
-<option value="w6/0418/1">阅读0418</option>
-<option value="w6/0418/2">写作0418</option>
-<option value="w6/0419/1">口语0419</option>
-<option value="w6/0419/2">听力0419</option>
+<option value="w1/0307/1" name="record125.xml.js">语法0307</option>
+<option value="w1/0307/2" name="record126.xml.js">阅读0307</option>
+<option value="w1/0308/1" name="record122.xml.js">口语0308</option>
+<option value="w1/0308/2" name="record70.xml.js">写作0308</option>
+<option value="w2/0314/1" name="record48.xml.js">口语0314</option>
+<option value="w2/0314/2" name="record232.xml.js">听力0314</option>
+<option value="w2/0315/1" name="record186.xml.js">词汇0315</option>
+<option value="w2/0315/2" name="record22.xml.js">写作0315</option>
+<option value="w3/0321/1" name="record228.xml.js">口语0321</option>
+<option value="w3/0321/2" name="record96.xml,js">阅读0321</option>
+<option value="w3/0322/1" name="record121.xml.js">语法0322</option> 
+<option value="w3/0322/2" name="record8.xml.js">听力0322</option>
+<option value="w4/0328/1" name="record214.xml.js">写作0328</option>
+<option value="w4/0328/2" name="">老师请假0328</option>
+<option value="w4/0329/1" name="record169.xml.js">词汇0329</option>
+<option value="w4/0329/2" name="record229.xml.js">听力0329</option>
+<option value="w4/0404/2" name="record135.xml.js">口语 补0404</option>
+<option value="w5/0411/1" name="record200.xml.js">语法0411</option>
+<option value="w5/0411/2" name="record82.xml.js">口语0411</option>
+<option value="w5/0412/1" name="record155.xml.js">阅读0412</option>
+<option value="w5/0412/2" name="record51.xml.js">听力0412</option>
+<option value="w6/0418/1" name="record18.xml.js">阅读0418</option>
+<option value="w6/0418/2" name="record89.xml.js">写作0418</option>
+<option value="w6/0419/1" name="record84.xml.js">口语0419</option>
+<option value="w6/0419/2" name="record206.xml.js">听力0419</option>
 </select>
 <input type="radio" id="cc" name="cc" value="语法" > 
 语法
@@ -148,8 +148,11 @@ $(document).ready(function(){
 
     $("#course").change(function(){
         dir = $(this).val();
+        chatjs = dir+'/chat.js';
+        pagejs = dir+'/'+$(this).attr("name");
         init();
         video.src = dir+'/record.mp4';
+        console.log("[change]"+dir);
     });
 });
 
