@@ -89,8 +89,18 @@
 	Your browser does not support the video tag.
             </video>
     </div>
-        
     </div>
+
+    <div class="main_right">
+    	<div class="chapter_title">
+        老师打字
+        </div>
+        <div class="chapter_body">
+            <div class="chapter_list" id="teacher">
+            </div>
+        </div>
+    </div>
+
 </div>
 <!--遮罩层-->
 <script type="text/javascript" src="js/jquery-1.9.1.min.js"></script>
@@ -189,6 +199,7 @@ $(function () {
 var startTime = 0;
 var endTime = 5;
 var url = dir + '/hls/1659462401_0.png';
+var teacher = $("#teacher");
 
 function proc_page(page,curr) {
     if (page instanceof Array){
@@ -197,6 +208,7 @@ function proc_page(page,curr) {
                 startTime = it.starttimestamp;
                 endTime = it.stoptimestamp;
                 url = dir+'/'+it.hls;
+                teacher.append(it.title+'<br>');
             }
         });
     }else{
@@ -204,6 +216,7 @@ function proc_page(page,curr) {
             startTime = page.starttimestamp;
             endTime = page.starttimestamp;
             url = dir+'/'+page.hls;
+            teacher.append(page.title+'<br>');
         }
     }
 }
