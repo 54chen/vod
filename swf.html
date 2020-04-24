@@ -1,17 +1,259 @@
-<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
-	<head>
-		<title></title>
-	`	<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
-	</head>
-	<body>
+﻿<!doctype html>
+<html xmlns:gs="http://www.gensee.com/ec">
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta name="renderer" content="webkit">
+<title>点播demo</title>
+<link href="css/vod.css" rel="stylesheet" type="text/css">
+<link rel="stylesheet" href="https://static.zinoui.com/1.5/themes/silver/zino.core.css">
+<link rel="stylesheet" href="https://static.zinoui.com/1.5/themes/silver/zino.canvas.css">
 
-            <embed src="w2/0315/2/1841210928_0.swf" width="960" height="540" style="border:1px solid #eee"></embed>
-            <embed src="w2/0315/2/1841210928_1.swf" width="960" height="540" style="border:1px solid #eee"></embed>
-            <embed src="w2/0315/2/1841210928_2.swf" width="960" height="540" style="border:1px solid #eee"></embed>
-            <embed src="w2/0315/2/1841210928_3.swf" width="960" height="540" style="border:1px solid #eee"></embed>
-            <embed src="w2/0315/2/1841210928_4.swf" width="960" height="540" style="border:1px solid #eee"></embed>
-            <embed src="w2/0315/2/1841210929_0.swf" width="960" height="540" style="border:1px solid #eee"></embed>
-            <embed src="w2/0315/2/1841210929_1.swf" width="960" height="540" style="border:1px solid #eee"></embed>
-            <embed src="w2/0315/2/1841210929_2.swf" width="960" height="540" style="border:1px solid #eee"></embed>
-        </body>
+</head>
+<body>
+<div class="main_web">
+	<div class="main_left">
+    	<div class="video_area" height="100">
+<div class="title_area">
+课程和倍速
+<select id = "course">
+<option value="w1/0307/1">语法0307</option>
+<option value="w1/0307/2">阅读0307</option>
+<option value="w1/0308/1">口语0308</option>
+<option value="w1/0308/2">写作0308</option>
+<option value="w2/0314/1">口语0314</option>
+<option value="w2/0314/2">听力0314</option>
+<option value="w2/0315/1">词汇0315</option>
+<option value="w2/0315/2">写作0315</option>
+<option value="w3/0321/1">口语0321</option>
+<option value="w3/0321/2">阅读0321</option>
+<option value="w3/0322/1">语法0322</option> 
+<option value="w3/0322/2">听力0322</option>
+<option value="w4/0328/1">写作0328</option>
+<option value="w4/0328/2">老师请假0328</option>
+<option value="w4/0329/1">词汇0329</option>
+<option value="w4/0329/2">听力0329</option>
+<option value="w4/0404/2">口语 补0404</option>
+<option value="w5/0411/1">语法0411</option>
+<option value="w5/0411/2">口语0411</option>
+<option value="w5/0412/1">阅读0412</option>
+<option value="w5/0412/2">听力0412</option>
+<option value="w6/0418/1">阅读0418</option>
+<option value="w6/0418/2">写作0418</option>
+<option value="w6/0419/1">口语0419</option>
+<option value="w6/0419/2">听力0419</option>
+</select>
+<input type="radio" id="cc" name="cc" value="语法" > 
+语法
+</input>
+<input type="radio" id="cc" name="cc" value="词汇" > 
+词汇
+</input>
+<input type="radio" id="cc" name="cc" value="阅读" > 
+阅读
+</input>
+<input type="radio" id="cc" name="cc" value="听力" > 
+听力
+</input><br>
+<input type="radio" id="cc" name="cc" value="口语" > 
+口语
+</input>
+<input type="radio" id="cc" name="cc" value="写作" > 
+写作
+</input>
+
+<input type="button" id="speed" value="1" name="1" />
+<input type="button" id="speed" value="1.5" name="1.5" />
+<input type="button" id="speed" value="2" name="2" />倍速
+</div>
+        </div>
+            <div class="chat_qa">
+        	<div class="t" id="chat_qa_a">
+            	<p><a class="on" data-id="chat">聊天记录</a></p>
+            </div>
+            <div class="chat_qa_area">
+            	<div class="chat_list">
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="main_center">
+        <div class="title_area">好好学习，天天向上</div>
+        <div class="doc_area">
+            <div id="canvas"></div>
+        </div>
+    <div class="tool_area">
+<video id="video" controls width="100%" height="60">
+	    <source src="w1/0307/1/record.mp4" type="video/mp4" />
+	Your browser does not support the video tag.
+            </video>
+    </div>
+    </div>
+
+    <div class="main_right">
+    	<div class="chapter_title">
+        老师打字
+        </div>
+        <div class="chapter_body">
+            <div class="chapter_list" id="teacher">
+            </div>
+        </div>
+    </div>
+
+</div>
+<!--遮罩层-->
+<script type="text/javascript" src="js/jquery-1.9.1.min.js"></script>
+<script type="text/javascript" src="js/jquery-ui-1.10.3.custom.min.js"></script>
+<script type="text/javascript" src="js/utils.js"></script>
+        
+<script src="https://static.zinoui.com/1.5/compiled/zino.canvas.min.js"></script>
+
+<script type="text/javascript">
+var chat_list;
+var ppt_list;
+var video = document.getElementById('video');
+var selects;
+var dir = 'w1/0307/1';
+var chatjs = 'https://alicache.gensee.com/gsgetrecord/record47.gensee.net/gsrecord/16042/sbr/2020_03_07/t7WJ0TG4US_1583542786/chat.js';
+var pagejs = 'https://alicache.gensee.com/gsgetrecord/record47.gensee.net/gsrecord/16042/sbr/2020_03_07/t7WJ0TG4US_1583542786/record125.xml.js';
+
+function init(){
+    
+
+    $.getJSON(chatjs,function(data,status){
+        chat_list = data.module.chat;
+    });
+
+    $.getJSON(pagejs,function(data,status){
+        ppt_list = data.conf.module;
+    });
+
+}
+
+$(document).ready(function(){
+    init();
+    $("input#speed").click(function(){ video.playbackRate = this.value });
+
+    selects = $("#course").html();
+    $("input#cc").click(function(){
+        var choose = this.value;
+        $("#course").html(selects);
+        $.each($("#course").children("option"),function(idx,item){
+            if(!item['text'].startsWith(choose)){
+                item.remove();
+            }
+        });
+    });
+
+    $("#course").change(function(){
+        dir = $(this).val();
+        init();
+        video.src = dir+'/record.mp4';
+    });
+});
+
+
+function chat(i,ems){
+    var txt = '<dl><dt>'+
+        '<p>'+ems.sender+'</p>'+
+        '<span>'+Util.formatTime(ems.utctime)+'</span></dt>'+
+        '<dd>'+ems.richtext+'</dd></dl>';        
+    return txt;
+}
+
+function show_chat(currTime) {
+    var show_list = [];
+    for (i = 0,len = chat_list.length; i < len ; i++) {
+        var item = chat_list[i];
+        if (currTime >= item.timestamp) {
+            show_list.push(item);
+            chat_list.splice(i,1);
+            i--;
+            len--;
+        }
+    }
+    var txt = '';
+        //$('.chat_list').html();
+    $.each(show_list,function(i,item){
+        if (item.ems instanceof Array){
+            $.each(item.ems,function(x,ems){
+                txt += chat(x,ems);
+            });
+        }else{
+            txt += chat(i,item.ems);
+        }
+    });
+
+    $('.chat_list').show();
+    $('.chat_list').append(txt);
+}
+var ppt;
+$(function () {
+    ppt = zino.Canvas({
+        target: document.getElementById("canvas"),
+        width: 800,
+        height: 600
+        });
+});
+var startTime = 0;
+var endTime = 5;
+var url = dir + '/hls/1659462401_0.png';
+var teacher = $("#teacher");
+
+function proc_page(page,curr) {
+    if (page instanceof Array){
+        $.each(page,function(i,it){
+            if(curr >= it.starttimestamp && curr < it.stoptimestamp){
+                startTime = it.starttimestamp;
+                endTime = it.stoptimestamp;
+                url = dir+'/'+it.hls;
+                teacher.append(it.title+'<br>');
+            }
+        });
+    }else{
+        if(curr >= page.starttimestamp && curr < page.stoptimestamp){
+            startTime = page.starttimestamp;
+            endTime = page.starttimestamp;
+            url = dir+'/'+page.hls;
+            teacher.append(page.title+'<br>');
+        }
+    }
+}
+
+function show_ppt(currTime) {
+        $.each(ppt_list,function(idx,itm){
+        if (itm.name == 'document') {
+            docs = itm.document;
+            if (docs instanceof Array) {
+                $.each(docs,function(i,doc){
+                    if(currTime >= doc.timestamp){
+                        proc_page(doc.page,currTime);
+                    }
+                });
+            }else{
+                if (currTime >= docs.timestamp){
+                    proc_page(docs.page,currTime);
+                }
+            }
+        }
+        
+    });
+    if (currTime >= startTime && currTime < endTime) {
+        ppt.image(url, 0, 0, 800, 600);
+    }
+}
+
+
+//
+video.addEventListener("timeupdate",function(){
+    var timeDisplay = Math.floor(video.currentTime);
+    show_chat(timeDisplay);
+    show_ppt(timeDisplay);
+},false);
+
+
+
+</script>
+</body>
 </html>
