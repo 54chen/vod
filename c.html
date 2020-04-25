@@ -202,8 +202,8 @@ var ppt;
 $(function () {
     ppt = zino.Canvas({
         target: document.getElementById("canvas"),
-        width: 800,
-        height: 600
+        width: 780,
+        height: 560
         });
 });
 var startTime = 0;
@@ -258,7 +258,7 @@ function show_ppt(currTime) {
 
     if (ppting[startTime+'_'+endTime] == undefined && currTime >= startTime && currTime < endTime) {
         ppting[startTime+'_'+endTime] = 1;
-        ppt.image(url, 0, 0, 800, 600);
+        ppt.image(url, 0, 0, 780, 560);
         teacher.append(pptsub);
         console.log('ppt changed -'+ startTime +'< '+ currTime +' > ' + endTime);
     }
