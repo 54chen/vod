@@ -42,6 +42,8 @@
 <option value="w6/0418/2" name="record89.xml.js">写作0418</option>
 <option value="w6/0419/1" name="record84.xml.js">口语0419</option>
 <option value="w6/0419/2" name="record206.xml.js">听力0419</option>
+<option value="w7/0425/1" name="record210.xml.js">阅读0425</option>
+<option value="w7/0425/2" name="record83.xml.js">写作0425</option>
 </select>
 <input type="radio" id="cc" name="cc" value="语法" > 
 语法
@@ -93,7 +95,7 @@
 
     <div class="main_right">
     	<div class="chapter_title">
-        老师打字
+        教案标题
         </div>
         <div class="chapter_body">
             <div class="chapter_list" id="teacher">
@@ -112,11 +114,13 @@
 <script type="text/javascript">
 var chat_list;
 var ppt_list;
+var anno_list;
 var video = document.getElementById('video');
 var selects;
 var dir = 'w1/0307/1';
 var chatjs = 'https://alicache.gensee.com/gsgetrecord/record47.gensee.net/gsrecord/16042/sbr/2020_03_07/t7WJ0TG4US_1583542786/chat.js';
 var pagejs = 'https://alicache.gensee.com/gsgetrecord/record47.gensee.net/gsrecord/16042/sbr/2020_03_07/t7WJ0TG4US_1583542786/record125.xml.js';
+var annojs = 'https://alicache.gensee.com/gsgetrecord/record47.gensee.net/gsrecord/16042/sbr/2020_03_07/t7WJ0TG4US_1583542786/anno.js';
 
 function init(){
     $.getJSON(chatjs,function(data,status){
@@ -125,6 +129,10 @@ function init(){
 
     $.getJSON(pagejs,function(data,status){
         ppt_list = data.conf.module;
+    });
+
+    $.getJSON(annojs,function(data,status){
+        anno_list = data.module.command;
     });
 
 }
@@ -185,9 +193,10 @@ function show_chat(currTime) {
             txt += chat(i,item.ems);
         }
     });
-
-    $('.chat_list').show();
-    $('.chat_list').append(txt);
+    if(txt != ''){
+        $('.chat_list').show();
+        $('.chat_list').append(txt);
+    }
 }
 var ppt;
 $(function () {
@@ -202,6 +211,8 @@ var endTime = 5;
 var url = dir + '/hls/1659462401_0.png';
 var teacher = $("#teacher");
 
+var ppting = [];
+var pptsub = '';
 function proc_page(page,curr) {
     if (page instanceof Array){
         $.each(page,function(i,it){
@@ -209,7 +220,9 @@ function proc_page(page,curr) {
                 startTime = it.starttimestamp;
                 endTime = it.stoptimestamp;
                 url = dir+'/'+it.hls;
-                teacher.append(it.title+'<br>');
+                if (typeof(it.title) != undefined){
+                    pptsub = it.title+'<br>';
+                }
             }
         });
     }else{
@@ -217,7 +230,9 @@ function proc_page(page,curr) {
             startTime = page.starttimestamp;
             endTime = page.starttimestamp;
             url = dir+'/'+page.hls;
-            teacher.append(page.title+'<br>');
+            if(typeof(page.title) != undefined){
+                pptsub = page.title+'<br>';
+            }
         }
     }
 }
@@ -240,9 +255,84 @@ function show_ppt(currTime) {
         }
         
     });
-    if (currTime >= startTime && currTime < endTime) {
+
+    if (ppting[startTime+'_'+endTime] == undefined && currTime >= startTime && currTime < endTime) {
+        ppting[startTime+'_'+endTime] = 1;
         ppt.image(url, 0, 0, 800, 600);
+        teacher.append(pptsub);
+        console.log('ppt changed -'+ startTime +'< '+ currTime +' > ' + endTime);
     }
+}
+var pen = [];
+function show_anno(currTime) {
+    var show;
+    for (i = 0,len = anno_list.length; i < len ; i++) {
+        var item = anno_list[i];
+        if (currTime >= item.timestamp) {
+            show = item;
+            anno_list.splice(i,1);
+            i--;
+            len--;
+        }
+    }
+    if (show != undefined){
+    if(currTime >= show.timestamp){
+        if(pen[show.id] == undefined && show.type==2){
+            var color = show.color.split(',')[0];
+            var p = ppt.attr({
+                        lineWidth:show.linesize,lineCap: "round",lineJoin: "round",strokeStyle: color
+                    });
+            $.each(show.p,function(idx,it){
+                var al = it.split(',');
+                if(idx == 0){
+                    p = p.moveTo(al[0],al[1]);
+                    console.log("moveto:"+it);
+                    start = 1;
+                }else{
+                    p = p.lineTo(al[0],al[1]);
+                    console.log("lineto:"+it);
+                }
+            });
+            p.stroke();
+            console.log('line storke!');
+            pen[show.id] = 1;
+        }
+
+        if(pen[show.id] == undefined && show.type==4){//写字
+            var color = show.color.split(',')[0];
+            var p = show.p.split(',');
+            var ep = show.ep.split(',');
+            var l = p[0];
+            var t = p[1];
+            var mw = ep[0] - p[0];
+            ppt.attr({font: show.fontsize+"pt 宋体",fillStyle:color}).text(show.text, l, t, mw);
+            pen[show.id] = 1;
+        }
+        if(pen[show.id] == undefined && (show.type==8||show.type==6)){//rect
+            var color = show.color.split(',')[0];
+            var p = show.p.split(',');
+            var ep = show.ep.split(',');
+            var l = p[0];
+            var t = p[1];
+            var w = ep[0] - p[0];
+            var h = ep[1] - p[1];
+            ppt.attr({lineWidth: show.linesize,strokeStyle: color}).begin().rect(l, t, w, h).fill().stroke();
+            pen[show.id] == 1;
+        }
+
+        if(pen[show.id] == undefined && show.type==5){//直线
+            var color = show.color.split(',')[0];
+            var p = show.p.split(',');
+            var ep = show.ep.split(',');
+            var x0 = p[0];
+            var y0 = p[1];
+            var x1 = ep[0];
+            var y1 = ep[1];
+            ppt.attr({lineWidth: show.linesize,strokeStyle: color}).begin().line(x0, y0, x1, y1).fill().stroke();
+            pen[show.id] == 1;
+        }
+
+    }}
 }
 
 
@@ -251,6 +341,7 @@ video.addEventListener("timeupdate",function(){
     var timeDisplay = Math.floor(video.currentTime);
     show_chat(timeDisplay);
     show_ppt(timeDisplay);
+    show_anno(timeDisplay);
 },false);
 
 

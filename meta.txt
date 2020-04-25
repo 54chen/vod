@@ -49,3 +49,7 @@ w6/0418/2,写作,https://alicache.gensee.com/gsgetrecord/record49.gensee.net/gsr
 w6/0419/1,口语,https://alicache.gensee.com/gsgetrecord/record48.gensee.net/gsrecord/16042/sbr/2020_04_19/t7WJ0TG4US_1587258020/record84.xml
 
 w6/0419/2,听力,https://alicache.gensee.com/gsgetrecord/record43.gensee.net/gsrecord/16042/sbr/2020_04_19/t7WJ0TG4US_1587275997/record206.xml
+
+w7/0425/1,阅读,https://alicache.gensee.com/gsgetrecord/record43.gensee.net/gsrecord/16042/sbr/2020_04_25/t7WJ0TG4US_1587776370/record210.xml
+
+w7/0425/2,写作,https://alicache.gensee.com/gsgetrecord/record38.gensee.net/gsrecord/16042/sbr/2020_04_25/t7WJ0TG4US_1587794435/record83.xml
