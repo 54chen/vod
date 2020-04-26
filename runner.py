@@ -155,6 +155,6 @@ for index,row in data.iterrows():
     print('total file count:', len(ts_url_list));
     download_ts_file(ts_url_list, dir);
 
-    gen_mp4(dir,dir+'/record.m3u8','record.mp4');
-    load_json_png(fp,dir,jspng);
+    #gen_mp4(dir,dir+'/record.m3u8','record.mp4');
+    #load_json_png(fp,dir,jspng);
     #load_json_swf(fp,dir,jspng);

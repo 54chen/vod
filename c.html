@@ -8,6 +8,7 @@
 <link href="css/vod.css" rel="stylesheet" type="text/css">
 <link rel="stylesheet" href="css/zino.core.css">
 <link rel="stylesheet" href="css/zino.canvas.css">
+<link href="https://vjs.zencdn.net/7.7.5/video-js.css" rel="stylesheet" />
 
 </head>
 <body>
@@ -64,9 +65,6 @@
 写作
 </input>
 
-<input type="button" id="speed" value="1" name="1" />
-<input type="button" id="speed" value="1.5" name="1.5" />
-<input type="button" id="speed" value="2" name="2" />倍速
 </div>
         </div>
             <div class="chat_qa">
@@ -86,10 +84,10 @@
             <div id="canvas"></div>
         </div>
     <div class="tool_area">
-<video id="video" controls width="100%" height="60">
-	    <source src="w1/0307/1/record.mp4" type="video/mp4" />
+<audio id="video" class="video-js" controls width="800" height="60" data-setup='{ "playbackRates": [0.5, 1, 1.5, 2] }'>
+	    <source src="w1/0307/1/record.m3u8" type="application/x-mpegURL" />
 	Your browser does not support the video tag.
-            </video>
+            </audio>
     </div>
     </div>
 
@@ -110,12 +108,13 @@
 <script type="text/javascript" src="js/utils.js"></script>
         
 <script src="js/zino.canvas.min.js"></script>
+<script src="https://vjs.zencdn.net/7.7.5/video.js"></script>
 
 <script type="text/javascript">
 var chat_list;
 var ppt_list;
 var anno_list;
-var video = document.getElementById('video');
+var video = $('#video');
 var selects;
 var dir = 'w1/0307/1';
 var chatjs = 'https://alicache.gensee.com/gsgetrecord/record47.gensee.net/gsrecord/16042/sbr/2020_03_07/t7WJ0TG4US_1583542786/chat.js';
@@ -137,9 +136,19 @@ function init(){
 
 }
 
+videojs('video').ready(function () {
+    this.on('timeupdate', function () {
+        var timeDisplay = Math.floor(this.currentTime());
+        show_chat(timeDisplay);
+        show_ppt(timeDisplay);
+        show_anno(timeDisplay);
+    })
+});
+
+
+
 $(document).ready(function(){
     init();
-    $("input#speed").click(function(){ video.playbackRate = this.value });
 
     selects = $("#course").html();
     $("input#cc").click(function(){
@@ -157,8 +166,7 @@ $(document).ready(function(){
         chatjs = dir+'/chat.js';
         pagejs = dir+'/'+$(this).find('option:selected').attr("name");
         init();
-        video.src = dir+'/record.mp4';
-        console.log("[change]"+dir);
+        video.src = dir+'/record.m3u8';
     });
 });
 
@@ -258,9 +266,10 @@ function show_ppt(currTime) {
 
     if (ppting[startTime+'_'+endTime] == undefined && currTime >= startTime && currTime < endTime) {
         ppting[startTime+'_'+endTime] = 1;
+        ppt.attr('height',ppt.height);
+        ppt.clear();
         ppt.image(url, 0, 0, 780, 560);
         teacher.append(pptsub);
-        console.log('ppt changed -'+ startTime +'< '+ currTime +' > ' + endTime);
     }
 }
 var pen = [];
@@ -281,20 +290,16 @@ function show_anno(currTime) {
             var color = show.color.split(',')[0];
             var p = ppt.attr({
                         lineWidth:show.linesize,lineCap: "round",lineJoin: "round",strokeStyle: color
-                    });
+                    }).begin();
             $.each(show.p,function(idx,it){
                 var al = it.split(',');
                 if(idx == 0){
                     p = p.moveTo(al[0],al[1]);
-                    console.log("moveto:"+it);
-                    start = 1;
                 }else{
                     p = p.lineTo(al[0],al[1]);
-                    console.log("lineto:"+it);
                 }
             });
             p.stroke();
-            console.log('line storke!');
             pen[show.id] = 1;
         }
 
@@ -305,7 +310,7 @@ function show_anno(currTime) {
             var l = p[0];
             var t = p[1];
             var mw = ep[0] - p[0];
-            ppt.attr({font: show.fontsize+"pt 宋体",fillStyle:color}).text(show.text, l, t, mw);
+            ppt.attr({font: show.fontsize+"pt 宋体",fillStyle:color}).text(show.text, l, t, mw).stroke();
             pen[show.id] = 1;
         }
         if(pen[show.id] == undefined && (show.type==8||show.type==6)){//rect
@@ -337,13 +342,11 @@ function show_anno(currTime) {
 
 
 //
-video.addEventListener("timeupdate",function(){
-    var timeDisplay = Math.floor(video.currentTime);
-    show_chat(timeDisplay);
-    show_ppt(timeDisplay);
-    show_anno(timeDisplay);
-},false);
 
+
+//myPlayer.on('timeupdate', function () {
+//    console.log('播放time:'+myPlayer.currentTime());
+//});
 
 
 </script>
