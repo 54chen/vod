@@ -8,7 +8,7 @@
 <link href="css/vod.css" rel="stylesheet" type="text/css">
 <link rel="stylesheet" href="css/zino.core.css">
 <link rel="stylesheet" href="css/zino.canvas.css">
-<link href="https://vjs.zencdn.net/7.7.5/video-js.css" rel="stylesheet" />
+<link href="css/video-js.css" rel="stylesheet" type="text/css">
 
 </head>
 <body>
@@ -16,7 +16,7 @@
 	<div class="main_left">
     	<div class="video_area" height="100">
 <div class="title_area">
-课程和倍速
+课程
 <select id = "course">
 <option value="w1/0307/1" name="record125.xml.js">语法0307</option>
 <option value="w1/0307/2" name="record126.xml.js">阅读0307</option>
@@ -81,10 +81,12 @@
     <div class="main_center">
         <div class="title_area">好好学习，天天向上</div>
         <div class="doc_area">
-            <div id="canvas"></div>
+            <canvas id="my_canvas" width="800" height="450" style="border:1px solid #d3d3d3;">
+Your browser does not support the HTML5 canvas tag.
+</canvas>
         </div>
     <div class="tool_area">
-<audio id="video" class="video-js" controls width="800" height="60" data-setup='{ "playbackRates": [0.5, 1, 1.5, 2] }'>
+<audio id="video" class="video-js vjs-default-skin" controls width="800" height="60" data-setup='{ "playbackRates": [0.5, 1, 1.5, 2] }'>
 	    <source src="w1/0307/1/record.m3u8" type="application/x-mpegURL" />
 	Your browser does not support the video tag.
             </audio>
@@ -106,20 +108,18 @@
 <script type="text/javascript" src="js/jquery-1.9.1.min.js"></script>
 <script type="text/javascript" src="js/jquery-ui-1.10.3.custom.min.js"></script>
 <script type="text/javascript" src="js/utils.js"></script>
-        
-<script src="js/zino.canvas.min.js"></script>
-<script src="https://vjs.zencdn.net/7.7.5/video.js"></script>
+<script type="text/javascript" src="js/video.js"></script>
 
 <script type="text/javascript">
 var chat_list;
 var ppt_list;
 var anno_list;
-var video = $('#video');
 var selects;
 var dir = 'w1/0307/1';
 var chatjs = 'https://alicache.gensee.com/gsgetrecord/record47.gensee.net/gsrecord/16042/sbr/2020_03_07/t7WJ0TG4US_1583542786/chat.js';
 var pagejs = 'https://alicache.gensee.com/gsgetrecord/record47.gensee.net/gsrecord/16042/sbr/2020_03_07/t7WJ0TG4US_1583542786/record125.xml.js';
 var annojs = 'https://alicache.gensee.com/gsgetrecord/record47.gensee.net/gsrecord/16042/sbr/2020_03_07/t7WJ0TG4US_1583542786/anno.js';
+var player = videojs('video');
 
 function init(){
     $.getJSON(chatjs,function(data,status){
@@ -136,7 +136,7 @@ function init(){
 
 }
 
-videojs('video').ready(function () {
+player.ready(function () {
     this.on('timeupdate', function () {
         var timeDisplay = Math.floor(this.currentTime());
         show_chat(timeDisplay);
@@ -149,7 +149,7 @@ videojs('video').ready(function () {
 
 $(document).ready(function(){
     init();
-
+    $('#tulip').hide();
     selects = $("#course").html();
     $("input#cc").click(function(){
         var choose = this.value;
@@ -165,8 +165,12 @@ $(document).ready(function(){
         dir = $(this).val();
         chatjs = dir+'/chat.js';
         pagejs = dir+'/'+$(this).find('option:selected').attr("name");
+        annojs = dir+'/anno.js';
         init();
-        video.src = dir+'/record.m3u8';
+        var videoUrl = dir+'/record.m3u8';
+        player.src(videoUrl);
+        player.load(videoUrl);
+        player.play();
     });
 });
 
@@ -191,7 +195,6 @@ function show_chat(currTime) {
         }
     }
     var txt = '';
-        //$('.chat_list').html();
     $.each(show_list,function(i,item){
         if (item.ems instanceof Array){
             $.each(item.ems,function(x,ems){
@@ -204,16 +207,49 @@ function show_chat(currTime) {
     if(txt != ''){
         $('.chat_list').show();
         $('.chat_list').append(txt);
+        $(".chat_list").animate({ scrollTop: $(".chat_list")[0].scrollHeight - $('.chat_list').height() }, 3000);
     }
 }
-var ppt;
-$(function () {
-    ppt = zino.Canvas({
-        target: document.getElementById("canvas"),
-        width: 780,
-        height: 560
-        });
+    
+var getPixelRatio = function (context) {
+        var backingStore = context.backingStorePixelRatio ||
+            context.webkitBackingStorePixelRatio ||
+            context.mozBackingStorePixelRatio ||
+            context.msBackingStorePixelRatio ||
+            context.oBackingStorePixelRatio ||
+            context.backingStorePixelRatio || 1;
+        return (window.devicePixelRatio || 1) / backingStore;
+};
+var clears = function(){
+    myCanvas.width = 800;
+    myCanvas.height = 450;
+    myCanvas.style.width = myCanvas.width + 'px';
+    myCanvas.style.height = myCanvas.height + 'px';
+
+    myCanvas.width = myCanvas.width * ratio;
+    myCanvas.height = myCanvas.height * ratio;
+
+    // 放大倍数
+    context.scale(ratio, ratio);
+};
+
+$(function(){
+    ratio = getPixelRatio(myCanvas);
 });
+
+
+var myCanvas = document.getElementById("my_canvas");
+var context = myCanvas.getContext("2d");
+var ratio = getPixelRatio(context);
+
+const image = new Image();
+image.onload = () => {
+  context.imageSmoothingEnabled = false;
+  context.clearRect(0, 0, myCanvas.width, myCanvas.height);
+  context.drawImage(image, 0, 0,800,450);
+};
+
+
 var startTime = 0;
 var endTime = 5;
 var url = dir + '/hls/1659462401_0.png';
@@ -266,12 +302,13 @@ function show_ppt(currTime) {
 
     if (ppting[startTime+'_'+endTime] == undefined && currTime >= startTime && currTime < endTime) {
         ppting[startTime+'_'+endTime] = 1;
-        ppt.attr('height',ppt.height);
-        ppt.clear();
-        ppt.image(url, 0, 0, 780, 560);
+        clears();
+        image.src = url;
         teacher.append(pptsub);
     }
 }
+
+
 var pen = [];
 function show_anno(currTime) {
     var show;
@@ -288,18 +325,18 @@ function show_anno(currTime) {
     if(currTime >= show.timestamp){
         if(pen[show.id] == undefined && show.type==2){
             var color = show.color.split(',')[0];
-            var p = ppt.attr({
-                        lineWidth:show.linesize,lineCap: "round",lineJoin: "round",strokeStyle: color
-                    }).begin();
+            context.strokeStyle = color;
+            context.lineWidth = show.linesize;
+
             $.each(show.p,function(idx,it){
                 var al = it.split(',');
                 if(idx == 0){
-                    p = p.moveTo(al[0],al[1]);
+                    context.moveTo(al[0],al[1]);
                 }else{
-                    p = p.lineTo(al[0],al[1]);
+                    context.lineTo(al[0],al[1]);
                 }
             });
-            p.stroke();
+            context.stroke();
             pen[show.id] = 1;
         }
 
@@ -310,7 +347,18 @@ function show_anno(currTime) {
             var l = p[0];
             var t = p[1];
             var mw = ep[0] - p[0];
-            ppt.attr({font: show.fontsize+"pt 宋体",fillStyle:color}).text(show.text, l, t, mw).stroke();
+            var lines = show.text.split("\n");
+            context.font = (show.fontsize-2)+"pt 宋体";
+            context.fillStyle = color;
+            var i = 0;
+            for (var j = 0;j<lines.length; j++){
+                if(lines[j]==''||lines[j]==undefined){
+                    continue;
+                }
+                var tx = parseFloat(t)+parseFloat(i*(show.fontsize)*2);
+                i++;
+                context.fillText(lines[j], l, tx);
+            }
             pen[show.id] = 1;
         }
         if(pen[show.id] == undefined && (show.type==8||show.type==6)){//rect
@@ -321,7 +369,9 @@ function show_anno(currTime) {
             var t = p[1];
             var w = ep[0] - p[0];
             var h = ep[1] - p[1];
-            ppt.attr({lineWidth: show.linesize,strokeStyle: color}).begin().rect(l, t, w, h).fill().stroke();
+            context.strokeStyle = color;
+            context.lineWidth = show.linesize;
+            context.strokeRect(l,t,w,h);
             pen[show.id] == 1;
         }
 
@@ -333,20 +383,17 @@ function show_anno(currTime) {
             var y0 = p[1];
             var x1 = ep[0];
             var y1 = ep[1];
-            ppt.attr({lineWidth: show.linesize,strokeStyle: color}).begin().line(x0, y0, x1, y1).fill().stroke();
+            context.strokeStyle = color;
+            context.lineWidth = show.linesize;
+            context.strokeRect(l,t,w,h);
+            context.moveTo(x0,y0);
+            context.lineTo(x1,y1);
+            context.stroke();
             pen[show.id] == 1;
         }
 
     }}
 }
-
-
-//
-
-
-//myPlayer.on('timeupdate', function () {
-//    console.log('播放time:'+myPlayer.currentTime());
-//});
 
 
 </script>
