@@ -9,6 +9,7 @@ do
 
     if [ -f $dir'/record.mp4' ];then
         echo $i' '$j' '$dir;
+        rm -f $dir'/record.mp4';
     fi
 
 done;
