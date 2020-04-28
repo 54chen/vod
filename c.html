@@ -6,8 +6,6 @@
 <meta name="renderer" content="webkit">
 <title>点播demo</title>
 <link href="css/vod.css" rel="stylesheet" type="text/css">
-<link rel="stylesheet" href="css/zino.core.css">
-<link rel="stylesheet" href="css/zino.canvas.css">
 <link href="css/video-js.css" rel="stylesheet" type="text/css">
 
 </head>
@@ -95,7 +93,7 @@ Your browser does not support the HTML5 canvas tag.
 
     <div class="main_right">
     	<div class="chapter_title">
-        教案标题
+        杂项
         </div>
         <div class="chapter_body">
             <div class="chapter_list" id="teacher">
@@ -104,7 +102,6 @@ Your browser does not support the HTML5 canvas tag.
     </div>
 
 </div>
-<!--遮罩层-->
 <script type="text/javascript" src="js/jquery-1.9.1.min.js"></script>
 <script type="text/javascript" src="js/jquery-ui-1.10.3.custom.min.js"></script>
 <script type="text/javascript" src="js/utils.js"></script>
@@ -120,36 +117,63 @@ var chatjs = 'https://alicache.gensee.com/gsgetrecord/record47.gensee.net/gsreco
 var pagejs = 'https://alicache.gensee.com/gsgetrecord/record47.gensee.net/gsrecord/16042/sbr/2020_03_07/t7WJ0TG4US_1583542786/record125.xml.js';
 var annojs = 'https://alicache.gensee.com/gsgetrecord/record47.gensee.net/gsrecord/16042/sbr/2020_03_07/t7WJ0TG4US_1583542786/anno.js';
 var player = videojs('video');
+var myCanvas = document.getElementById("my_canvas");
+var context = myCanvas.getContext("2d");
+const image = new Image();
+var startTime = 0;
+var endTime = 1;
+var url = dir + '/hls/1659462401_0.png';
+var teacher = $("#teacher");
+var ppting = [];
+var pptsub = '';
+var time = 0;
+image.onload = () => {
+  context.imageSmoothingEnabled = false;
+  context.clearRect(0, 0, myCanvas.width, myCanvas.height);
+  context.drawImage(image, 0, 0,800,450);
+};
 
-function init(){
+
+var init = function(){
+    teacher.html('');
+    $(".chat_list").html('');
+    ppting = [];
+    pptsub = '';
+    teacher.html('');
+    url = '';
     $.getJSON(chatjs,function(data,status){
         chat_list = data.module.chat;
     });
 
     $.getJSON(pagejs,function(data,status){
         ppt_list = data.conf.module;
+        var videoUrl = dir+'/record.m3u8';
+        player.src({
+            src: videoUrl,
+            type: 'application/x-mpegURL',
+            overrideNative: true
+        });
+        player.load(videoUrl);
+        time > 0? player.play():time++;
     });
 
     $.getJSON(annojs,function(data,status){
         anno_list = data.module.command;
     });
-
 }
-
-player.ready(function () {
-    this.on('timeupdate', function () {
-        var timeDisplay = Math.floor(this.currentTime());
-        show_chat(timeDisplay);
-        show_ppt(timeDisplay);
-        show_anno(timeDisplay);
-    })
-});
-
 
 
 $(document).ready(function(){
     init();
-    $('#tulip').hide();
+    ratio = getPixelRatio(myCanvas);
+    player.ready(function () {
+        this.on('timeupdate', function () {
+            var timeDisplay = Math.floor(this.currentTime());
+            show_chat(timeDisplay);
+            show_ppt(timeDisplay);
+            show_anno(timeDisplay);
+        })
+    });
     selects = $("#course").html();
     $("input#cc").click(function(){
         var choose = this.value;
@@ -159,23 +183,20 @@ $(document).ready(function(){
                 item.remove();
             }
         });
+        dir = '';
+        $('#course').change();
     });
-
     $("#course").change(function(){
-        dir = $(this).val();
+        dir = $(this).children('option:selected').val();
         chatjs = dir+'/chat.js';
         pagejs = dir+'/'+$(this).find('option:selected').attr("name");
         annojs = dir+'/anno.js';
         init();
-        var videoUrl = dir+'/record.m3u8';
-        player.src(videoUrl);
-        player.load(videoUrl);
-        player.play();
     });
 });
 
 
-function chat(i,ems){
+var chat = function(i,ems){
     var txt = '<dl><dt>'+
         '<p>'+ems.sender+'</p>'+
         '<span>'+Util.formatTime(ems.utctime)+'</span></dt>'+
@@ -183,7 +204,7 @@ function chat(i,ems){
     return txt;
 }
 
-function show_chat(currTime) {
+var show_chat = function(currTime) {
     var show_list = [];
     for (i = 0,len = chat_list.length; i < len ; i++) {
         var item = chat_list[i];
@@ -206,8 +227,7 @@ function show_chat(currTime) {
     });
     if(txt != ''){
         $('.chat_list').show();
-        $('.chat_list').append(txt);
-        $(".chat_list").animate({ scrollTop: $(".chat_list")[0].scrollHeight - $('.chat_list').height() }, 3000);
+        $('.chat_list').prepend(txt);
     }
 }
     
@@ -233,38 +253,16 @@ var clears = function(){
     context.scale(ratio, ratio);
 };
 
-$(function(){
-    ratio = getPixelRatio(myCanvas);
-});
 
 
-var myCanvas = document.getElementById("my_canvas");
-var context = myCanvas.getContext("2d");
-var ratio = getPixelRatio(context);
-
-const image = new Image();
-image.onload = () => {
-  context.imageSmoothingEnabled = false;
-  context.clearRect(0, 0, myCanvas.width, myCanvas.height);
-  context.drawImage(image, 0, 0,800,450);
-};
-
-
-var startTime = 0;
-var endTime = 5;
-var url = dir + '/hls/1659462401_0.png';
-var teacher = $("#teacher");
-
-var ppting = [];
-var pptsub = '';
-function proc_page(page,curr) {
+var proc_page = function(page,curr) {
     if (page instanceof Array){
         $.each(page,function(i,it){
             if(curr >= it.starttimestamp && curr < it.stoptimestamp){
                 startTime = it.starttimestamp;
                 endTime = it.stoptimestamp;
                 url = dir+'/'+it.hls;
-                if (typeof(it.title) != undefined){
+                if (it.title != undefined){
                     pptsub = it.title+'<br>';
                 }
             }
@@ -274,14 +272,14 @@ function proc_page(page,curr) {
             startTime = page.starttimestamp;
             endTime = page.starttimestamp;
             url = dir+'/'+page.hls;
-            if(typeof(page.title) != undefined){
+            if(page.title != undefined){
                 pptsub = page.title+'<br>';
             }
         }
     }
 }
 
-function show_ppt(currTime) {
+var show_ppt = function(currTime) {
         $.each(ppt_list,function(idx,itm){
         if (itm.name == 'document') {
             docs = itm.document;
@@ -299,10 +297,10 @@ function show_ppt(currTime) {
         }
         
     });
-
-    if (ppting[startTime+'_'+endTime] == undefined && currTime >= startTime && currTime < endTime) {
-        ppting[startTime+'_'+endTime] = 1;
+    if (ppting[dir+'_'+startTime+'_'+endTime] == undefined && currTime >= startTime && currTime <= endTime) {
+        ppting[dir+'_'+startTime+'_'+endTime] = 1;
         clears();
+        console.log('clear换ppt:'+url);
         image.src = url;
         teacher.append(pptsub);
     }
@@ -310,8 +308,9 @@ function show_ppt(currTime) {
 
 
 var pen = [];
-function show_anno(currTime) {
+var show_anno = function(currTime) {
     var show;
+    if(anno_list == undefined) return;
     for (i = 0,len = anno_list.length; i < len ; i++) {
         var item = anno_list[i];
         if (currTime >= item.timestamp) {
@@ -323,7 +322,8 @@ function show_anno(currTime) {
     }
     if (show != undefined){
     if(currTime >= show.timestamp){
-        if(pen[show.id] == undefined && show.type==2){
+        if(pen[show.id] == undefined && show.type==2){ // 划线
+            console.log('划线：pageid:'+show.pageid);
             var color = show.color.split(',')[0];
             context.strokeStyle = color;
             context.lineWidth = show.linesize;
@@ -348,6 +348,7 @@ function show_anno(currTime) {
             var t = p[1];
             var mw = ep[0] - p[0];
             var lines = show.text.split("\n");
+            console.log('写字：' + show.text);
             context.font = (show.fontsize-2)+"pt 宋体";
             context.fillStyle = color;
             var i = 0;
@@ -391,11 +392,8 @@ function show_anno(currTime) {
             context.stroke();
             pen[show.id] == 1;
         }
-
     }}
 }
-
-
 </script>
 </body>
 </html>
